@@ -1,0 +1,84 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: XML::XPath
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    XML::XPath: 1
+    XML::XPath::Boolean: 1
+    XML::XPath::Builder: 1
+    XML::XPath::Expr: 1
+    XML::XPath::Function: 1
+    XML::XPath::Literal: 1
+    XML::XPath::LocationPath: 1
+    XML::XPath::Node: 1
+    XML::XPath::Node::Attribute: 1
+    XML::XPath::Node::AttributeImpl: 1
+    XML::XPath::Node::Comment: 1
+    XML::XPath::Node::Element: 1
+    XML::XPath::Node::Namespace: 1
+    XML::XPath::Node::PI: 1
+    XML::XPath::Node::Text: 1
+    XML::XPath::NodeSet: 1
+    XML::XPath::Number: 1
+    XML::XPath::Parser: 1
+    XML::XPath::PerlSAX: 1
+    XML::XPath::Root: 1
+    XML::XPath::Step: 1
+    XML::XPath::Variable: 1
+    XML::XPath::XMLParser: 1
+  ID: M/MA/MANWAR/XML-XPath-1.48.tar.gz
+  RO:
+    CPAN_USERID: MANWAR
+    CPAN_VERSION: '1.48'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\cpan\build\XML-XPath-1.48-0
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738737073
+  localfile: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\cpan\sources\authors\id\M\MA\MANWAR\XML-XPath-1.48.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738737027
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738737068
+  mandatory: true
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      Path::Tiny: '0.076'
+      Test::More: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      Scalar::Util: '1.45'
+      XML::Parser: '2.23'
+      perl: '5.010001'
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738737001
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738737005
+perl:
+  $^X: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\perl\bin\perl.exe
+  mtime_$^X: 1734672197
+  mtime_dll: 0
+  sitearchexp: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\perl\site\lib
+time: 1738737073

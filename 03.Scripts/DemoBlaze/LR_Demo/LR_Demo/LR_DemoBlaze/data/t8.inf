@@ -1,0 +1,11 @@
+[t8]
+FileName1=t8_Samsung1.jfif
+URL1=https://www.demoblaze.com/Samsung1.jpg
+Total=1
+ContentType=image/jpeg
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

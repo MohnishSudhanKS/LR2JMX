@@ -1,0 +1,92 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: XML::DOM
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    CheckAncestors: 1
+    CmpDOM: 1
+    XML::DOM: 1
+    XML::DOM::AttDef: 1
+    XML::DOM::AttlistDecl: 1
+    XML::DOM::Attr: 1
+    XML::DOM::CDATASection: 1
+    XML::DOM::CharacterData: 1
+    XML::DOM::Comment: 1
+    XML::DOM::DOMImplementation: 1
+    XML::DOM::Document: 1
+    XML::DOM::DocumentFragment: 1
+    XML::DOM::DocumentType: 1
+    XML::DOM::Element: 1
+    XML::DOM::ElementDecl: 1
+    XML::DOM::Entity: 1
+    XML::DOM::EntityReference: 1
+    XML::DOM::Node: 1
+    XML::DOM::Notation: 1
+    XML::DOM::Parser: 1
+    XML::DOM::PerlSAX: 1
+    XML::DOM::PrintToFileHandle: 1
+    XML::DOM::PrintToString: 1
+    XML::DOM::ProcessingInstruction: 1
+    XML::DOM::Text: 1
+    XML::DOM::XMLDecl: 1
+    XML::Handler::BuildDOM: 1
+    XML::Parser::Dom: 1
+    XML::XQL::Node: 1
+  ID: T/TJ/TJMATHER/XML-DOM-1.46.tar.gz
+  RO:
+    CPAN_USERID: TJMATHER
+    CPAN_VERSION: '1.46'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\cpan\build\XML-DOM-1.46-0
+  incommandcolor: 1
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736859
+  localfile: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\cpan\sources\authors\id\T\TJ\TJMATHER\XML-DOM-1.46.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736835
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736854
+  mandatory: true
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      LWP::UserAgent: '0'
+      XML::Parser: '2.30'
+      XML::Parser::PerlSAX: '0.07'
+      XML::RegExp: '0'
+  reqtype: c
+  sponsored_mods:
+    XML::Parser::PerlSAX: 1
+    XML::RegExp: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736743
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736749
+perl:
+  $^X: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\perl\bin\perl.exe
+  mtime_$^X: 1734672197
+  mtime_dll: 0
+  sitearchexp: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\perl\site\lib
+time: 1738736859

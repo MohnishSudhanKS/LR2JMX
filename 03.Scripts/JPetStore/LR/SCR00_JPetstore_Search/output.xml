@@ -1,0 +1,18 @@
+<httpSample t="617" it="0" lt="617" ct="0" ts="1733725273423" s="true" lb="https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=131" rc="304" rm="" tn="" dt="" by="225" sby="1192" ng="0" na="0">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 
+Date: Fri, 06 Dec 2024 07:58:27 GMT
+Content-Length: 0
+Connection: keep-alive
+Content-Language: unknown
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+</responseHeader>
+  <requestHeader class="java.lang.String">GET https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=131
+Host: clientservices.googleapis.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <cookies class="java.lang.String">JSESSIONID=DB2D73C3E1A49090EC92DE0FD81038BF</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String">username=j2ee&amp;password=j2ee&amp;signon=Login</queryString>
+  <redirectLocation class="java.lang.String">/actions/Catalog.action</redirectLocation>
+</httpSample>

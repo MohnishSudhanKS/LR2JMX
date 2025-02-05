@@ -1,0 +1,134 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {},
+       {
+         'PL_files' => undef,
+         '_added_to_INC' => [],
+         'allow_mb_mismatch' => 0,
+         'allow_pureperl' => 0,
+         'auto_configure_requires' => 1,
+         'autosplit' => undef,
+         'base_dir' => 'C:/PerfomanceTesting/Learning/LR2JMX/08.Tool/strawberry-perl-5.40.0.1-64bit-portable/cpan/build/Math-BaseCnv-1.14-0',
+         'bindoc_dirs' => [
+                            'blib\\script'
+                          ],
+         'blib' => 'blib',
+         'build_bat' => 0,
+         'build_class' => 'Module::Build',
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'build_requires' => {},
+         'build_script' => 'Build',
+         'bundle_inc' => [],
+         'bundle_inc_preload' => [],
+         'c_source' => undef,
+         'config' => undef,
+         'config_dir' => '_build',
+         'configure_requires' => {},
+         'conflicts' => {},
+         'cover' => undef,
+         'cpan_client' => 'cpan',
+         'create_license' => undef,
+         'create_makefile_pl' => undef,
+         'create_packlist' => 1,
+         'create_readme' => undef,
+         'debug' => undef,
+         'debugger' => undef,
+         'destdir' => undef,
+         'dist_abstract' => 'basic functions to CoNVert between number Bases',
+         'dist_author' => [
+                            'Pip Stuart <Pip@CPAN.Org>'
+                          ],
+         'dist_name' => 'Math-BaseCnv',
+         'dist_suffix' => undef,
+         'dist_version' => '1.14',
+         'dist_version_from' => undef,
+         'dynamic_config' => 1,
+         'extra_compiler_flags' => [],
+         'extra_linker_flags' => [],
+         'extra_manify_args' => undef,
+         'get_options' => {},
+         'has_config_data' => undef,
+         'html_css' => '',
+         'include_dirs' => [],
+         'install_base' => undef,
+         'install_base_relpaths' => {},
+         'install_path' => {},
+         'install_sets' => {},
+         'installdirs' => 'site',
+         'libdoc_dirs' => [
+                            'blib\\lib',
+                            'blib\\arch'
+                          ],
+         'license' => 'gpl_3',
+         'magic_number' => undef,
+         'mb_version' => '0.4234',
+         'meta_add' => {},
+         'meta_merge' => {},
+         'metafile' => 'META.yml',
+         'metafile2' => 'META.json',
+         'module_name' => undef,
+         'mymetafile' => 'MYMETA.yml',
+         'mymetafile2' => 'MYMETA.json',
+         'needs_compiler' => !!0,
+         'orig_dir' => 'C:/PerfomanceTesting/Learning/LR2JMX/08.Tool/strawberry-perl-5.40.0.1-64bit-portable/cpan/build/Math-BaseCnv-1.14-0',
+         'original_prefix' => {},
+         'perl' => 'C:\\PerfomanceTesting\\Learning\\LR2JMX\\08.Tool\\strawberry-perl-5.40.0.1-64bit-portable\\perl\\bin\\perl.exe',
+         'pm_files' => {
+                         'BaseCnv.pm' => 'lib/Math/BaseCnv.pm'
+                       },
+         'pod_files' => undef,
+         'pollute' => undef,
+         'prefix' => undef,
+         'prefix_relpaths' => {},
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'program_name' => undef,
+         'pureperl_only' => 0,
+         'quiet' => undef,
+         'recommends' => {},
+         'recurse_into' => [],
+         'recursive_test_files' => undef,
+         'release_status' => 'stable',
+         'requires' => {
+                         'Carp' => '0',
+                         'Math::BigInt' => '0',
+                         'Memoize' => '0',
+                         'Test' => '0',
+                         'Test::More' => '0',
+                         'Test::Pod' => '0',
+                         'Test::Pod::Coverage' => '0'
+                       },
+         'script_files' => {
+                             'bin/cnv' => '1'
+                           },
+         'scripts' => undef,
+         'share_dir' => undef,
+         'sign' => undef,
+         'tap_harness_args' => {},
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'test_files' => undef,
+         'test_requires' => {},
+         'use_rcfile' => 1,
+         'use_tap_harness' => 0,
+         'verbose' => undef,
+         'xs_files' => undef
+       }
+     ];
+$x; }

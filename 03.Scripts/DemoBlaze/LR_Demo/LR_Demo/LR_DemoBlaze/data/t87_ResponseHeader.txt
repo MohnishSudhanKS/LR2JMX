@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Allow: POST, OPTIONS
+Access-Control-Allow-Origin: https://www.demoblaze.com
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: content-type
+Access-Control-Allow-Methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+Vary: Origin
+X-Cloud-Trace-Context: b55d82ed580983a2d885ff222581d236
+Date: Thu, 12 Dec 2024 10:18:13 GMT
+Server: Google Frontend
+Content-Length: 0
+

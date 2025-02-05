@@ -1,0 +1,11 @@
+[t22]
+FileName1=t22_about_demo_hls_600k.html
+URL1=https://hls.demoblaze.com/about_demo_hls_600k.m3u8
+Total=1
+ContentType=binary/octet-stream
+SnapshotXmlFile=snapshot_22.xml
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

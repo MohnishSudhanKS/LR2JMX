@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="382" it="0" lt="380" ct="80" ts="1734000770654" s="true" lb="/login-107" rc="200" rm="OK" tn="" dt="text" de="" by="687" sby="657" sc="1" ec="0" ng="0" na="0" hn="L-INE-HM15T93">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Type: application/json
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: https://www.demoblaze.com
+Access-Control-Allow-Credentials: true
+Vary: Origin
+X-Cloud-Trace-Context: 684aeef53a26db0bcccb8d436a7b0d45
+Date: Thu, 12 Dec 2024 10:52:50 GMT
+Server: Google Frontend
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://www.demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://www.demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;131&quot;, &quot;Chromium&quot;;v=&quot;131&quot;, &quot;Not_A Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 49
+</requestHeader>
+  <responseData class="java.lang.String">&quot;Auth_token: dG9tamVycnkyMDI0MTczNDYwMA==&quot;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;username&quot;:&quot;tomjerry2024&quot;,&quot;password&quot;:&quot;MTIzNA==&quot;}</queryString>
+  <java.net.URL>https://api.demoblaze.com/login</java.net.URL>
+</httpSample>
+
+</testResults>

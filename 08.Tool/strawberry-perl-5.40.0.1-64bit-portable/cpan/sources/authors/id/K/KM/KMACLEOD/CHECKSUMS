@@ -1,0 +1,109 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon Nov 22 00:38:46 2021 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Class-Visitor-0.02.tar.gz' => {
+    'cpan_path' => 'K/KM/KMACLEOD',
+    'md5' => 'b4ae495cdfac41c85351017631b37f5b',
+    'md5-ungz' => 'da53514e261865b236341b2dd31df610',
+    'mtime' => '1997-11-20',
+    'sha256' => 'd2cd2de8765c0088ef878571cf276eb73cb84268528da130c16aff13af123052',
+    'sha256-ungz' => 'd20e8e6d45e553aacc6e84b68888df73a932e9d620b2c72769eed13dac140c2a',
+    'size' => 6290
+  },
+  'Frontier-RPC-0.07b4.tar.gz' => {
+    'cpan_path' => 'K/KM/KMACLEOD',
+    'md5' => 'c04582da604f11bdbe60606738f92457',
+    'md5-ungz' => '9c7b82fced94d3106f9b1683264cb23c',
+    'mtime' => '2004-03-03',
+    'sha256' => '525a611fd5e81280edb701319d1bd769daaaba4475efddf7fa8eb9dfe1b9b19a',
+    'sha256-ungz' => '685d7c12b49c04b9ab536678457d067670c0d5305de5b4bdea8657a5e8f73184',
+    'size' => 21696
+  },
+  'Pod-GroveBuilder-0.01.tar.gz' => {
+    'cpan_path' => 'K/KM/KMACLEOD',
+    'md5' => 'af37328dd21b302a425092243bf365a0',
+    'md5-ungz' => '7ea60f8d1eec00d7adbdee8c0589fb03',
+    'mtime' => '1998-09-20',
+    'sha256' => 'ccde4ee331b091a27428c580159ee95ceff8cf6adcf6df7688ed2f971e15100d',
+    'sha256-ungz' => 'a74596153078f272cd2823d761db1db0c9fcdec54d8b259c52e3fbc46f559f2c',
+    'size' => 3485
+  },
+  'Quilt-0.08.tar.gz' => {
+    'cpan_path' => 'K/KM/KMACLEOD',
+    'md5' => 'dea3e54779904780454cdb7dfe9aeca4',
+    'md5-ungz' => '9d2ba6b00f7f8015712e8555c0641005',
+    'mtime' => '1998-09-20',
+    'sha256' => '15580c99e94417cf551704a3075fbe514ec7d0f6769cbff1853243c1b0a7b5e1',
+    'sha256-ungz' => 'f3d2f1bb9604117858f96f0589154365870d713db3761ac664d45f35b0956aa8',
+    'size' => 27029
+  },
+  'SGML-Grove-2.03.tar.gz' => {
+    'cpan_path' => 'K/KM/KMACLEOD',
+    'md5' => '9764eaed3da0b4134224afe9b63a8966',
+    'md5-ungz' => 'a59e5ef09b9c8968266a915cc1d5ced4',
+    'mtime' => '1998-09-20',
+    'sha256' => 'ae92336413e194f566783b71cfb31f12bb081f0d79e3a63dd060ad54c78e0e7f',
+    'sha256-ungz' => '5a712ce9535a65fb3864012a53d4bfcc520d4eec77f4177ff243e43381923221',
+    'size' => 20474
+  },
+  'SGML-SPGroveBuilder-2.01.tar.gz' => {
+    'cpan_path' => 'K/KM/KMACLEOD',
+    'md5' => '5ecd47bf15af12b868c8260f21cd93cf',
+    'md5-ungz' => 'aca50314845acc434ce7835f8e3bfe49',
+    'mtime' => '1998-09-20',
+    'sha256' => 'f6b6ec2aa49168c7372bd93731ffc8831638a4b1d80c7fd7ec9c7422a5ff9304',
+    'sha256-ungz' => 'b1776f1b6ad5718e08f0070365e6b5bb341ddd3b906d86ffbe591e5a369c1f03',
+    'size' => 9017
+  },
+  'XML-Grove-0.05.tar.gz' => {
+    'cpan_path' => 'K/KM/KMACLEOD',
+    'md5' => '226b504707417d9a97f29514f0e0affc',
+    'md5-ungz' => 'f28fa0eeeed0cf030a97e1d13c595c51',
+    'mtime' => '1998-09-25',
+    'sha256' => 'b7cc4d040719628833a05d6bbd4957a6c52cc28a3f1f3b9273b8dd2c210c452b',
+    'sha256-ungz' => '38339a1de61a6b676ab05d49d03618549d1ff67d5798ff950edd1a8c0bf5abd9',
+    'size' => 17702
+  },
+  'XML-Grove-0.46alpha.tar.gz' => {
+    'cpan_path' => 'K/KM/KMACLEOD',
+    'md5' => '48bee70ae412bd6cf8ef302b6c68e24e',
+    'md5-ungz' => '29ccfb67e54152ad9169a8fb42084c06',
+    'mtime' => '1999-09-09',
+    'sha256' => 'fcb66d7df4ac29cb0edc1ea62c1750702caa6a86fc94790a94fcb1a36bd0d117',
+    'sha256-ungz' => '87137f8b6051ab4d5a13453275198461dff4d5e6771850745777294d4e45caee',
+    'size' => 27336
+  },
+  'libxml-perl-0.07.tar.gz' => {
+    'cpan_path' => 'K/KM/KMACLEOD',
+    'md5' => 'a79c6da708e5906fec84ea611fa4b41e',
+    'md5-ungz' => '81bf6f755d7e03ae61dfd97e89cc9c58',
+    'mtime' => '2000-02-22',
+    'sha256' => 'bc47cb8c3ffca3ac5a03fd35ce9afb32f57d2fb93b7ea19710f1376c85326bc1',
+    'sha256-ungz' => '83f3c8ee9b46388053805b418887ba3ff926c2c2932f6e97ea2bd326660b8e0c',
+    'size' => 53197
+  },
+  'libxml-perl-0.08.tar.gz' => {
+    'cpan_path' => 'K/KM/KMACLEOD',
+    'md5' => '0ed5fbdda53d1301ddaed88db10503bb',
+    'md5-ungz' => '41b7ae86495d34ce2ac4ed6834c281a0',
+    'mtime' => '2004-08-21',
+    'sha256' => '4571059b7b5d48b7ce52b01389e95d798bf5cf2020523c153ff27b498153c9cb',
+    'sha256-ungz' => 'e1b0c65aa5a31978238535a9215e1cfef6c997b31cf9ad7aae4c147315b1d35e',
+    'size' => 64335
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJhmuaWAAoJELahc5BjdgzKGL4IALe3jlFsyqwyehan9GfUPPjM
+Id1qiVCvT6awln8lbuRbp7xp74Z+La0ICVoD/Nm6hWdOPLmRxUT9cI8VoUG/uNt8
+aQ+5DOji15e6Br+iIVKLeUV48LjGeutr2c0ZxUuZF6vgUE6buMibf0uPCpelz8ay
+1pV2vnQqmvNd14x8xNCu7IgDLoLHkiqtFh0k3rq1N43cAq2ZHiJor2DQ2nPQnkuJ
+XEIcbK6ettqGFIlLeyDupMRH5x2US9aEfRVofRo3gFrrCLutc3B74h+6MTraWP8Q
+FOuKGeF9crxm5sKDDzsel/gMOG7U8DQRLdrKrGZnoHtsqZj4XW9hyx2yOUC3sL4=
+=u8RW
+-----END PGP SIGNATURE-----

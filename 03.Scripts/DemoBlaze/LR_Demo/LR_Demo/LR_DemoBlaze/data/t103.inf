@@ -1,0 +1,11 @@
+[t103]
+FileName1=t103_sweetalert.min.html
+URL1=https://www.demoblaze.com/node_modules/bootstrap-sweetalert/dist/sweetalert.min.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_103.xml
+RequestHeaderFile=t103_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t103_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t5]
+FileName1=t5.htm
+URL1=https://petstore.octoperf.com/
+Total=2
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_jpetstore.css
+URL2=https://petstore.octoperf.com/css/jpetstore.css
+[ProtocolInfo]
+ProtocolId=QTWeb

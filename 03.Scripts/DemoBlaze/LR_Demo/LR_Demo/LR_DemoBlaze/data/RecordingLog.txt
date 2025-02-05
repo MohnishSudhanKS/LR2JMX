@@ -1,0 +1,1584 @@
+[API Trapper      ( 40c:3308)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (1778:2ba4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1778:2ba4)] Load Network Traffic Analyzers:
+[Network Analyzer (1778:2ba4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1778:2ba4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1778:2ba4)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1778:2ba4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1778:2ba4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1778:2ba4)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1778:2ba4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1778:2ba4)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (1778:2ba4)] Started proxy on port 3000 listening IP 192.168.99.105, 127.0.0.1, in synchronous mode
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45768
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45769
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45770
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/ ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/ ...
+[Proxy Recording  (1778:12f0)] Received response of 297 header and 4527 body bytes from https://www.demoblaze.com:443/
+[Web Request      (1778:12f0)] "GET https://www.demoblaze.com/"   
+[Network Analyzer (1778:12f0)]   (Sid:  1) Client -> Server @ : 688 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid:  1) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid:  1) Server -> Client : 4527 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:12f0)] Sent 4527 bytes to client @ 192.168.99.105:45768
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45773
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45774
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45775
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45776
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45777
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45778
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (1778:1ef4)] Received response of 1922 header and 43 body bytes from https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[Network Analyzer (1778:1ef4)]   (Sid:  2) Client -> Server @ : 833 bytes (SSL)(Service=HTTP)
+[Web Request      (1778:1ef4)] "POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (1778:1ef4)]   (Sid:  2) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:  2) Server -> Client : 1911 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:  2) Server -> Client : 43 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 43 bytes to client @ 192.168.99.105:45770
+[Proxy Recording  (1778:1f04)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=131 ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=131 ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1778:1f04)] Received response of 556 header and 0 body bytes from https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=131
+[Web Request      (1778:1f04)] "GET https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=131"   
+[Network Analyzer (1778:1f04)]   (Sid:  3) Client -> Server @ : 508 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid:  3) Server -> Client : 583 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1f04)] Sent 0 bytes to client @ 192.168.99.105:45769
+[Proxy Recording  (1778:12f0)] Received response of 296 header and 11784 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css
+[Web Request      (1778:12f0)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"   
+[Network Analyzer (1778:12f0)]   (Sid:  4) Client -> Server @ : 580 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid:  4) Server -> Client : 285 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid:  4) Server -> Client : 11784 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:12f0)] Sent 11784 bytes to client @ 192.168.99.105:45773
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45790
+[Proxy Recording  (1778:27f0)] Received response of 296 header and 27687 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/Samsung1.jpg ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/Samsung1.jpg ...
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"   
+[Network Analyzer (1778:27f0)]   (Sid:  5) Client -> Server @ : 586 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid:  5) Server -> Client : 285 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid:  5) Server -> Client : 27687 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 27687 bytes to client @ 192.168.99.105:45774
+[Proxy Recording  (1778: cd4)] Received response of 269 header and 24663 body bytes from https://www.demoblaze.com:443/imgs/front.jpg
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/imgs/front.jpg"   
+[Network Analyzer (1778: cd4)]   (Sid:  6) Client -> Server @ : 597 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:  6) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:  6) Server -> Client : 24663 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 24663 bytes to client @ 192.168.99.105:45778
+[Proxy Recording  (1778: 6fc)] Received response of 296 header and 849 body bytes from https://www.demoblaze.com:443/css/latofonts.css
+[Web Request      (1778: 6fc)] "GET https://www.demoblaze.com/css/latofonts.css"   
+[Network Analyzer (1778: 6fc)]   (Sid:  7) Client -> Server @ : 554 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid:  7) Server -> Client : 285 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid:  7) Server -> Client : 849 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 849 bytes to client @ 192.168.99.105:45775
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45792
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/nexus1.jpg ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/nexus1.jpg ...
+[Proxy Recording  (1778:30f4)] Received response of 310 header and 35128 body bytes from https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"   
+[Network Analyzer (1778:30f4)]   (Sid:  8) Client -> Server @ : 561 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:  8) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:  8) Server -> Client : 35128 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 35128 bytes to client @ 192.168.99.105:45777
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45794
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45795
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45796
+[Proxy Recording  (1778: 34c)] Received response of 296 header and 529 body bytes from https://www.demoblaze.com:443/css/latostyle.css
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/iphone1.jpg ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/iphone1.jpg ...
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/css/latostyle.css"   
+[Network Analyzer (1778: 34c)]   (Sid:  9) Client -> Server @ : 554 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Network Analyzer (1778: 34c)]   (Sid:  9) Server -> Client : 285 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:  9) Server -> Client : 529 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 529 bytes to client @ 192.168.99.105:45776
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45800
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1778:284c)] Received response of 269 header and 27393 body bytes from https://www.demoblaze.com:443/Samsung1.jpg
+[Web Request      (1778:284c)] "GET https://www.demoblaze.com/Samsung1.jpg"   
+[Network Analyzer (1778:284c)]   (Sid: 10) Client -> Server @ : 595 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid: 10) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid: 10) Server -> Client : 27393 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:284c)] Sent 27393 bytes to client @ 192.168.99.105:45790
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45802
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1778:27f0)] Received response of 269 header and 33854 body bytes from https://www.demoblaze.com:443/nexus1.jpg
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/nexus1.jpg"   
+[Network Analyzer (1778:27f0)]   (Sid: 11) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 11) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 11) Server -> Client : 33854 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 33854 bytes to client @ 192.168.99.105:45792
+[Proxy Recording  (1778:12f0)] Received response of 269 header and 34613 body bytes from https://www.demoblaze.com:443/iphone1.jpg
+[Web Request      (1778:12f0)] "GET https://www.demoblaze.com/iphone1.jpg"   
+[Network Analyzer (1778:12f0)]   (Sid: 12) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid: 12) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid: 12) Server -> Client : 34613 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:12f0)] Sent 34613 bytes to client @ 192.168.99.105:45794
+[Proxy Recording  (1778:1f04)] Received response of 310 header and 158581 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js
+[Web Request      (1778:1f04)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"   
+[Network Analyzer (1778:1f04)]   (Sid: 13) Client -> Server @ : 562 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 13) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 13) Server -> Client : 158581 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1f04)] Sent 158581 bytes to client @ 192.168.99.105:45795
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45804
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45805
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45806
+[Proxy Recording  (1778:30f4)] Received response of 310 header and 71638 body bytes from https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"   
+[Network Analyzer (1778:30f4)]   (Sid: 14) Client -> Server @ : 587 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 14) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 14) Server -> Client : 71638 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 71638 bytes to client @ 192.168.99.105:45796
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/css/fonts/Lato-Regular.woff2 ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/css/fonts/Lato-Regular.woff2 ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/js/index.js ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/js/index.js ...
+[Proxy Recording  (1778:1ef4)] Received response of 310 header and 8603 body bytes from https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"   
+[Network Analyzer (1778:1ef4)]   (Sid: 15) Client -> Server @ : 564 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid: 15) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid: 15) Server -> Client : 8603 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 8603 bytes to client @ 192.168.99.105:45800
+[Proxy Recording  (1778: 6fc)] Received response of 267 header and 3979 body bytes from https://www.demoblaze.com:443/bm.png
+[Web Request      (1778: 6fc)] "GET https://www.demoblaze.com/bm.png"   
+[Network Analyzer (1778: 6fc)]   (Sid: 16) Client -> Server @ : 589 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid: 16) Server -> Client : 284 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid: 16) Server -> Client : 3979 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 3979 bytes to client @ 192.168.99.105:45802
+[Proxy Recording  (1778:1f04)] Received response of 284 header and 182708 body bytes from https://www.demoblaze.com:443/css/fonts/Lato-Regular.woff2
+[Web Request      (1778:1f04)] "GET https://www.demoblaze.com/css/fonts/Lato-Regular.woff2"   
+[Network Analyzer (1778:1f04)]   (Sid: 17) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 17) Server -> Client : 301 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 17) Server -> Client : 182708 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1f04)] Sent 182708 bytes to client @ 192.168.99.105:45806
+[Proxy Recording  (1778:27f0)] Received response of 310 header and 14823 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"   
+[Network Analyzer (1778:27f0)]   (Sid: 18) Client -> Server @ : 570 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 18) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 18) Server -> Client : 14823 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 14823 bytes to client @ 192.168.99.105:45804
+[Proxy Recording  (1778:284c)] Received response of 310 header and 2421 body bytes from https://www.demoblaze.com:443/js/index.js
+[Web Request      (1778:284c)] "GET https://www.demoblaze.com/js/index.js"   
+[Network Analyzer (1778:284c)]   (Sid: 19) Client -> Server @ : 534 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid: 19) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid: 19) Server -> Client : 2421 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:284c)] Sent 2421 bytes to client @ 192.168.99.105:45805
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45810
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45811
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45812
+[Proxy Recording  (1778:12f0)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYho7PvSs1x5cASIAnG-VWzqt-1SRIFDYixVY8SBQ3E0sk8IaOz70rNceXA?alt=proto ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYho7PvSs1x5cASIAnG-VWzqt-1SRIFDYixVY8SBQ3E0sk8IaOz70rNceXA?alt=proto ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778:12f0)] Received response of 417 header and 150 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYho7PvSs1x5cASIAnG-VWzqt-1SRIFDYixVY8SBQ3E0sk8IaOz70rNceXA?alt=proto
+[Web Request      (1778:12f0)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYho7PvSs1x5cASIAnG-VWzqt-1SRIFDYixVY8SBQ3E0sk8IaOz70rNceXA?alt=proto"   
+[Network Analyzer (1778:12f0)]   (Sid: 20) Client -> Server @ : 684 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid: 20) Server -> Client : 434 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid: 20) Server -> Client : 150 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:12f0)] Sent 150 bytes to client @ 192.168.99.105:45810
+[Proxy Recording  (1778: cd4)] Received response of 312 header and 5214 body bytes from https://www.demoblaze.com:443/favicon.ico
+[Proxy Recording  (1778:30f4)] Received response of 304 header and 84 body bytes from https://www.demoblaze.com:443/config.json
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/favicon.ico"   
+[Network Analyzer (1778: cd4)]   (Sid: 21) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 21) Server -> Client : 301 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 21) Server -> Client : 5214 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 5214 bytes to client @ 192.168.99.105:45811
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/config.json"   
+[Network Analyzer (1778:30f4)]   (Sid: 22) Client -> Server @ : 607 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 22) Server -> Client : 293 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 22) Server -> Client : 84 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 84 bytes to client @ 192.168.99.105:45812
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45817
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45818
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45819
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45820
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45821
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45822
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45823
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45824
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45825
+[Proxy Recording.Error (1778: 6fc)] Exception is caught while trying to connect to https://api.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1778: 6fc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45826
+[Proxy Recording.Error (1778:27f0)] Exception is caught while trying to connect to https://hls.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1778:27f0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1778:284c)] Exception is caught while trying to connect to https://api.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1778:284c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1778:1ef4)] Exception is caught while trying to connect to https://hls.demoblaze.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1778:1ef4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1778:12f0)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1778:12f0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1778:1f04)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1778:1f04)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (1778: 34c)] Trying to connect to https://hls.demoblaze.com:443/index.m3u8 ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://hls.demoblaze.com:443/index.m3u8 ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:Zyn4Z4s50EuZvnNqzsXgn_LXTp1u7G-18_FGzH5-Lb0&cup2hreq=e1dadc23c9fa6884df24c5d968300d3493658c2e1f58abf074e741fd48bc985e ...
+[Proxy Recording  (1778: 34c)] Received response of 901 header and 501 body bytes from https://hls.demoblaze.com:443/index.m3u8
+[Web Request      (1778: 34c)] "GET https://hls.demoblaze.com/index.m3u8"   
+[Network Analyzer (1778: 34c)]   (Sid: 23) Client -> Server @ : 586 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid: 23) Server -> Client : 918 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid: 23) Server -> Client : 501 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 501 bytes to client @ 192.168.99.105:45824
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45832
+[Proxy Recording  (1778:30f4)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:Zyn4Z4s50EuZvnNqzsXgn_LXTp1u7G-18_FGzH5-Lb0&cup2hreq=e1dadc23c9fa6884df24c5d968300d3493658c2e1f58abf074e741fd48bc985e ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://api.demoblaze.com:443/entries ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://api.demoblaze.com:443/entries ...
+[Proxy Recording  (1778:30f4)] Received response of 1027 header and 238 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:Zyn4Z4s50EuZvnNqzsXgn_LXTp1u7G-18_FGzH5-Lb0&cup2hreq=e1dadc23c9fa6884df24c5d968300d3493658c2e1f58abf074e741fd48bc985e
+[Network Analyzer (1778:30f4)]   (Sid: 24) Client -> Server @ : 752 bytes (SSL)(Service=HTTP)
+[Web Request      (1778:30f4)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:Zyn4Z4s50EuZvnNqzsXgn_LXTp1u7G-18_FGzH5-Lb0&cup2hreq=e1dadc23c9fa6884df24c5d968300d3493658c2e1f58abf074e741fd48bc985e"   
+[Network Analyzer (1778:30f4)]   (Sid: 24) Client -> Server @ : 1173 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 24) Server -> Client : 1016 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 24) Server -> Client : 238 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 238 bytes to client @ 192.168.99.105:45825
+[Proxy Recording  (1778: cd4)] Received response of 331 header and 1055 body bytes from https://api.demoblaze.com:443/entries
+[Web Request      (1778: cd4)] "GET https://api.demoblaze.com/entries"   
+[Network Analyzer (1778: cd4)]   (Sid: 25) Client -> Server @ : 583 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 25) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 25) Server -> Client : 1055 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 1055 bytes to client @ 192.168.99.105:45823
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45834
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45835
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45836
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45837
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45838
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://hls.demoblaze.com:443/about_demo_hls_600k.m3u8 ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://hls.demoblaze.com:443/about_demo_hls_600k.m3u8 ...
+[Proxy Recording  (1778:1ef4)] Received response of 903 header and 5302 body bytes from https://hls.demoblaze.com:443/about_demo_hls_600k.m3u8
+[Web Request      (1778:1ef4)] "GET https://hls.demoblaze.com/about_demo_hls_600k.m3u8"   
+[Network Analyzer (1778:1ef4)]   (Sid: 26) Client -> Server @ : 576 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid: 26) Server -> Client : 920 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid: 26) Server -> Client : 5302 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 5302 bytes to client @ 192.168.99.105:45832
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45846
+[Proxy Recording  (1778: c7c)] Trying to connect to https://www.demoblaze.com:443/imgs/galaxy_s6.jpg ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/Lumia_1520.jpg ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://www.demoblaze.com:443/imgs/galaxy_s6.jpg ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/Lumia_1520.jpg ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/imgs/Nexus_6.jpg ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/imgs/xperia_z5.jpg ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/imgs/iphone_6.jpg ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/imgs/Nexus_6.jpg ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/imgs/xperia_z5.jpg ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/imgs/iphone_6.jpg ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://hls.demoblaze.com:443/about_demo_hls_600k00000.ts ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://hls.demoblaze.com:443/about_demo_hls_600k00000.ts ...
+[Proxy Recording  (1778:12f0)] Received response of 901 header and 542192 body bytes from https://hls.demoblaze.com:443/about_demo_hls_600k00000.ts
+[Web Request      (1778:12f0)] "GET https://hls.demoblaze.com/about_demo_hls_600k00000.ts"   
+[Network Analyzer (1778:12f0)]   (Sid: 27) Client -> Server @ : 579 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid: 27) Server -> Client : 918 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE ...
+[Network Analyzer (1778:12f0)]   (Sid: 27) Server -> Client : 542192 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:12f0)] Sent 542192 bytes to client @ 192.168.99.105:45846
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE ...
+[Proxy Recording  (1778:30f4)] Received response of 270 header and 145227 body bytes from https://www.demoblaze.com:443/imgs/Lumia_1520.jpg
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/imgs/Lumia_1520.jpg"   
+[Network Analyzer (1778:30f4)]   (Sid: 28) Client -> Server @ : 653 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 28) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Received response of 270 header and 107446 body bytes from https://www.demoblaze.com:443/imgs/galaxy_s6.jpg
+[Network Analyzer (1778:30f4)]   (Sid: 28) Server -> Client : 145227 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 145227 bytes to client @ 192.168.99.105:45836
+[Web Request      (1778: c7c)] "GET https://www.demoblaze.com/imgs/galaxy_s6.jpg"   
+[Network Analyzer (1778: c7c)]   (Sid: 29) Client -> Server @ : 652 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid: 29) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid: 29) Server -> Client : 107446 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Sent 107446 bytes to client @ 192.168.99.105:45834
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45849
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45850
+[Proxy Recording  (1778: 6fc)] Received response of 346 header and 2026 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE
+[Network Analyzer (1778: 6fc)]   (Sid: 30) Client -> Server @ : 635 bytes (SSL)(Service=HTTP)
+[Web Request      (1778: 6fc)] "POST https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE"   
+[Network Analyzer (1778: 6fc)]   (Sid: 30) Client -> Server @ : 931 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid: 30) Server -> Client : 335 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid: 30) Server -> Client : 2026 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 2026 bytes to client @ 192.168.99.105:45826
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/imgs/HTC_M9.jpg ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/imgs/HTC_M9.jpg ...
+[Proxy Recording  (1778: cd4)] Received response of 274 header and 143681 body bytes from https://www.demoblaze.com:443/imgs/xperia_z5.jpg
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/imgs/xperia_z5.jpg"   
+[Network Analyzer (1778: cd4)]   (Sid: 31) Client -> Server @ : 652 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 31) Server -> Client : 291 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 31) Server -> Client : 143681 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 143681 bytes to client @ 192.168.99.105:45838
+[Proxy Recording  (1778: 34c)] Received response of 270 header and 231810 body bytes from https://www.demoblaze.com:443/imgs/Nexus_6.jpg
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/imgs/Nexus_6.jpg"   
+[Network Analyzer (1778: 34c)]   (Sid: 32) Client -> Server @ : 650 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid: 32) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid: 32) Server -> Client : 231810 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 231810 bytes to client @ 192.168.99.105:45835
+[Proxy Recording  (1778:30f4)] Received response of 269 header and 90485 body bytes from https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/imgs/sony_vaio_5.jpg"   
+[Network Analyzer (1778:30f4)]   (Sid: 33) Client -> Server @ : 654 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 33) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 33) Server -> Client : 90485 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 90485 bytes to client @ 192.168.99.105:45850
+[Proxy Recording  (1778:27f0)] Received response of 270 header and 200956 body bytes from https://www.demoblaze.com:443/imgs/iphone_6.jpg
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/imgs/iphone_6.jpg"   
+[Network Analyzer (1778:27f0)]   (Sid: 34) Client -> Server @ : 651 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 34) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 34) Server -> Client : 200956 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 200956 bytes to client @ 192.168.99.105:45837
+[Proxy Recording  (1778:12f0)] Received response of 269 header and 96948 body bytes from https://www.demoblaze.com:443/imgs/HTC_M9.jpg
+[Web Request      (1778:12f0)] "GET https://www.demoblaze.com/imgs/HTC_M9.jpg"   
+[Network Analyzer (1778:12f0)]   (Sid: 35) Client -> Server @ : 649 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid: 35) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid: 35) Server -> Client : 96948 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:12f0)] Sent 96948 bytes to client @ 192.168.99.105:45849
+[User action                 ] StartTransactionEvent Login [Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45853
+[Proxy Recording  (1778: cd4)] Trying to connect to https://api.demoblaze.com:443/login ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://api.demoblaze.com:443/login ...
+[Proxy Recording  (1778: cd4)] Received response of 432 header and 0 body bytes from https://api.demoblaze.com:443/login
+[Web Request      (1778: cd4)] "OPTIONS https://api.demoblaze.com/login"   
+[Network Analyzer (1778: cd4)]   (Sid: 36) Client -> Server @ : 532 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 36) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:45853
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45855
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://api.demoblaze.com:443/login ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://api.demoblaze.com:443/login ...
+[Proxy Recording  (1778:1ef4)] Received response of 331 header and 69 body bytes from https://api.demoblaze.com:443/login
+[Network Analyzer (1778:1ef4)]   (Sid: 37) Client -> Server @ : 610 bytes (SSL)(Service=HTTP)
+[Web Request      (1778:1ef4)] "POST https://api.demoblaze.com/login"   
+[Network Analyzer (1778:1ef4)]   (Sid: 37) Client -> Server @ : 49 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid: 37) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid: 37) Server -> Client : 69 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 69 bytes to client @ 192.168.99.105:45855
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45857
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/ ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/ ...
+[Proxy Recording  (1778:27f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/"   
+[Network Analyzer (1778:27f0)]   (Sid: 38) Client -> Server @ : 848 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 38) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 0 bytes to client @ 192.168.99.105:45857
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45859
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45861
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45862
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45863
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45864
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/css/latofonts.css
+[Proxy Recording  (1778:1f04)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/css/latofonts.css"   
+[Network Analyzer (1778:30f4)]   (Sid: 39) Client -> Server @ : 668 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 39) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:45862
+[Proxy Recording  (1778:27f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js
+[Web Request      (1778:1f04)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"   
+[Network Analyzer (1778:1f04)]   (Sid: 40) Client -> Server @ : 700 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 40) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1f04)] Sent 0 bytes to client @ 192.168.99.105:45859
+[Proxy Recording  (1778: cd4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"   
+[Network Analyzer (1778:27f0)]   (Sid: 41) Client -> Server @ : 675 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 41) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 0 bytes to client @ 192.168.99.105:45864
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45869
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45870
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"   
+[Network Analyzer (1778: cd4)]   (Sid: 42) Client -> Server @ : 694 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 42) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:45861
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45873
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45874
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45875
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/Samsung1.jpg ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/Samsung1.jpg ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/iphone1.jpg ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://www.demoblaze.com:443/nexus1.jpg ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/iphone1.jpg ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://www.demoblaze.com:443/nexus1.jpg ...
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/css/latostyle.css
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/css/latostyle.css"   
+[Network Analyzer (1778:1ef4)]   (Sid: 43) Client -> Server @ : 668 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid: 43) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:45863
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45879
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1778: 6fc)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/Samsung1.jpg
+[Web Request      (1778: 6fc)] "GET https://www.demoblaze.com/Samsung1.jpg"   
+[Network Analyzer (1778: 6fc)]   (Sid: 44) Client -> Server @ : 709 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid: 44) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 0 bytes to client @ 192.168.99.105:45869
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45881
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/front.jpg
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/imgs/front.jpg"   
+[Network Analyzer (1778:30f4)]   (Sid: 45) Client -> Server @ : 711 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 45) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:45870
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1778:284c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js
+[Web Request      (1778:284c)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"   
+[Network Analyzer (1778:284c)]   (Sid: 46) Client -> Server @ : 676 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid: 46) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:284c)] Sent 0 bytes to client @ 192.168.99.105:45874
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45883
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45884
+[Proxy Recording  (1778: 34c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/iphone1.jpg
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/iphone1.jpg"   
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Network Analyzer (1778: 34c)]   (Sid: 47) Client -> Server @ : 708 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid: 47) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 0 bytes to client @ 192.168.99.105:45873
+[Proxy Recording  (1778: c7c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/nexus1.jpg
+[Web Request      (1778: c7c)] "GET https://www.demoblaze.com/nexus1.jpg"   
+[Network Analyzer (1778: c7c)]   (Sid: 48) Client -> Server @ : 707 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid: 48) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Sent 0 bytes to client @ 192.168.99.105:45875
+[Proxy Recording  (1778:27f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"   
+[Network Analyzer (1778:27f0)]   (Sid: 49) Client -> Server @ : 701 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 49) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 0 bytes to client @ 192.168.99.105:45879
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45887
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/js/index.js ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/js/index.js ...
+[Proxy Recording  (1778: 6fc)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js
+[Web Request      (1778: 6fc)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"   
+[Network Analyzer (1778: 6fc)]   (Sid: 50) Client -> Server @ : 684 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid: 50) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 0 bytes to client @ 192.168.99.105:45883
+[Proxy Recording  (1778: cd4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/bm.png
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/bm.png"   
+[Network Analyzer (1778: cd4)]   (Sid: 51) Client -> Server @ : 703 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 51) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:45881
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"   
+[Network Analyzer (1778:30f4)]   (Sid: 52) Client -> Server @ : 678 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 52) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:45884
+[Proxy Recording  (1778:12f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/js/index.js
+[Web Request      (1778:12f0)] "GET https://www.demoblaze.com/js/index.js"   
+[Network Analyzer (1778:12f0)]   (Sid: 53) Client -> Server @ : 648 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid: 53) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:12f0)] Sent 0 bytes to client @ 192.168.99.105:45887
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45889
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45890
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1778:27f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/config.json
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/config.json"   
+[Network Analyzer (1778:27f0)]   (Sid: 54) Client -> Server @ : 721 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 54) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 0 bytes to client @ 192.168.99.105:45889
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45893
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45894
+[Proxy Recording  (1778: c7c)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://api.demoblaze.com:443/entries ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://api.demoblaze.com:443/entries ...
+[Proxy Recording  (1778: 6fc)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/favicon.ico
+[Web Request      (1778: 6fc)] "GET https://www.demoblaze.com/favicon.ico"   
+[Network Analyzer (1778: 6fc)]   (Sid: 55) Client -> Server @ : 708 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid: 55) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 0 bytes to client @ 192.168.99.105:45890
+[Proxy Recording  (1778: c7c)] Received response of 432 header and 0 body bytes from https://api.demoblaze.com:443/check
+[Web Request      (1778: c7c)] "OPTIONS https://api.demoblaze.com/check"   
+[Network Analyzer (1778: c7c)]   (Sid: 56) Client -> Server @ : 532 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid: 56) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Sent 0 bytes to client @ 192.168.99.105:45893
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45898
+[Proxy Recording  (1778: cd4)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778:1f04)] Received response of 331 header and 1055 body bytes from https://api.demoblaze.com:443/entries
+[Web Request      (1778:1f04)] "GET https://api.demoblaze.com/entries"   
+[Network Analyzer (1778:1f04)]   (Sid: 57) Client -> Server @ : 559 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 57) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 57) Server -> Client : 1055 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1f04)] Sent 1055 bytes to client @ 192.168.99.105:45894
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45900
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45901
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45902
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45903
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45904
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/imgs/galaxy_s6.jpg ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/imgs/Lumia_1520.jpg ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://www.demoblaze.com:443/imgs/Nexus_6.jpg ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/imgs/galaxy_s6.jpg ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/imgs/Lumia_1520.jpg ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://www.demoblaze.com:443/imgs/Nexus_6.jpg ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/imgs/iphone_6.jpg ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/xperia_z5.jpg ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/imgs/iphone_6.jpg ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/xperia_z5.jpg ...
+[Proxy Recording  (1778: cd4)] Received response of 331 header and 121 body bytes from https://api.demoblaze.com:443/check
+[Network Analyzer (1778: cd4)]   (Sid: 58) Client -> Server @ : 610 bytes (SSL)(Service=HTTP)
+[Web Request      (1778: cd4)] "POST https://api.demoblaze.com/check"   
+[Network Analyzer (1778: cd4)]   (Sid: 58) Client -> Server @ : 40 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 58) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 58) Server -> Client : 121 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 121 bytes to client @ 192.168.99.105:45898
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/galaxy_s6.jpg
+[Proxy Recording  (1778:12f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/Lumia_1520.jpg
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/imgs/galaxy_s6.jpg"   
+[Network Analyzer (1778:1ef4)]   (Sid: 59) Client -> Server @ : 715 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid: 59) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:45900
+[Web Request      (1778:12f0)] "GET https://www.demoblaze.com/imgs/Lumia_1520.jpg"   
+[Network Analyzer (1778:12f0)]   (Sid: 60) Client -> Server @ : 716 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid: 60) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:12f0)] Sent 0 bytes to client @ 192.168.99.105:45901
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45910
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45911
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/imgs/HTC_M9.jpg ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/imgs/HTC_M9.jpg ...
+[Proxy Recording  (1778: c7c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/Nexus_6.jpg
+[Web Request      (1778: c7c)] "GET https://www.demoblaze.com/imgs/Nexus_6.jpg"   
+[Network Analyzer (1778: c7c)]   (Sid: 61) Client -> Server @ : 713 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid: 61) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Sent 0 bytes to client @ 192.168.99.105:45902
+[Proxy Recording  (1778:27f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/iphone_6.jpg
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/imgs/iphone_6.jpg"   
+[Network Analyzer (1778:27f0)]   (Sid: 62) Client -> Server @ : 714 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 62) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 0 bytes to client @ 192.168.99.105:45903
+[Proxy Recording  (1778: 6fc)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg
+[Web Request      (1778: 6fc)] "GET https://www.demoblaze.com/imgs/sony_vaio_5.jpg"   
+[Network Analyzer (1778: 6fc)]   (Sid: 63) Client -> Server @ : 717 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid: 63) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 0 bytes to client @ 192.168.99.105:45910
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/xperia_z5.jpg
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/imgs/xperia_z5.jpg"   
+[Network Analyzer (1778:30f4)]   (Sid: 64) Client -> Server @ : 715 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 64) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:45904
+[Proxy Recording  (1778:284c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/HTC_M9.jpg
+[Web Request      (1778:284c)] "GET https://www.demoblaze.com/imgs/HTC_M9.jpg"   
+[Network Analyzer (1778:284c)]   (Sid: 65) Client -> Server @ : 712 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid: 65) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:284c)] Sent 0 bytes to client @ 192.168.99.105:45911
+[User action                 ] EndTransactionEvent Login [User action                 ] StartTransactionEvent SelectCategory [Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45915
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45917
+[Proxy Recording  (1778: c7c)] Trying to connect to https://api.demoblaze.com:443/bycat ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://api.demoblaze.com:443/bycat ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778: c7c)] Received response of 432 header and 0 body bytes from https://api.demoblaze.com:443/bycat
+[Web Request      (1778: c7c)] "OPTIONS https://api.demoblaze.com/bycat"   
+[Network Analyzer (1778: c7c)]   (Sid: 66) Client -> Server @ : 532 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1778:27f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/favicon.ico
+[Network Analyzer (1778: c7c)]   (Sid: 66) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Sent 0 bytes to client @ 192.168.99.105:45915
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45919
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/favicon.ico"   
+[Network Analyzer (1778:27f0)]   (Sid: 67) Client -> Server @ : 708 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 67) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 0 bytes to client @ 192.168.99.105:45917
+[Proxy Recording  (1778:1f04)] Trying to connect to https://api.demoblaze.com:443/bycat ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://api.demoblaze.com:443/bycat ...
+[Proxy Recording  (1778:1f04)] Received response of 331 header and 992 body bytes from https://api.demoblaze.com:443/bycat
+[Network Analyzer (1778:1f04)]   (Sid: 68) Client -> Server @ : 610 bytes (SSL)(Service=HTTP)
+[Web Request      (1778:1f04)] "POST https://api.demoblaze.com/bycat"   
+[Network Analyzer (1778:1f04)]   (Sid: 68) Client -> Server @ : 18 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 68) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 68) Server -> Client : 992 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1f04)] Sent 992 bytes to client @ 192.168.99.105:45919
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45921
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45922
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/imgs/macbook_air.jpg ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/imgs/dell.jpg ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/imgs/macbook_air.jpg ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/imgs/dell.jpg ...
+[Proxy Recording  (1778:12f0)] Received response of 269 header and 60535 body bytes from https://www.demoblaze.com:443/imgs/dell.jpg
+[Web Request      (1778:12f0)] "GET https://www.demoblaze.com/imgs/dell.jpg"   
+[Network Analyzer (1778:12f0)]   (Sid: 69) Client -> Server @ : 685 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid: 69) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid: 69) Server -> Client : 60535 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:12f0)] Sent 60535 bytes to client @ 192.168.99.105:45922
+[Proxy Recording  (1778:1ef4)] Received response of 266 header and 74043 body bytes from https://www.demoblaze.com:443/imgs/macbook_air.jpg
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/imgs/macbook_air.jpg"   
+[Network Analyzer (1778:1ef4)]   (Sid: 70) Client -> Server @ : 692 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid: 70) Server -> Client : 255 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid: 70) Server -> Client : 74043 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 74043 bytes to client @ 192.168.99.105:45921
+[User action                 ] EndTransactionEvent SelectCategory [Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45925
+[Proxy Recording  (1778:27f0)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45927
+[Proxy Recording  (1778:27f0)] Received response of 670 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Network Analyzer (1778:27f0)]   (Sid: 71) Client -> Server @ : 595 bytes (SSL)(Service=HTTP)
+[Web Request      (1778:27f0)] "POST https://clientservices.googleapis.com/uma/v2"   
+[Network Analyzer (1778:27f0)]   (Sid: 71) Client -> Server @ : 1367 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 71) Server -> Client : 659 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 71) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 22 bytes to client @ 192.168.99.105:45925
+[Proxy Recording  (1778:1f04)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:NBvUC7VWPGKbaIMoR0vusm5qptsNXTlkno1M2q1mbFc&cup2hreq=f882c6f2103c1473c951f4a5cd4c8a9472ca9280d8e0354c73d04182fe61e58e ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:NBvUC7VWPGKbaIMoR0vusm5qptsNXTlkno1M2q1mbFc&cup2hreq=f882c6f2103c1473c951f4a5cd4c8a9472ca9280d8e0354c73d04182fe61e58e ...
+[Proxy Recording  (1778:1f04)] Received response of 1027 header and 880 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:NBvUC7VWPGKbaIMoR0vusm5qptsNXTlkno1M2q1mbFc&cup2hreq=f882c6f2103c1473c951f4a5cd4c8a9472ca9280d8e0354c73d04182fe61e58e
+[Web Request      (1778:1f04)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:NBvUC7VWPGKbaIMoR0vusm5qptsNXTlkno1M2q1mbFc&cup2hreq=f882c6f2103c1473c951f4a5cd4c8a9472ca9280d8e0354c73d04182fe61e58e"
+[Network Analyzer (1778:1f04)]   (Sid: 72) Client -> Server @ : 1340 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 72) Client -> Server @ : 8455 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 72) Server -> Client : 1016 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 72) Server -> Client : 880 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1f04)] Sent 880 bytes to client @ 192.168.99.105:45927
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45929
+[Proxy Recording  (1778: c7c)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (1778: c7c)] Received response of 670 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Network Analyzer (1778: c7c)]   (Sid: 73) Client -> Server @ : 603 bytes (SSL)(Service=HTTP)
+[Web Request      (1778: c7c)] "POST https://clientservices.googleapis.com/uma/v2"   
+[Network Analyzer (1778: c7c)]   (Sid: 73) Client -> Server @ : 2807 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid: 73) Server -> Client : 659 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid: 73) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Sent 22 bytes to client @ 192.168.99.105:45929
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45931
+[Proxy Recording  (1778:30f4)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (1778:30f4)] Received response of 670 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (1778:30f4)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (1778:30f4)]   (Sid: 74) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 74) Client -> Server @ : 42763 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 74) Server -> Client : 659 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 74) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 22 bytes to client @ 192.168.99.105:45931
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45933
+[Proxy Recording  (1778:27f0)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (1778:27f0)] Received response of 670 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (1778:27f0)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (1778:27f0)]   (Sid: 75) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 75) Client -> Server @ : 41740 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 75) Server -> Client : 659 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 75) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 22 bytes to client @ 192.168.99.105:45933
+[User action                 ] StartTransactionEvent SelectItems [Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45935
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/prod.html?idp_=8 ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/prod.html?idp_=8 ...
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45937
+[Proxy Recording  (1778: c7c)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (1778: 6fc)] Received response of 297 header and 4976 body bytes from https://www.demoblaze.com:443/prod.html?idp_=8
+[Web Request      (1778: 6fc)] "GET https://www.demoblaze.com/prod.html?idp_=8"   
+[Network Analyzer (1778: 6fc)]   (Sid: 76) Client -> Server @ : 813 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid: 76) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid: 76) Server -> Client : 4976 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 4976 bytes to client @ 192.168.99.105:45935
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45939
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45940
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45941
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45942
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45945
+[Proxy Recording  (1778: c7c)] Received response of 670 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Network Analyzer (1778: c7c)]   (Sid: 77) Client -> Server @ : 603 bytes (SSL)(Service=HTTP)
+[Web Request      (1778: c7c)] "POST https://clientservices.googleapis.com/uma/v2"   
+[Network Analyzer (1778: c7c)]   (Sid: 77) Client -> Server @ : 7574 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid: 77) Server -> Client : 659 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid: 77) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Sent 22 bytes to client @ 192.168.99.105:45937
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1778:284c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css
+[Web Request      (1778:284c)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"   
+[Proxy Recording  (1778: 34c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css
+[Network Analyzer (1778:284c)]   (Sid: 78) Client -> Server @ : 716 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid: 78) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:284c)] Sent 0 bytes to client @ 192.168.99.105:45939
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"   
+[Network Analyzer (1778: 34c)]   (Sid: 79) Client -> Server @ : 710 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid: 79) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 0 bytes to client @ 192.168.99.105:45940
+[Proxy Recording  (1778: cd4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/css/latostyle.css
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"   
+[Network Analyzer (1778: cd4)]   (Sid: 80) Client -> Server @ : 691 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 80) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:45945
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45949
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45950
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/css/latostyle.css"   
+[Network Analyzer (1778:1ef4)]   (Sid: 81) Client -> Server @ : 684 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid: 81) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:45942
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45953
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45954
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45955
+[Proxy Recording  (1778: c7c)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1778:12f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1778:1f04)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/css/latofonts.css
+[Web Request      (1778:1f04)] "GET https://www.demoblaze.com/css/latofonts.css"   
+[Network Analyzer (1778:1f04)]   (Sid: 82) Client -> Server @ : 684 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 82) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1f04)] Sent 0 bytes to client @ 192.168.99.105:45941
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45959
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/js/prod.js ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/js/prod.js ...
+[Proxy Recording  (1778: c7c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js
+[Web Request      (1778: c7c)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"   
+[Network Analyzer (1778: c7c)]   (Sid: 83) Client -> Server @ : 692 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid: 83) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Sent 0 bytes to client @ 192.168.99.105:45949
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45961
+[Proxy Recording  (1778:284c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/front.jpg
+[Web Request      (1778:284c)] "GET https://www.demoblaze.com/imgs/front.jpg"   
+[Network Analyzer (1778:284c)]   (Sid: 84) Client -> Server @ : 727 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid: 84) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:284c)] Sent 0 bytes to client @ 192.168.99.105:45950
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1778:12f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js
+[Web Request      (1778:12f0)] "GET https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"   
+[Network Analyzer (1778:12f0)]   (Sid: 85) Client -> Server @ : 717 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:12f0)]   (Sid: 85) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:12f0)] Sent 0 bytes to client @ 192.168.99.105:45955
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"   
+[Network Analyzer (1778:30f4)]   (Sid: 86) Client -> Server @ : 700 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 86) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:45954
+[Proxy Recording  (1778: cd4)] Received response of 310 header and 2366 body bytes from https://www.demoblaze.com:443/js/prod.js
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/js/prod.js"   
+[Network Analyzer (1778: cd4)]   (Sid: 87) Client -> Server @ : 638 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 87) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid: 87) Server -> Client : 2366 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 2366 bytes to client @ 192.168.99.105:45959
+[Proxy Recording  (1778: 34c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"   
+[Network Analyzer (1778: 34c)]   (Sid: 88) Client -> Server @ : 694 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid: 88) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 0 bytes to client @ 192.168.99.105:45953
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45963
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1778:1f04)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/bm.png
+[Web Request      (1778:1f04)] "GET https://www.demoblaze.com/bm.png"   
+[Network Analyzer (1778:1f04)]   (Sid: 89) Client -> Server @ : 719 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 89) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1f04)] Sent 0 bytes to client @ 192.168.99.105:45961
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45965
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778:27f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/config.json
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/config.json"   
+[Network Analyzer (1778:27f0)]   (Sid: 90) Client -> Server @ : 737 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid: 90) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 0 bytes to client @ 192.168.99.105:45963
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45967
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45968
+[Proxy Recording  (1778:284c)] Trying to connect to https://api.demoblaze.com:443/view ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://api.demoblaze.com:443/view ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/favicon.ico
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/favicon.ico"   
+[Network Analyzer (1778:30f4)]   (Sid: 91) Client -> Server @ : 724 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 91) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:45965
+[Proxy Recording  (1778: 6fc)] Received response of 432 header and 0 body bytes from https://api.demoblaze.com:443/check
+[Proxy Recording  (1778:284c)] Received response of 432 header and 0 body bytes from https://api.demoblaze.com:443/view
+[Web Request      (1778: 6fc)] "OPTIONS https://api.demoblaze.com/check"   
+[Network Analyzer (1778: 6fc)]   (Sid: 92) Client -> Server @ : 532 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid: 92) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 0 bytes to client @ 192.168.99.105:45967
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45971
+[Web Request      (1778:284c)] "OPTIONS https://api.demoblaze.com/view"   
+[Network Analyzer (1778:284c)]   (Sid: 93) Client -> Server @ : 531 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid: 93) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:284c)] Sent 0 bytes to client @ 192.168.99.105:45968
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45973
+[Proxy Recording  (1778: c7c)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://api.demoblaze.com:443/view ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://api.demoblaze.com:443/view ...
+[Proxy Recording  (1778: 34c)] Received response of 331 header and 261 body bytes from https://api.demoblaze.com:443/view
+[Proxy Recording  (1778: c7c)] Received response of 331 header and 121 body bytes from https://api.demoblaze.com:443/check
+[Network Analyzer (1778: 34c)]   (Sid: 94) Client -> Server @ : 609 bytes (SSL)(Service=HTTP)
+[Web Request      (1778: 34c)] "POST https://api.demoblaze.com/view"   
+[Network Analyzer (1778: 34c)]   (Sid: 94) Client -> Server @ : 10 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid: 94) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid: 94) Server -> Client : 261 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 261 bytes to client @ 192.168.99.105:45973
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45975
+[Network Analyzer (1778: c7c)]   (Sid: 95) Client -> Server @ : 610 bytes (SSL)(Service=HTTP)
+[Web Request      (1778: c7c)] "POST https://api.demoblaze.com/check"   
+[Network Analyzer (1778: c7c)]   (Sid: 95) Client -> Server @ : 40 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid: 95) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid: 95) Server -> Client : 121 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Sent 121 bytes to client @ 192.168.99.105:45971
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1778:1f04)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg
+[Web Request      (1778:1f04)] "GET https://www.demoblaze.com/imgs/sony_vaio_5.jpg"   
+[Network Analyzer (1778:1f04)]   (Sid: 96) Client -> Server @ : 733 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid: 96) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1f04)] Sent 0 bytes to client @ 192.168.99.105:45975
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45977
+[Proxy Recording  (1778:284c)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (1778:284c)] Received response of 670 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (1778:284c)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (1778:284c)]   (Sid: 97) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid: 97) Client -> Server @ : 21455 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid: 97) Server -> Client : 659 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid: 97) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:284c)] Sent 22 bytes to client @ 192.168.99.105:45977
+[User action                 ] EndTransactionEvent SelectItems [User action                 ] StartTransactionEvent AddToCart [Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45980
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45982
+[Proxy Recording  (1778:30f4)] Trying to connect to https://api.demoblaze.com:443/addtocart ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://api.demoblaze.com:443/addtocart ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778: 6fc)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/favicon.ico
+[Proxy Recording  (1778:30f4)] Received response of 432 header and 0 body bytes from https://api.demoblaze.com:443/addtocart
+[Web Request      (1778: 6fc)] "GET https://www.demoblaze.com/favicon.ico"   
+[Network Analyzer (1778: 6fc)]   (Sid: 98) Client -> Server @ : 724 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid: 98) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 0 bytes to client @ 192.168.99.105:45982
+[Web Request      (1778:30f4)] "OPTIONS https://api.demoblaze.com/addtocart"   
+[Network Analyzer (1778:30f4)]   (Sid: 99) Client -> Server @ : 536 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid: 99) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:45980
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45984
+[Proxy Recording  (1778:27f0)] Trying to connect to https://api.demoblaze.com:443/addtocart ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://api.demoblaze.com:443/addtocart ...
+[Proxy Recording  (1778:27f0)] Received response of 294 header and 0 body bytes from https://api.demoblaze.com:443/addtocart
+[Network Analyzer (1778:27f0)]   (Sid:100) Client -> Server @ : 615 bytes (SSL)(Service=HTTP)
+[Web Request      (1778:27f0)] "POST https://api.demoblaze.com/addtocart"   
+[Network Analyzer (1778:27f0)]   (Sid:100) Client -> Server @ : 109 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid:100) Server -> Client : 311 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 0 bytes to client @ 192.168.99.105:45984
+[User action                 ] EndTransactionEvent AddToCart [User action                 ] StartTransactionEvent GoToCart [Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45986
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/cart.html ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/cart.html ...
+[Proxy Recording  (1778: 34c)] Received response of 297 header and 5298 body bytes from https://www.demoblaze.com:443/cart.html
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/cart.html"   
+[Network Analyzer (1778: 34c)]   (Sid:101) Client -> Server @ : 822 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:101) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:101) Server -> Client : 5298 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 5298 bytes to client @ 192.168.99.105:45986
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45988
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45989
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45990
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45991
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45992
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:45994
+[Proxy Recording  (1778: c7c)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap-sweetalert/dist/sweetalert.css ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap-sweetalert/dist/sweetalert.css ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1778:1f04)] Received response of 296 header and 2868 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap-sweetalert/dist/sweetalert.css
+[Proxy Recording  (1778: c7c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css
+[Web Request      (1778:1f04)] "GET https://www.demoblaze.com/node_modules/bootstrap-sweetalert/dist/sweetalert.css"   
+[Network Analyzer (1778:1f04)]   (Sid:102) Client -> Server @ : 688 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid:102) Server -> Client : 285 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid:102) Server -> Client : 2868 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1f04)] Sent 2868 bytes to client @ 192.168.99.105:45989
+[Web Request      (1778: c7c)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"   
+[Network Analyzer (1778: c7c)]   (Sid:103) Client -> Server @ : 709 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid:103) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Sent 0 bytes to client @ 192.168.99.105:45988
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/css/latofonts.css
+[Proxy Recording  (1778:27f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/css/latofonts.css"   
+[Network Analyzer (1778:1ef4)]   (Sid:104) Client -> Server @ : 677 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:104) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:45991
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"   
+[Network Analyzer (1778:27f0)]   (Sid:105) Client -> Server @ : 703 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid:105) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 0 bytes to client @ 192.168.99.105:45990
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46000
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46001
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1778: 6fc)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/css/latostyle.css
+[Proxy Recording  (1778: cd4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js
+[Web Request      (1778: 6fc)] "GET https://www.demoblaze.com/css/latostyle.css"   
+[Network Analyzer (1778: 6fc)]   (Sid:106) Client -> Server @ : 677 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid:106) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 0 bytes to client @ 192.168.99.105:45992
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46004
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46006
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46005
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"   
+[Network Analyzer (1778: cd4)]   (Sid:107) Client -> Server @ : 684 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:107) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:45994
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46010
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1778: 34c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"   
+[Network Analyzer (1778: 34c)]   (Sid:108) Client -> Server @ : 685 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/front.jpg
+[Network Analyzer (1778: 34c)]   (Sid:108) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 0 bytes to client @ 192.168.99.105:46000
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46012
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/imgs/front.jpg"   
+[Network Analyzer (1778:30f4)]   (Sid:109) Client -> Server @ : 720 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:109) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:46001
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap-sweetalert/dist/sweetalert.min.js ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap-sweetalert/dist/sweetalert.min.js ...
+[Proxy Recording  (1778: 6fc)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js
+[Web Request      (1778: 6fc)] "GET https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"   
+[Network Analyzer (1778: 6fc)]   (Sid:110) Client -> Server @ : 710 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1778:27f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js
+[Network Analyzer (1778: 6fc)]   (Sid:110) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 0 bytes to client @ 192.168.99.105:46005
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46014
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"   
+[Network Analyzer (1778:27f0)]   (Sid:111) Client -> Server @ : 687 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid:111) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 0 bytes to client @ 192.168.99.105:46004
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/js/cart.js ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/js/cart.js ...
+[Proxy Recording  (1778: c7c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js
+[Proxy Recording  (1778:284c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/bm.png
+[Web Request      (1778: c7c)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"   
+[Network Analyzer (1778: c7c)]   (Sid:112) Client -> Server @ : 693 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid:112) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Sent 0 bytes to client @ 192.168.99.105:46006
+[Web Request      (1778:284c)] "GET https://www.demoblaze.com/bm.png"   
+[Network Analyzer (1778:284c)]   (Sid:113) Client -> Server @ : 712 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid:113) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:284c)] Sent 0 bytes to client @ 192.168.99.105:46010
+[Proxy Recording  (1778:1ef4)] Received response of 310 header and 2457 body bytes from https://www.demoblaze.com:443/js/cart.js
+[Proxy Recording  (1778: cd4)] Received response of 310 header and 5862 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap-sweetalert/dist/sweetalert.min.js
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/js/cart.js"   
+[Network Analyzer (1778:1ef4)]   (Sid:114) Client -> Server @ : 631 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:114) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:114) Server -> Client : 2457 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 2457 bytes to client @ 192.168.99.105:46014
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/node_modules/bootstrap-sweetalert/dist/sweetalert.min.js"   
+[Network Analyzer (1778: cd4)]   (Sid:115) Client -> Server @ : 677 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:115) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:115) Server -> Client : 5862 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 5862 bytes to client @ 192.168.99.105:46012
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46016
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46017
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46018
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYhvhEHs4MND1sSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32AyxIgCcb5VbOq37VJEgUNiLFVjxIFDcTSyTwhvhEHs4MND1s=?alt=proto ...
+[Proxy Recording  (1778:284c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYhvhEHs4MND1sSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32AyxIgCcb5VbOq37VJEgUNiLFVjxIFDcTSyTwhvhEHs4MND1s=?alt=proto ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1778:284c)] Received response of 417 header and 217 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYhvhEHs4MND1sSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32AyxIgCcb5VbOq37VJEgUNiLFVjxIFDcTSyTwhvhEHs4MND1s=?alt=proto
+[Web Request      (1778:284c)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYhvhEHs4MND1sSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32AyxIgCcb5VbOq37VJEgUNiLFVjxIFDcTSyTwhvhEHs4MND1s=?alt=proto"   
+[Network Analyzer (1778:284c)]   (Sid:116) Client -> Server @ : 744 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid:116) Server -> Client : 434 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:284c)]   (Sid:116) Server -> Client : 217 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:284c)] Sent 217 bytes to client @ 192.168.99.105:46018
+[Proxy Recording  (1778: 6fc)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/favicon.ico
+[Web Request      (1778: 6fc)] "GET https://www.demoblaze.com/favicon.ico"   
+[Network Analyzer (1778: 6fc)]   (Sid:117) Client -> Server @ : 717 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid:117) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 0 bytes to client @ 192.168.99.105:46017
+[Proxy Recording  (1778:27f0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/config.json
+[Web Request      (1778:27f0)] "GET https://www.demoblaze.com/config.json"   
+[Network Analyzer (1778:27f0)]   (Sid:118) Client -> Server @ : 730 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid:118) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 0 bytes to client @ 192.168.99.105:46016
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46022
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46023
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://api.demoblaze.com:443/viewcart ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://api.demoblaze.com:443/viewcart ...
+[Proxy Recording  (1778: c7c)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778: c7c)] Received response of 432 header and 0 body bytes from https://api.demoblaze.com:443/check
+[Proxy Recording  (1778:1ef4)] Received response of 432 header and 0 body bytes from https://api.demoblaze.com:443/viewcart
+[Web Request      (1778: c7c)] "OPTIONS https://api.demoblaze.com/check"   
+[Network Analyzer (1778: c7c)]   (Sid:119) Client -> Server @ : 532 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: c7c)]   (Sid:119) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: c7c)] Sent 0 bytes to client @ 192.168.99.105:46022
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46026
+[Web Request      (1778:1ef4)] "OPTIONS https://api.demoblaze.com/viewcart"   
+[Network Analyzer (1778:1ef4)]   (Sid:120) Client -> Server @ : 535 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:120) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:46023
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46028
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://api.demoblaze.com:443/viewcart ...
+[Proxy Recording  (1778:1f04)] Trying to connect to https://api.demoblaze.com:443/viewcart ...
+[Proxy Recording  (1778: 6fc)] Received response of 331 header and 121 body bytes from https://api.demoblaze.com:443/check
+[Proxy Recording  (1778:1f04)] Received response of 331 header and 116 body bytes from https://api.demoblaze.com:443/viewcart
+[Network Analyzer (1778: 6fc)]   (Sid:121) Client -> Server @ : 610 bytes (SSL)(Service=HTTP)
+[Web Request      (1778: 6fc)] "POST https://api.demoblaze.com/check"   
+[Network Analyzer (1778: 6fc)]   (Sid:121) Client -> Server @ : 40 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid:121) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid:121) Server -> Client : 121 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 121 bytes to client @ 192.168.99.105:46026
+[Network Analyzer (1778:1f04)]   (Sid:122) Client -> Server @ : 613 bytes (SSL)(Service=HTTP)
+[Web Request      (1778:1f04)] "POST https://api.demoblaze.com/viewcart"   
+[Network Analyzer (1778:1f04)]   (Sid:122) Client -> Server @ : 53 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid:122) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:1f04)]   (Sid:122) Server -> Client : 116 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1f04)] Sent 116 bytes to client @ 192.168.99.105:46028
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46030
+[Proxy Recording  (1778:30f4)] Trying to connect to https://api.demoblaze.com:443/view ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://api.demoblaze.com:443/view ...
+[Proxy Recording  (1778:30f4)] Received response of 432 header and 0 body bytes from https://api.demoblaze.com:443/view
+[Web Request      (1778:30f4)] "OPTIONS https://api.demoblaze.com/view"   
+[Network Analyzer (1778:30f4)]   (Sid:123) Client -> Server @ : 531 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:123) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:46030
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46032
+[Proxy Recording  (1778:27f0)] Trying to connect to https://api.demoblaze.com:443/view ...
+[Proxy Recording  (1778:27f0)] Trying to connect to https://api.demoblaze.com:443/view ...
+[Proxy Recording  (1778:27f0)] Received response of 331 header and 261 body bytes from https://api.demoblaze.com:443/view
+[Network Analyzer (1778:27f0)]   (Sid:124) Client -> Server @ : 608 bytes (SSL)(Service=HTTP)
+[Web Request      (1778:27f0)] "POST https://api.demoblaze.com/view"   
+[Network Analyzer (1778:27f0)]   (Sid:124) Client -> Server @ : 8 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid:124) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:27f0)]   (Sid:124) Server -> Client : 261 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:27f0)] Sent 261 bytes to client @ 192.168.99.105:46032
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46034
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1778: 6fc)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1778: 6fc)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg
+[Web Request      (1778: 6fc)] "GET https://www.demoblaze.com/imgs/sony_vaio_5.jpg"   
+[Network Analyzer (1778: 6fc)]   (Sid:125) Client -> Server @ : 726 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 6fc)]   (Sid:125) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 6fc)] Sent 0 bytes to client @ 192.168.99.105:46034
+[User action                 ] EndTransactionEvent GoToCart [User action                 ] StartTransactionEvent PlaceOrder [Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46036
+[Proxy Recording  (1778:30f4)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32Ayw==?alt=proto ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32Ayw==?alt=proto ...
+[Proxy Recording  (1778:30f4)] Received response of 417 header and 105 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32Ayw==?alt=proto
+[Web Request      (1778:30f4)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32Ayw==?alt=proto"   
+[Network Analyzer (1778:30f4)]   (Sid:126) Client -> Server @ : 600 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:126) Server -> Client : 434 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:126) Server -> Client : 105 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 105 bytes to client @ 192.168.99.105:46036
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46038
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46039
+[Proxy Recording  (1778:30f4)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32AyxIZCVOP6bRcQpTzEgUNkWGVTiF4xO7fzCNSvw==?alt=proto ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32AyxIZCVOP6bRcQpTzEgUNkWGVTiF4xO7fzCNSvw==?alt=proto ...
+[Proxy Recording  (1778:30f4)] Received response of 417 header and 120 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32AyxIZCVOP6bRcQpTzEgUNkWGVTiF4xO7fzCNSvw==?alt=proto
+[Web Request      (1778:30f4)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32AyxIZCVOP6bRcQpTzEgUNkWGVTiF4xO7fzCNSvw==?alt=proto"   
+[Network Analyzer (1778:30f4)]   (Sid:127) Client -> Server @ : 636 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:127) Server -> Client : 434 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:127) Server -> Client : 120 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 120 bytes to client @ 192.168.99.105:46039
+[Proxy Recording  (1778: cd4)] Trying to connect to https://api.demoblaze.com:443/deletecart ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://api.demoblaze.com:443/deletecart ...
+[Proxy Recording  (1778: cd4)] Received response of 432 header and 0 body bytes from https://api.demoblaze.com:443/deletecart
+[Web Request      (1778: cd4)] "OPTIONS https://api.demoblaze.com/deletecart"   
+[Network Analyzer (1778: cd4)]   (Sid:128) Client -> Server @ : 537 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:128) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:46038
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46042
+[Proxy Recording  (1778:30f4)] Trying to connect to https://api.demoblaze.com:443/deletecart ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://api.demoblaze.com:443/deletecart ...
+[Proxy Recording  (1778:30f4)] Received response of 283 header and 16 body bytes from https://api.demoblaze.com:443/deletecart
+[Network Analyzer (1778:30f4)]   (Sid:129) Client -> Server @ : 615 bytes (SSL)(Service=HTTP)
+[Web Request      (1778:30f4)] "POST https://api.demoblaze.com/deletecart"   
+[Network Analyzer (1778:30f4)]   (Sid:129) Client -> Server @ : 25 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:129) Server -> Client : 300 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:129) Server -> Client : 16 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 16 bytes to client @ 192.168.99.105:46042
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46044
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/index.html ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/index.html ...
+[Proxy Recording  (1778: 34c)] Received response of 297 header and 4527 body bytes from https://www.demoblaze.com:443/index.html
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/index.html"   
+[Network Analyzer (1778: 34c)]   (Sid:130) Client -> Server @ : 816 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:130) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:130) Server -> Client : 4527 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 4527 bytes to client @ 192.168.99.105:46044
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46046
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46047
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46048
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46049
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46052
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1778: 34c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/css/latofonts.css
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"   
+[Network Analyzer (1778: 34c)]   (Sid:131) Client -> Server @ : 704 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:131) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 0 bytes to client @ 192.168.99.105:46047
+[Proxy Recording  (1778:2ac0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/css/latofonts.css"   
+[Network Analyzer (1778:1ef4)]   (Sid:132) Client -> Server @ : 678 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:132) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:46048
+[Web Request      (1778:2ac0)] "GET https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"   
+[Network Analyzer (1778:2ac0)]   (Sid:133) Client -> Server @ : 685 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2ac0)]   (Sid:133) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2ac0)] Sent 0 bytes to client @ 192.168.99.105:46052
+[Proxy Recording  (1778: cd4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46057
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46058
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"   
+[Network Analyzer (1778: cd4)]   (Sid:134) Client -> Server @ : 710 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:134) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:46046
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46061
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46062
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46063
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/Samsung1.jpg ...
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/Samsung1.jpg ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/iphone1.jpg ...
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/iphone1.jpg ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/nexus1.jpg ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/nexus1.jpg ...
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/css/latostyle.css
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/css/latostyle.css"   
+[Network Analyzer (1778:30f4)]   (Sid:135) Client -> Server @ : 678 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:135) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:46049
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46067
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1778:2ac0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/front.jpg
+[Web Request      (1778:2ac0)] "GET https://www.demoblaze.com/imgs/front.jpg"   
+[Network Analyzer (1778:2ac0)]   (Sid:136) Client -> Server @ : 721 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2ac0)]   (Sid:136) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2ac0)] Sent 0 bytes to client @ 192.168.99.105:46058
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46069
+[Proxy Recording  (1778: cd4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"   
+[Network Analyzer (1778: cd4)]   (Sid:137) Client -> Server @ : 686 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:137) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:46062
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/Samsung1.jpg
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/Samsung1.jpg"   
+[Network Analyzer (1778:1ef4)]   (Sid:138) Client -> Server @ : 719 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:138) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:46057
+[Proxy Recording  (1778:2294)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/iphone1.jpg
+[Web Request      (1778:2294)] "GET https://www.demoblaze.com/iphone1.jpg"   
+[Network Analyzer (1778:2294)]   (Sid:139) Client -> Server @ : 718 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2294)]   (Sid:139) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2294)] Sent 0 bytes to client @ 192.168.99.105:46061
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46071
+[Proxy Recording  (1778: 34c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/nexus1.jpg
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/nexus1.jpg"   
+[Network Analyzer (1778: 34c)]   (Sid:140) Client -> Server @ : 717 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:140) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 0 bytes to client @ 192.168.99.105:46063
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46073
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1778:2ac0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/bm.png
+[Web Request      (1778:2ac0)] "GET https://www.demoblaze.com/bm.png"   
+[Network Analyzer (1778:2ac0)]   (Sid:141) Client -> Server @ : 713 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2ac0)]   (Sid:141) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2ac0)] Sent 0 bytes to client @ 192.168.99.105:46069
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46075
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"   
+[Network Analyzer (1778:1ef4)]   (Sid:142) Client -> Server @ : 688 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:142) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:46071
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"   
+[Network Analyzer (1778:30f4)]   (Sid:143) Client -> Server @ : 711 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:143) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:46067
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/js/index.js ...
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/js/index.js ...
+[Proxy Recording  (1778: cd4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"   
+[Network Analyzer (1778: cd4)]   (Sid:144) Client -> Server @ : 694 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:144) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:46073
+[Proxy Recording  (1778:2294)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/js/index.js
+[Web Request      (1778:2294)] "GET https://www.demoblaze.com/js/index.js"   
+[Network Analyzer (1778:2294)]   (Sid:145) Client -> Server @ : 658 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2294)]   (Sid:145) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2294)] Sent 0 bytes to client @ 192.168.99.105:46075
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46077
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46078
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/favicon.ico
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/favicon.ico"   
+[Proxy Recording  (1778: 34c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/config.json
+[Network Analyzer (1778:30f4)]   (Sid:146) Client -> Server @ : 718 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:146) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:46078
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/config.json"   
+[Network Analyzer (1778: 34c)]   (Sid:147) Client -> Server @ : 731 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:147) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 0 bytes to client @ 192.168.99.105:46077
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46081
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46082
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://api.demoblaze.com:443/entries ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://api.demoblaze.com:443/entries ...
+[Proxy Recording  (1778:1ef4)] Received response of 432 header and 0 body bytes from https://api.demoblaze.com:443/check
+[Web Request      (1778:1ef4)] "OPTIONS https://api.demoblaze.com/check"   
+[Network Analyzer (1778:1ef4)]   (Sid:148) Client -> Server @ : 532 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:148) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:46081
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46085
+[Proxy Recording  (1778: cd4)] Received response of 331 header and 1055 body bytes from https://api.demoblaze.com:443/entries
+[Web Request      (1778: cd4)] "GET https://api.demoblaze.com/entries"   
+[Network Analyzer (1778: cd4)]   (Sid:149) Client -> Server @ : 559 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:149) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:149) Server -> Client : 1055 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 1055 bytes to client @ 192.168.99.105:46082
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46087
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46088
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46089
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46090
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46091
+[Proxy Recording  (1778: 34c)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://api.demoblaze.com:443/check ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/imgs/Nexus_6.jpg ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/imgs/Nexus_6.jpg ...
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/imgs/iphone_6.jpg ...
+[Proxy Recording  (1778: 73c)] Trying to connect to https://www.demoblaze.com:443/imgs/galaxy_s6.jpg ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/imgs/Lumia_1520.jpg ...
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/imgs/iphone_6.jpg ...
+[Proxy Recording  (1778: 73c)] Trying to connect to https://www.demoblaze.com:443/imgs/galaxy_s6.jpg ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/imgs/Lumia_1520.jpg ...
+[Proxy Recording  (1778: 34c)] Received response of 331 header and 121 body bytes from https://api.demoblaze.com:443/check
+[Network Analyzer (1778: 34c)]   (Sid:150) Client -> Server @ : 610 bytes (SSL)(Service=HTTP)
+[Web Request      (1778: 34c)] "POST https://api.demoblaze.com/check"   
+[Network Analyzer (1778: 34c)]   (Sid:150) Client -> Server @ : 40 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:150) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:150) Server -> Client : 121 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 121 bytes to client @ 192.168.99.105:46085
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/Nexus_6.jpg
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/imgs/Nexus_6.jpg"   
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg
+[Network Analyzer (1778:1ef4)]   (Sid:151) Client -> Server @ : 723 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:151) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:46090
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/imgs/sony_vaio_5.jpg"   
+[Network Analyzer (1778:30f4)]   (Sid:152) Client -> Server @ : 727 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:152) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:46087
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46097
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/imgs/xperia_z5.jpg ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/imgs/xperia_z5.jpg ...
+[Proxy Recording  (1778: 73c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/galaxy_s6.jpg
+[Web Request      (1778: 73c)] "GET https://www.demoblaze.com/imgs/galaxy_s6.jpg"   
+[Network Analyzer (1778: 73c)]   (Sid:153) Client -> Server @ : 725 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1778:2ac0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/iphone_6.jpg
+[Network Analyzer (1778: 73c)]   (Sid:153) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 73c)] Sent 0 bytes to client @ 192.168.99.105:46088
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/xperia_z5.jpg
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46099
+[Web Request      (1778:2ac0)] "GET https://www.demoblaze.com/imgs/iphone_6.jpg"   
+[Network Analyzer (1778:2ac0)]   (Sid:154) Client -> Server @ : 724 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2ac0)]   (Sid:154) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2ac0)] Sent 0 bytes to client @ 192.168.99.105:46091
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/imgs/xperia_z5.jpg"   
+[Network Analyzer (1778:1ef4)]   (Sid:155) Client -> Server @ : 725 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:155) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:46097
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/imgs/HTC_M9.jpg ...
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/imgs/HTC_M9.jpg ...
+[Proxy Recording  (1778:2294)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/HTC_M9.jpg
+[Web Request      (1778:2294)] "GET https://www.demoblaze.com/imgs/HTC_M9.jpg"   
+[Network Analyzer (1778:2294)]   (Sid:156) Client -> Server @ : 722 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2294)]   (Sid:156) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2294)] Sent 0 bytes to client @ 192.168.99.105:46099
+[Proxy Recording  (1778: cd4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/Lumia_1520.jpg
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/imgs/Lumia_1520.jpg"   
+[Network Analyzer (1778: cd4)]   (Sid:157) Client -> Server @ : 726 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:157) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:46089
+[User action                 ] EndTransactionEvent PlaceOrder [User action                 ] StartTransactionEvent LogOut [Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46101
+[Proxy Recording  (1778: 73c)] Trying to connect to https://www.demoblaze.com:443/index.html ...
+[Proxy Recording  (1778: 73c)] Trying to connect to https://www.demoblaze.com:443/index.html ...
+[Proxy Recording  (1778: 73c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/index.html
+[Web Request      (1778: 73c)] "GET https://www.demoblaze.com/index.html"   
+[Network Analyzer (1778: 73c)]   (Sid:158) Client -> Server @ : 804 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 73c)]   (Sid:158) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 73c)] Sent 0 bytes to client @ 192.168.99.105:46101
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46103
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46104
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46105
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46106
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46109
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css ...
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/css/latofonts.css ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/css/latostyle.css ...
+[Proxy Recording  (1778: cd4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video-js.min.css
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"   
+[Network Analyzer (1778: cd4)]   (Sid:159) Client -> Server @ : 666 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:159) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:46104
+[Proxy Recording  (1778:2ac0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/jquery/dist/jquery.min.js
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/css/latofonts.css
+[Web Request      (1778:2ac0)] "GET https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"   
+[Network Analyzer (1778:2ac0)]   (Sid:160) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2ac0)]   (Sid:160) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2ac0)] Sent 0 bytes to client @ 192.168.99.105:46109
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/css/latofonts.css"   
+[Network Analyzer (1778:1ef4)]   (Sid:161) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:161) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:46105
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46113
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46114
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/Samsung1.jpg ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/Samsung1.jpg ...
+[Proxy Recording  (1778: 73c)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1778: 73c)] Trying to connect to https://www.demoblaze.com:443/imgs/front.jpg ...
+[Proxy Recording  (1778:2294)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/css/bootstrap.min.css
+[Web Request      (1778:2294)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"   
+[Network Analyzer (1778:2294)]   (Sid:162) Client -> Server @ : 672 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2294)]   (Sid:162) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2294)] Sent 0 bytes to client @ 192.168.99.105:46103
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46117
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46118
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46119
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/nexus1.jpg ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/nexus1.jpg ...
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/iphone1.jpg ...
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/iphone1.jpg ...
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js ...
+[Proxy Recording  (1778: 34c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/Samsung1.jpg
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/Samsung1.jpg"   
+[Network Analyzer (1778: 34c)]   (Sid:163) Client -> Server @ : 681 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:163) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 0 bytes to client @ 192.168.99.105:46113
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46123
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/css/latostyle.css
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/css/latostyle.css"   
+[Network Analyzer (1778:30f4)]   (Sid:164) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:164) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:46106
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46125
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js ...
+[Proxy Recording  (1778: 73c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/front.jpg
+[Web Request      (1778: 73c)] "GET https://www.demoblaze.com/imgs/front.jpg"   
+[Network Analyzer (1778: 73c)]   (Sid:165) Client -> Server @ : 683 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 73c)]   (Sid:165) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 73c)] Sent 0 bytes to client @ 192.168.99.105:46114
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46127
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/nexus1.jpg
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/nexus1.jpg"   
+[Network Analyzer (1778:1ef4)]   (Sid:166) Client -> Server @ : 679 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:166) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:46119
+[Proxy Recording  (1778: 73c)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1778: 73c)] Trying to connect to https://www.demoblaze.com:443/bm.png ...
+[Proxy Recording  (1778:2294)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/video.js/dist/video.min.js
+[Web Request      (1778:2294)] "GET https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"   
+[Network Analyzer (1778:2294)]   (Sid:167) Client -> Server @ : 648 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2294)]   (Sid:167) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2294)] Sent 0 bytes to client @ 192.168.99.105:46118
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46129
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46130
+[Proxy Recording  (1778:2ac0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/iphone1.jpg
+[Web Request      (1778:2ac0)] "GET https://www.demoblaze.com/iphone1.jpg"   
+[Network Analyzer (1778:2ac0)]   (Sid:168) Client -> Server @ : 680 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2ac0)]   (Sid:168) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2ac0)] Sent 0 bytes to client @ 192.168.99.105:46117
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/js/index.js ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/js/index.js ...
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/tether/dist/js/tether.min.js
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"   
+[Network Analyzer (1778:30f4)]   (Sid:169) Client -> Server @ : 650 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:169) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:46125
+[Proxy Recording  (1778: 34c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js
+[Web Request      (1778: 34c)] "GET https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"   
+[Network Analyzer (1778: 34c)]   (Sid:170) Client -> Server @ : 673 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:170) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 0 bytes to client @ 192.168.99.105:46123
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/node_modules/bootstrap/dist/js/bootstrap.min.js
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"   
+[Network Analyzer (1778:1ef4)]   (Sid:171) Client -> Server @ : 656 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:171) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:46130
+[Proxy Recording  (1778: 73c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/bm.png
+[Web Request      (1778: 73c)] "GET https://www.demoblaze.com/bm.png"   
+[Network Analyzer (1778: 73c)]   (Sid:172) Client -> Server @ : 675 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 73c)]   (Sid:172) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 73c)] Sent 0 bytes to client @ 192.168.99.105:46127
+[Proxy Recording  (1778: cd4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/js/index.js
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/js/index.js"   
+[Network Analyzer (1778: cd4)]   (Sid:173) Client -> Server @ : 620 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:173) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:46129
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46133
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46134
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/favicon.ico ...
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/config.json ...
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/favicon.ico
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/favicon.ico"   
+[Network Analyzer (1778:1ef4)]   (Sid:174) Client -> Server @ : 680 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:174) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:46134
+[Proxy Recording  (1778:2294)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/config.json
+[Web Request      (1778:2294)] "GET https://www.demoblaze.com/config.json"   
+[Network Analyzer (1778:2294)]   (Sid:175) Client -> Server @ : 693 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2294)]   (Sid:175) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2294)] Sent 0 bytes to client @ 192.168.99.105:46133
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46137
+[Proxy Recording  (1778: 34c)] Trying to connect to https://api.demoblaze.com:443/entries ...
+[Proxy Recording  (1778: 34c)] Trying to connect to https://api.demoblaze.com:443/entries ...
+[Proxy Recording  (1778: 34c)] Received response of 331 header and 1055 body bytes from https://api.demoblaze.com:443/entries
+[Web Request      (1778: 34c)] "GET https://api.demoblaze.com/entries"   
+[Network Analyzer (1778: 34c)]   (Sid:176) Client -> Server @ : 559 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:176) Server -> Client : 320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1778: 34c)]   (Sid:176) Server -> Client : 1055 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 34c)] Sent 1055 bytes to client @ 192.168.99.105:46137
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46139
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46140
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46141
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46142
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46143
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46144
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/imgs/Lumia_1520.jpg ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/Nexus_6.jpg ...
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/imgs/Lumia_1520.jpg ...
+[Proxy Recording  (1778:30f4)] Trying to connect to https://www.demoblaze.com:443/imgs/Nexus_6.jpg ...
+[Proxy Recording  (1778: 73c)] Trying to connect to https://www.demoblaze.com:443/imgs/iphone_6.jpg ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/imgs/galaxy_s6.jpg ...
+[Proxy Recording  (1778: 73c)] Trying to connect to https://www.demoblaze.com:443/imgs/iphone_6.jpg ...
+[Proxy Recording  (1778:1ef4)] Trying to connect to https://www.demoblaze.com:443/imgs/galaxy_s6.jpg ...
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1778:2ac0)] Trying to connect to https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/imgs/xperia_z5.jpg ...
+[Proxy Recording  (1778: cd4)] Trying to connect to https://www.demoblaze.com:443/imgs/xperia_z5.jpg ...
+[Proxy Recording  (1778:2294)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/Lumia_1520.jpg
+[Proxy Recording  (1778:30f4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/Nexus_6.jpg
+[Web Request      (1778:2294)] "GET https://www.demoblaze.com/imgs/Lumia_1520.jpg"   
+[Network Analyzer (1778:2294)]   (Sid:177) Client -> Server @ : 688 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2294)]   (Sid:177) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2294)] Sent 0 bytes to client @ 192.168.99.105:46140
+[Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46151
+[Web Request      (1778:30f4)] "GET https://www.demoblaze.com/imgs/Nexus_6.jpg"   
+[Network Analyzer (1778:30f4)]   (Sid:178) Client -> Server @ : 685 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:30f4)]   (Sid:178) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:30f4)] Sent 0 bytes to client @ 192.168.99.105:46141
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/imgs/HTC_M9.jpg ...
+[Proxy Recording  (1778:2294)] Trying to connect to https://www.demoblaze.com:443/imgs/HTC_M9.jpg ...
+[Proxy Recording  (1778:1ef4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/galaxy_s6.jpg
+[Web Request      (1778:1ef4)] "GET https://www.demoblaze.com/imgs/galaxy_s6.jpg"   
+[Proxy Recording  (1778: 73c)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/iphone_6.jpg
+[Network Analyzer (1778:1ef4)]   (Sid:179) Client -> Server @ : 687 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:1ef4)]   (Sid:179) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:1ef4)] Sent 0 bytes to client @ 192.168.99.105:46139
+[Web Request      (1778: 73c)] "GET https://www.demoblaze.com/imgs/iphone_6.jpg"   
+[Network Analyzer (1778: 73c)]   (Sid:180) Client -> Server @ : 686 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: 73c)]   (Sid:180) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: 73c)] Sent 0 bytes to client @ 192.168.99.105:46142
+[Proxy Recording  (1778:2ac0)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/sony_vaio_5.jpg
+[Web Request      (1778:2ac0)] "GET https://www.demoblaze.com/imgs/sony_vaio_5.jpg"   
+[Network Analyzer (1778:2ac0)]   (Sid:181) Client -> Server @ : 689 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2ac0)]   (Sid:181) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2ac0)] Sent 0 bytes to client @ 192.168.99.105:46144
+[Proxy Recording  (1778:2294)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/HTC_M9.jpg
+[Proxy Recording  (1778: cd4)] Received response of 138 header and 0 body bytes from https://www.demoblaze.com:443/imgs/xperia_z5.jpg
+[Web Request      (1778:2294)] "GET https://www.demoblaze.com/imgs/HTC_M9.jpg"   
+[Network Analyzer (1778:2294)]   (Sid:182) Client -> Server @ : 684 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778:2294)]   (Sid:182) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778:2294)] Sent 0 bytes to client @ 192.168.99.105:46151
+[Web Request      (1778: cd4)] "GET https://www.demoblaze.com/imgs/xperia_z5.jpg"   
+[Network Analyzer (1778: cd4)]   (Sid:183) Client -> Server @ : 687 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1778: cd4)]   (Sid:183) Server -> Client : 165 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1778: cd4)] Sent 0 bytes to client @ 192.168.99.105:46143
+[User action                 ] EndTransactionEvent LogOut [Proxy Recording  (1778:2dec)] Client request from @ 192.168.99.105:46153
+[Proxy Recording  (1778: 73c)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTMxLjAuNjc3OC4xMDkaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCe1hkaAhgIth8XOCIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ9ikaAhgIVAQ4liIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQpNAPGgIYCF2pRLMiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABEMrHDxoCGAgR9h_PIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARCi0QcaAhgIbYHqwCIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQppYQGgIYCGQJRjoiBCABIAIoARooCAEQCBoaCg0IARAIGAEiAzAwMTAEEKY7GgIYCAT2P88iBCABIAIoBBopCA8QARobCg0IDxAGGAEiAzAwMTABELePBBoCGAjj4ZoNIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCL5vONQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABELcXGgIYCF0ddzEiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEIe0AhoCGAh_RlI2IgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE ...
+[Proxy Recording  (1778: 73c)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTMxLjAuNjc3OC4xMDkaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCe1hkaAhgIth8XOCIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ9ikaAhgIVAQ4liIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQpNAPGgIYCF2pRLMiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABEMrHDxoCGAgR9h_PIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARCi0QcaAhgIbYHqwCIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQppYQGgIYCGQJRjoiBCABIAIoARooCAEQCBoaCg0IARAIGAEiAzAwMTAEEKY7GgIYCAT2P88iBCABIAIoBBopCA8QARobCg0IDxAGGAEiAzAwMTABELePBBoCGAjj4ZoNIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCL5vONQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABELcXGgIYCF0ddzEiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEIe0AhoCGAh_RlI2IgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE ...

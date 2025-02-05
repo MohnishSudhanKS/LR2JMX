@@ -1,0 +1,2096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="120" it="0" lt="119" ct="90" ts="1710487545964" s="true" lb="/ncsi.txt-1" rc="200" rm="OK" tn="" dt="text" de="" by="179" sc="1" ec="0" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 14
+Date: Fri, 15 Mar 2024 07:25:46 GMT
+Connection: close
+Content-Type: text/plain
+Cache-Control: max-age=30, must-revalidate
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Date: 2024-03-15T07:25:45.906Z
+Host: www.msftncsi.com
+User-Agent: WebexTeams
+TrackingID: CLIENT_19df6fac-1cf4-49e6-a310-5d70352823f6
+</requestHeader>
+  <responseData class="java.lang.String">Microsoft NCSI</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.msftncsi.com/ncsi.txt</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="emea.presence.teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT emea.presence.teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="calliope-anycast.prod.infra.webex.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="795" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT calliope-anycast.prod.infra.webex.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="122" it="0" lt="121" ct="88" ts="1710487588258" s="true" lb="/ncsi.txt-2" rc="200" rm="OK" tn="" dt="text" de="" by="179" sc="1" ec="0" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 14
+Date: Fri, 15 Mar 2024 07:26:28 GMT
+Connection: close
+Content-Type: text/plain
+Cache-Control: max-age=30, must-revalidate
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Date: 2024-03-15T07:26:28.231Z
+Host: www.msftncsi.com
+User-Agent: WebexTeams
+TrackingID: CLIENT_9232e177-c2cd-469a-a8f2-8be357b64fba
+</requestHeader>
+  <responseData class="java.lang.String">Microsoft NCSI</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.msftncsi.com/ncsi.txt</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="outlook.office.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT outlook.office.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="outlook.office.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT outlook.office.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="59" it="0" lt="0" ct="50" ts="1710487594702" s="true" lb="/generate_204-3" rc="204" rm="No Content" tn="" dt="" de="" by="146" sc="1" ec="0" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Content-Length: 0
+Cross-Origin-Resource-Policy: cross-origin
+Date: Fri, 15 Mar 2024 07:26:34 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9
+Host: www.gstatic.com
+Cache-Control: no-cache
+Pragma: no-cache
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.gstatic.com/generate_204</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-office.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-office.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-office.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-office.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="apheleia-r.wbx2.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="795" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT apheleia-r.wbx2.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-office.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-office.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<httpSample t="146" it="0" lt="146" ct="89" ts="1710487612229" s="true" lb="/ncsi.txt-4" rc="200" rm="OK" tn="" dt="text" de="" by="179" sc="1" ec="0" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 14
+Date: Fri, 15 Mar 2024 07:26:52 GMT
+Connection: close
+Content-Type: text/plain
+Cache-Control: max-age=30, must-revalidate
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Date: 2024-03-15T07:26:52.217Z
+Host: www.msftncsi.com
+User-Agent: WebexTeams
+TrackingID: CLIENT_564cabba-2a68-4cf3-85d6-1a8959d51e1b
+</requestHeader>
+  <responseData class="java.lang.String">Microsoft NCSI</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.msftncsi.com/ncsi.txt</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="192.168.99.103:8443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 192.168.99.103:8443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="outlook.office.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT outlook.office.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-office.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-office.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="checkappexec.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT checkappexec.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<httpSample t="42" it="0" lt="0" ct="32" ts="1710487626287" s="true" lb="/generate_204-5" rc="204" rm="No Content" tn="" dt="" de="" by="146" sc="1" ec="0" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Content-Length: 0
+Cross-Origin-Resource-Policy: cross-origin
+Date: Fri, 15 Mar 2024 07:27:06 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9
+Host: www.gstatic.com
+Cache-Control: no-cache
+Pragma: no-cache
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.gstatic.com/generate_204</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-office.events.data.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-office.events.data.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="192.168.99.103:8443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 192.168.99.103:8443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="apheleia-r.wbx2.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="795" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT apheleia-r.wbx2.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-office.events.data.microsoft.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-office.events.data.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="192.168.99.103:8443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 192.168.99.103:8443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="statics.teams.cdn.office.net:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT statics.teams.cdn.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="statics.teams.cdn.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT statics.teams.cdn.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="stats.bluebillywig.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT stats.bluebillywig.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="58" it="0" lt="58" ct="34" ts="1710487644242" s="true" lb="/ncsi.txt-7" rc="200" rm="OK" tn="" dt="text" de="" by="179" sc="1" ec="0" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 14
+Date: Fri, 15 Mar 2024 07:27:24 GMT
+Connection: close
+Content-Type: text/plain
+Cache-Control: max-age=30, must-revalidate
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Date: 2024-03-15T07:27:24.231Z
+Host: www.msftncsi.com
+User-Agent: WebexTeams
+TrackingID: CLIENT_b0b45f68-b44a-49e1-b768-0c1852523ba8
+</requestHeader>
+  <responseData class="java.lang.String">Microsoft NCSI</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.msftncsi.com/ncsi.txt</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="exo.nel.measure.office.net:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT exo.nel.measure.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="stats.bluebillywig.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT stats.bluebillywig.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="stats.bluebillywig.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT stats.bluebillywig.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="stats.bluebillywig.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT stats.bluebillywig.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="stats.bluebillywig.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT stats.bluebillywig.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="stats.bluebillywig.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT stats.bluebillywig.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="stats.bluebillywig.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT stats.bluebillywig.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="beacons.gcp.gvt2.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT beacons.gcp.gvt2.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet-my.sharepoint.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="795" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet-my.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="m365cdn.nel.measure.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT m365cdn.nel.measure.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="statics.teams.cdn.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT statics.teams.cdn.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="demowebshop.tricentis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT demowebshop.tricentis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="demowebshop.tricentis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT demowebshop.tricentis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="310" it="0" lt="0" ct="105" ts="1711340800751" s="true" lb="/generate_204-2" rc="204" rm="No Content" tn="" dt="" de="" by="146" sc="1" ec="0" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Content-Length: 0
+Cross-Origin-Resource-Policy: cross-origin
+Date: Mon, 25 Mar 2024 04:26:41 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9
+Host: www.gstatic.com
+Cache-Control: no-cache
+Pragma: no-cache
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.gstatic.com/generate_204</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="beacons.gvt2.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT beacons.gvt2.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="demowebshop.tricentis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT demowebshop.tricentis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="demowebshop.tricentis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT demowebshop.tricentis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="1155" it="0" lt="1153" ct="640" ts="1711340804727" s="true" lb="/-3" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="8872" sc="1" ec="0" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/html; charset=utf-8
+Date: Mon, 25 Mar 2024 04:26:44 GMT
+Server: Microsoft-IIS/10.0
+Cache-Control: private
+Set-Cookie: Nop.customer=c57427d4-e145-4f15-b20f-d9911808d224; expires=Tue, 25-Mar-2025 04:26:45 GMT; path=/; HttpOnly
+Set-Cookie: ARRAffinity=dea5770764bc0df9f5d5fe97db0babac10ab5d037da96f00ab93251c462605ce;Path=/;HttpOnly;Secure;Domain=demowebshop.tricentis.com
+Set-Cookie: ARRAffinitySameSite=dea5770764bc0df9f5d5fe97db0babac10ab5d037da96f00ab93251c462605ce;Path=/;HttpOnly;SameSite=None;Secure;Domain=demowebshop.tricentis.com
+Vary: Accept-Encoding
+X-AspNetMvc-Version: 5.2
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Content-Length: 8124
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;122&quot;, &quot;Not(A:Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;122&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: demowebshop.tricentis.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">&#xd;
+&lt;!DOCTYPE html&gt;&#xd;
+&lt;html &gt;&#xd;
+&lt;head&gt;&#xd;
+    &lt;title&gt;Demo Web Shop&lt;/title&gt;&#xd;
+    &lt;meta http-equiv=&quot;Content-type&quot; content=&quot;text/html;charset=UTF-8&quot; /&gt;&#xd;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot; /&gt;&#xd;
+    &lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;&#xd;
+    &lt;meta name=&quot;generator&quot; content=&quot;nopCommerce&quot; /&gt;&#xd;
+    &#xd;
+    &#xd;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#xd;
+&#xd;
+    &#xd;
+    &lt;link href=&quot;/Themes/DefaultClean/Content/styles.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;&#xd;
+&lt;link href=&quot;/Themes/DefaultClean/Content/responsive.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;&#xd;
+&lt;link href=&quot;/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;&#xd;
+&lt;link href=&quot;/Plugins/Widgets.NivoSlider/Content/nivoslider/nivo-slider.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;&#xd;
+&lt;link href=&quot;/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/default.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;&#xd;
+&#xd;
+    &lt;script src=&quot;/Scripts/jquery-1.10.2.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/Scripts/jquery.validate.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/Scripts/jquery.validate.unobtrusive.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/Scripts/jquery-ui-1.10.3.custom.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/Scripts/jquery-migrate-1.2.1.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/Scripts/public.common.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/Scripts/public.ajaxcart.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/Plugins/Widgets.NivoSlider/Scripts/jquery.nivo.slider.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&#xd;
+    &#xd;
+    &#xd;
+    &#xd;
+    &#xd;
+    &#xd;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;https://demowebshop.tricentis.com/favicon.ico&quot; /&gt;&#xd;
+    &lt;!--Powered by nopCommerce - http://www.nopCommerce.com--&gt;&#xd;
+    &lt;!--Copyright (c) 2008-2014--&gt;&#xd;
+&lt;/head&gt;&#xd;
+&lt;body&gt;&#xd;
+    &#xd;
+&#xd;
+&#xd;
+&lt;div id=&quot;dialog-notifications-success&quot; title=&quot;Notification&quot; style=&quot;display:none;&quot;&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;div id=&quot;dialog-notifications-error&quot; title=&quot;Error&quot; style=&quot;display:none;&quot;&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;div id=&quot;bar-notification&quot; class=&quot;bar-notification&quot;&gt;&#xd;
+    &lt;span class=&quot;close&quot; title=&quot;Close&quot;&gt;&amp;nbsp;&lt;/span&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&lt;div class=&quot;master-wrapper-page&quot;&gt;&#xd;
+    &#xd;
+    &lt;div class=&quot;master-wrapper-content&quot;&gt;&#xd;
+        &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+            AjaxCart.init(false, &apos;.header-links .cart-qty&apos;, &apos;.header-links .wishlist-qty&apos;, &apos;#flyout-cart&apos;);&#xd;
+        &lt;/script&gt;&#xd;
+        &#xd;
+&#xd;
+&lt;div class=&quot;header&quot;&gt;&#xd;
+    &#xd;
+    &lt;div class=&quot;header-logo&quot;&gt;&#xd;
+        &lt;a href=&quot;/&quot;&gt;&#xd;
+            &lt;img title=&quot;&quot; alt=&quot;Tricentis Demo Web Shop&quot; src=&quot;/Themes/DefaultClean/Content/images/logo.png&quot;&gt;&#xd;
+        &lt;/a&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;header-links-wrapper&quot;&gt;&#xd;
+        &lt;div class=&quot;header-links&quot;&gt;&#xd;
+    &lt;ul&gt;&#xd;
+        &#xd;
+            &lt;li&gt;&lt;a href=&quot;/customer/info&quot; class=&quot;account&quot;&gt;demopt@mail.in&lt;/a&gt;&lt;/li&gt;&#xd;
+            &lt;li&gt;&lt;a href=&quot;/logout&quot; class=&quot;ico-logout&quot;&gt;Log out&lt;/a&gt;&lt;/li&gt;&#xd;
+                            &lt;li id=&quot;topcartlink&quot;&gt;&#xd;
+                &lt;a href=&quot;/cart&quot; class=&quot;ico-cart&quot;&gt;&#xd;
+                    &lt;span class=&quot;cart-label&quot;&gt;Shopping cart&lt;/span&gt;&#xd;
+                    &lt;span class=&quot;cart-qty&quot;&gt;(9)&lt;/span&gt;&#xd;
+                &lt;/a&gt;&#xd;
+            &lt;/li&gt;&#xd;
+                    &lt;li&gt;&#xd;
+                &lt;a href=&quot;/wishlist&quot; class=&quot;ico-wishlist&quot;&gt;&#xd;
+                    &lt;span class=&quot;cart-label&quot;&gt;Wishlist&lt;/span&gt;&#xd;
+                    &lt;span class=&quot;wishlist-qty&quot;&gt;(0)&lt;/span&gt;&#xd;
+                &lt;/a&gt;&#xd;
+            &lt;/li&gt;&#xd;
+        &#xd;
+    &lt;/ul&gt;&#xd;
+        &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+            $(document).ready(function () {&#xd;
+                $(&apos;.header&apos;).on(&apos;mouseenter&apos;, &apos;#topcartlink&apos;, function () {&#xd;
+                    $(&apos;#flyout-cart&apos;).addClass(&apos;active&apos;);&#xd;
+                });&#xd;
+                $(&apos;.header&apos;).on(&apos;mouseleave&apos;, &apos;#topcartlink&apos;, function () {&#xd;
+                    $(&apos;#flyout-cart&apos;).removeClass(&apos;active&apos;);&#xd;
+                });&#xd;
+                $(&apos;.header&apos;).on(&apos;mouseenter&apos;, &apos;#flyout-cart&apos;, function () {&#xd;
+                    $(&apos;#flyout-cart&apos;).addClass(&apos;active&apos;);&#xd;
+                });&#xd;
+                $(&apos;.header&apos;).on(&apos;mouseleave&apos;, &apos;#flyout-cart&apos;, function () {&#xd;
+                    $(&apos;#flyout-cart&apos;).removeClass(&apos;active&apos;);&#xd;
+                });&#xd;
+            });&#xd;
+        &lt;/script&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+        &lt;div id=&quot;flyout-cart&quot; class=&quot;flyout-cart&quot;&gt;&#xd;
+    &lt;div class=&quot;mini-shopping-cart&quot;&gt;&#xd;
+        &lt;div class=&quot;count&quot;&gt;&#xd;
+There are &lt;a href=&quot;/cart&quot; class=&quot;items&quot;&gt;9 item(s)&lt;/a&gt; in your cart.        &lt;/div&gt;&#xd;
+            &lt;div class=&quot;items&quot;&gt;&#xd;
+                    &lt;div class=&quot;item first&quot;&gt;&#xd;
+                            &lt;div class=&quot;picture&quot;&gt;&#xd;
+                                &lt;a href=&quot;/health&quot; title=&quot;Show details for Health Book&quot;&gt;&#xd;
+                                    &lt;img alt=&quot;Picture of Health Book&quot; src=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000131_health-book_47.jpeg&quot; title=&quot;Show details for Health Book&quot; /&gt;&#xd;
+                                &lt;/a&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+                        &lt;div class=&quot;product&quot;&gt;&#xd;
+                            &lt;div class=&quot;name&quot;&gt;&#xd;
+                                &lt;a href=&quot;/health&quot;&gt;Health Book&lt;/a&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+                            &lt;div class=&quot;price&quot;&gt;Unit price: &lt;span&gt;10.00&lt;/span&gt;&lt;/div&gt;&#xd;
+                            &lt;div class=&quot;quantity&quot;&gt;Quantity: &lt;span&gt;2&lt;/span&gt;&lt;/div&gt;&#xd;
+                        &lt;/div&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                    &lt;div class=&quot;item&quot;&gt;&#xd;
+                            &lt;div class=&quot;picture&quot;&gt;&#xd;
+                                &lt;a href=&quot;/blue-and-green-sneaker&quot; title=&quot;Show details for Blue and green Sneaker&quot;&gt;&#xd;
+                                    &lt;img alt=&quot;Picture of Blue and green Sneaker&quot; src=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000116_blue-and-green-sneaker_47.jpeg&quot; title=&quot;Show details for Blue and green Sneaker&quot; /&gt;&#xd;
+                                &lt;/a&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+                        &lt;div class=&quot;product&quot;&gt;&#xd;
+                            &lt;div class=&quot;name&quot;&gt;&#xd;
+                                &lt;a href=&quot;/blue-and-green-sneaker&quot;&gt;Blue and green Sneaker&lt;/a&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+                                &lt;div class=&quot;attributes&quot;&gt;&#xd;
+                                    Size: 8&lt;br /&gt;Color: White&#xd;
+                                &lt;/div&gt;&#xd;
+                            &lt;div class=&quot;price&quot;&gt;Unit price: &lt;span&gt;11.00&lt;/span&gt;&lt;/div&gt;&#xd;
+                            &lt;div class=&quot;quantity&quot;&gt;Quantity: &lt;span&gt;3&lt;/span&gt;&lt;/div&gt;&#xd;
+                        &lt;/div&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                    &lt;div class=&quot;item&quot;&gt;&#xd;
+                            &lt;div class=&quot;picture&quot;&gt;&#xd;
+                                &lt;a href=&quot;/computing-and-internet&quot; title=&quot;Show details for Computing and Internet&quot;&gt;&#xd;
+                                    &lt;img alt=&quot;Picture of Computing and Internet&quot; src=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000130_computing-and-internet_47.jpeg&quot; title=&quot;Show details for Computing and Internet&quot; /&gt;&#xd;
+                                &lt;/a&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+                        &lt;div class=&quot;product&quot;&gt;&#xd;
+                            &lt;div class=&quot;name&quot;&gt;&#xd;
+                                &lt;a href=&quot;/computing-and-internet&quot;&gt;Computing and Internet&lt;/a&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+                            &lt;div class=&quot;price&quot;&gt;Unit price: &lt;span&gt;10.00&lt;/span&gt;&lt;/div&gt;&#xd;
+                            &lt;div class=&quot;quantity&quot;&gt;Quantity: &lt;span&gt;4&lt;/span&gt;&lt;/div&gt;&#xd;
+                        &lt;/div&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;totals&quot;&gt;Sub-Total: &lt;strong&gt;93.00&lt;/strong&gt;&lt;/div&gt;&#xd;
+            &lt;div class=&quot;buttons&quot;&gt;&#xd;
+                    &lt;input type=&quot;button&quot; value=&quot;Go to cart&quot; class=&quot;button-1 cart-button&quot; onclick=&quot;setLocation(&apos;/cart&apos;)&quot; /&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;search-box&quot;&gt;&#xd;
+        &#xd;
+&lt;form action=&quot;/search&quot; method=&quot;get&quot; onsubmit=&quot;return check_small_search_form()&quot;&gt;    &lt;input type=&quot;text&quot; class=&quot;search-box-text&quot; id=&quot;small-searchterms&quot; autocomplete=&quot;off&quot; value=&quot;Search store&quot; name=&quot;q&quot; /&gt;&#xd;
+    &lt;input type=&quot;submit&quot; class=&quot;button-1 search-box-button&quot; value=&quot;Search&quot; /&gt;&#xd;
+    &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+        $(document).ready(function() {&#xd;
+            $(&quot;#small-searchterms&quot;).focus(function() {&#xd;
+                if (this.value == &apos;Search store&apos;) {&#xd;
+                    this.value = &apos;&apos;;&#xd;
+                }&#xd;
+            });&#xd;
+&#xd;
+            $(&quot;#small-searchterms&quot;).blur(function() {&#xd;
+                if (this.value == &apos;&apos;) {&#xd;
+                    this.value = &apos;Search store&apos;;&#xd;
+                }&#xd;
+            });&#xd;
+        });&#xd;
+&#xd;
+        function check_small_search_form() {&#xd;
+            var search_terms = $(&quot;#small-searchterms&quot;);&#xd;
+            if (search_terms.val() == &quot;&quot; || search_terms.val() == &quot;Search store&quot;) {&#xd;
+                alert(&apos;Please enter some search keyword&apos;);&#xd;
+                search_terms.focus();&#xd;
+                return false;&#xd;
+            }&#xd;
+            return true;&#xd;
+        }&#xd;
+    &lt;/script&gt;&#xd;
+        &#xd;
+            &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+                $(function() {&#xd;
+                    $(&apos;#small-searchterms&apos;).autocomplete({&#xd;
+                            delay: 500,&#xd;
+                            minLength: 3,&#xd;
+                            source: &apos;/catalog/searchtermautocomplete&apos;,&#xd;
+                            select: function(event, ui) {&#xd;
+                                $(&quot;#small-searchterms&quot;).val(ui.item.label);&#xd;
+                                setLocation(ui.item.producturl);&#xd;
+                                return false;&#xd;
+                            }&#xd;
+                        })&#xd;
+                        .data(&quot;ui-autocomplete&quot;)._renderItem = function(ul, item) {&#xd;
+                            var t = item.label;&#xd;
+                            //html encode&#xd;
+                            t = htmlEncode(t);&#xd;
+                            return $(&quot;&lt;li&gt;&lt;/li&gt;&quot;)&#xd;
+                                .data(&quot;item.autocomplete&quot;, item)&#xd;
+                                .append(&quot;&lt;a&gt;&quot; + t + &quot;&lt;/a&gt;&quot;)&#xd;
+                            .appendTo(ul);&#xd;
+                    };&#xd;
+                });&#xd;
+            &lt;/script&gt;&#xd;
+        &#xd;
+&lt;/form&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;header-selectors-wrapper&quot;&gt;&#xd;
+        &lt;div class=&quot;tax-display-type-selector&quot;&gt;&#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;currency-selector&quot;&gt;&#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;language-selector&quot;&gt;&#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+        &#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+        &lt;div class=&quot;header-menu&quot;&gt;&#xd;
+            &#xd;
+&#xd;
+&lt;ul class=&quot;top-menu&quot;&gt;&#xd;
+    &#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/books&quot;&gt;Books&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/computers&quot;&gt;Computers&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+                &lt;ul class=&quot;sublist firstLevel&quot;&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/desktops&quot;&gt;Desktops&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/notebooks&quot;&gt;Notebooks&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/accessories&quot;&gt;Accessories&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+                &lt;/ul&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/electronics&quot;&gt;Electronics&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+                &lt;ul class=&quot;sublist firstLevel&quot;&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/camera-photo&quot;&gt;Camera, photo&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/cell-phones&quot;&gt;Cell phones&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+                &lt;/ul&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/apparel-shoes&quot;&gt;Apparel &amp;amp; Shoes&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/digital-downloads&quot;&gt;Digital downloads&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/jewelry&quot;&gt;Jewelry&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/gift-cards&quot;&gt;Gift Cards&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &#xd;
+&lt;/ul&gt;&#xd;
+&#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+    $(&apos;li&apos;, &apos;.top-menu&apos;).on(&apos;mouseenter&apos;, function () {&#xd;
+        $(&apos;a&apos;, $(this)).first().addClass(&apos;hover&apos;);&#xd;
+        if (!$(this).parent().hasClass(&apos;top-menu&apos;)) {&#xd;
+            var width = $(this).innerWidth();&#xd;
+            $(&apos;.sublist&apos;, $(this)).first().css(&apos;left&apos;, width + 15);&#xd;
+        }&#xd;
+        $(&apos;.sublist&apos;, $(this)).first().addClass(&apos;active&apos;);&#xd;
+        $(&apos;.top-menu-triangle&apos;, $(this)).addClass(&apos;active&apos;);&#xd;
+    });&#xd;
+&#xd;
+    $(&apos;li&apos;, &apos;.top-menu&apos;).on(&apos;mouseleave&apos;, function () {&#xd;
+        $(&apos;a&apos;, $(this)).first().removeClass(&apos;hover&apos;);&#xd;
+        $(&apos;.sublist&apos;, $(this)).first().removeClass(&apos;active&apos;);&#xd;
+        $(&apos;.top-menu-triangle&apos;, $(this)).removeClass(&apos;active&apos;);&#xd;
+    });&#xd;
+&#xd;
+&lt;/script&gt;&#xd;
+&#xd;
+    &lt;div id=&quot;mob-menu-button&quot;&gt;&#xd;
+        &lt;a href=&quot;&quot;&gt;&#xd;
+            &lt;span class=&quot;icon&quot;&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&#xd;
+&#xd;
+            &lt;span&gt;Categories&lt;/span&gt;&#xd;
+        &lt;/a&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;ul class=&quot;mob-top-menu&quot;&gt;&#xd;
+        &#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/books&quot;&gt;Books&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/computers&quot;&gt;Computers&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+                    &lt;span class=&quot;expand&quot;&gt;&amp;nbsp;&lt;/span&gt;&#xd;
+                &lt;ul class=&quot;sublist firstLevel&quot;&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/desktops&quot;&gt;Desktops&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/notebooks&quot;&gt;Notebooks&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/accessories&quot;&gt;Accessories&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+                &lt;/ul&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/electronics&quot;&gt;Electronics&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+                    &lt;span class=&quot;expand&quot;&gt;&amp;nbsp;&lt;/span&gt;&#xd;
+                &lt;ul class=&quot;sublist firstLevel&quot;&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/camera-photo&quot;&gt;Camera, photo&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/cell-phones&quot;&gt;Cell phones&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+                &lt;/ul&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/apparel-shoes&quot;&gt;Apparel &amp;amp; Shoes&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/digital-downloads&quot;&gt;Digital downloads&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/jewelry&quot;&gt;Jewelry&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/gift-cards&quot;&gt;Gift Cards&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;top-menu-triangle&quot;&gt;&lt;/div&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+        &#xd;
+    &lt;/ul&gt;&#xd;
+    &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+        $(&apos;a&apos;, $(&apos;#mob-menu-button&apos;)).toggle(function() {&#xd;
+                $(&apos;.mob-top-menu&apos;).addClass(&apos;show&apos;);&#xd;
+            },&#xd;
+            function() {&#xd;
+                $(&apos;.mob-top-menu&apos;).removeClass(&apos;show&apos;);&#xd;
+            }&#xd;
+        );&#xd;
+&#xd;
+        $(function($) {&#xd;
+            $(&apos;.mob-top-menu .expand&apos;).click(function() {&#xd;
+                var parent = $(this).parent();&#xd;
+                if (parent.hasClass(&apos;active&apos;)) {&#xd;
+                    $(&quot;.sublist:first&quot;, parent).hide(300);&#xd;
+                    parent.removeClass(&apos;active&apos;);&#xd;
+                } else {&#xd;
+                    $(&quot;.sublist:first&quot;, parent).show(300);&#xd;
+                    parent.addClass(&apos;active&apos;);&#xd;
+                }&#xd;
+            });&#xd;
+        });&#xd;
+    &lt;/script&gt;&#xd;
+&#xd;
+        &lt;/div&gt;&#xd;
+        &#xd;
+        &#xd;
+        &lt;div class=&quot;ajax-loading-block-window&quot; style=&quot;display: none&quot;&gt;&#xd;
+            &lt;div class=&quot;loading-image&quot;&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;master-wrapper-main&quot;&gt;&#xd;
+            &#xd;
+&#xd;
+&lt;div class=&quot;leftside-3&quot;&gt;&#xd;
+&#xd;
+    &lt;div class=&quot;block block-category-navigation&quot;&gt;&#xd;
+        &lt;div class=&quot;title&quot;&gt;&#xd;
+            &lt;strong&gt;Categories&lt;/strong&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;listbox&quot;&gt;&#xd;
+            &lt;ul class=&quot;list&quot;&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/books&quot;&gt;Books&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/computers&quot;&gt;Computers&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/electronics&quot;&gt;Electronics&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/apparel-shoes&quot;&gt;Apparel &amp;amp; Shoes&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/digital-downloads&quot;&gt;Digital downloads&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/jewelry&quot;&gt;Jewelry&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/gift-cards&quot;&gt;Gift Cards&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+            &lt;/ul&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;block block-manufacturer-navigation&quot;&gt;&#xd;
+        &lt;div class=&quot;title&quot;&gt;&#xd;
+            &lt;strong&gt;Manufacturers&lt;/strong&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;listbox&quot;&gt;&#xd;
+            &lt;ul class=&quot;list&quot;&gt;&#xd;
+                    &lt;li class=&quot;inactive&quot;&gt;&lt;a href=&quot;/tricentis&quot;&gt;Tricentis&lt;/a&gt;&#xd;
+                    &lt;/li&gt;&#xd;
+            &lt;/ul&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;block block-popular-tags&quot;&gt;&#xd;
+        &lt;div class=&quot;title&quot;&gt;&#xd;
+            &lt;strong&gt;Popular tags&lt;/strong&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;listbox&quot;&gt;&#xd;
+            &lt;div class=&quot;tags&quot;&gt;&#xd;
+                &lt;ul&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/4/apparel&quot; style=&quot;font-size:100%;&quot;&gt;apparel&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/8/awesome&quot; style=&quot;font-size:150%;&quot;&gt;awesome&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/10/book&quot; style=&quot;font-size:90%;&quot;&gt;book&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/13/camera&quot; style=&quot;font-size:85%;&quot;&gt;camera&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/12/cell&quot; style=&quot;font-size:85%;&quot;&gt;cell&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/9/compact&quot; style=&quot;font-size:85%;&quot;&gt;compact&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/6/computer&quot; style=&quot;font-size:100%;&quot;&gt;computer&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/3/cool&quot; style=&quot;font-size:120%;&quot;&gt;cool&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/16/digital&quot; style=&quot;font-size:85%;&quot;&gt;digital&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/2/gift&quot; style=&quot;font-size:85%;&quot;&gt;gift&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/11/jewelry&quot; style=&quot;font-size:90%;&quot;&gt;jewelry&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/1/nice&quot; style=&quot;font-size:90%;&quot;&gt;nice&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/5/shirt&quot; style=&quot;font-size:85%;&quot;&gt;shirt&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/7/shoes&quot; style=&quot;font-size:85%;&quot;&gt;shoes&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/producttag/19/tcp&quot; style=&quot;font-size:90%;&quot;&gt;TCP&lt;/a&gt;&lt;/li&gt;&#xd;
+                &lt;/ul&gt;&#xd;
+            &lt;/div&gt;&#xd;
+                &lt;div class=&quot;view-all&quot;&gt;&#xd;
+                    &lt;a href=&quot;/producttag/all&quot;&gt;View all&lt;/a&gt;&#xd;
+                &lt;/div&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;div class=&quot;rightside-3&quot;&gt;&#xd;
+&lt;div class=&quot;block block-newsletter&quot;&gt;&#xd;
+    &lt;div class=&quot;title&quot;&gt;&#xd;
+        &lt;strong&gt;Newsletter&lt;/strong&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;listbox&quot;&gt;&#xd;
+        &lt;div id=&quot;newsletter-subscribe-block&quot; class=&quot;newsletter-subscribe-block&quot;&gt;&#xd;
+            &lt;span&gt;Sign up for our newsletter:&lt;/span&gt;&#xd;
+            &lt;div class=&quot;newsletter-email&quot;&gt;&#xd;
+            &lt;input id=&quot;newsletter-email&quot; name=&quot;NewsletterEmail&quot; type=&quot;text&quot; value=&quot;&quot; /&gt;&#xd;
+            &lt;span class=&quot;field-validation-valid&quot; data-valmsg-for=&quot;NewsletterEmail&quot; data-valmsg-replace=&quot;true&quot;&gt;&lt;/span&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;buttons&quot;&gt;&#xd;
+                &lt;input type=&quot;button&quot; value=&quot;Subscribe&quot; id=&quot;newsletter-subscribe-button&quot; class=&quot;button-1 newsletter-subscribe-button&quot; /&gt;&#xd;
+                &lt;span id=&quot;subscribe-loading-progress&quot; style=&quot;display: none;&quot; class=&quot;please-wait&quot;&gt;Wait...&lt;/span&gt;&#xd;
+            &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+        &lt;div id=&quot;newsletter-result-block&quot; class=&quot;newsletter-result-block&quot;&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+        $(document).ready(function () {&#xd;
+            $(&apos;#newsletter-subscribe-button&apos;).click(function () {&#xd;
+                &#xd;
+                var email = $(&quot;#newsletter-email&quot;).val();&#xd;
+                var subscribeProgress = $(&quot;#subscribe-loading-progress&quot;);&#xd;
+                subscribeProgress.show();&#xd;
+                $.ajax({&#xd;
+                    cache: false,&#xd;
+                    type: &quot;POST&quot;,&#xd;
+                    url: &quot;/subscribenewsletter&quot;,&#xd;
+                    data: { &quot;email&quot;: email },&#xd;
+                    success: function (data) {&#xd;
+                        subscribeProgress.hide();&#xd;
+                        $(&quot;#newsletter-result-block&quot;).html(data.Result);&#xd;
+                         if (data.Success) {&#xd;
+                            $(&apos;#newsletter-subscribe-block&apos;).hide();&#xd;
+                            $(&apos;#newsletter-result-block&apos;).show();&#xd;
+                         }&#xd;
+                         else {&#xd;
+                            $(&apos;#newsletter-result-block&apos;).fadeIn(&quot;slow&quot;).delay(2000).fadeOut(&quot;slow&quot;);&#xd;
+                         }&#xd;
+                    },&#xd;
+                    error:function (xhr, ajaxOptions, thrownError){&#xd;
+                        alert(&apos;Failed to subscribe.&apos;);&#xd;
+                        subscribeProgress.hide();&#xd;
+                    }  &#xd;
+                });                &#xd;
+                return false;&#xd;
+            });&#xd;
+        });&#xd;
+    &lt;/script&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;div class=&quot;block block-poll&quot;&gt;&#xd;
+    &lt;div class=&quot;title&quot;&gt;&#xd;
+        &lt;strong&gt;Community poll&lt;/strong&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;listbox&quot;&gt;&#xd;
+        &lt;div class=&quot;poll&quot; id=&quot;poll-block-1&quot;&gt;&#xd;
+    &lt;strong class=&quot;poll-display-text&quot;&gt;Do you like nopCommerce?&lt;/strong&gt;&#xd;
+        &lt;ul class=&quot;poll-options&quot;&gt;&#xd;
+                &lt;li class=&quot;answer&quot;&gt;&#xd;
+                    &lt;input id=&quot;pollanswers-1&quot; type=&quot;radio&quot; name=&quot;pollanswers-1&quot; value=&quot;1&quot; /&gt;&#xd;
+                    &lt;label for=&quot;pollanswers-1&quot;&gt;Excellent&lt;/label&gt;&#xd;
+                &lt;/li&gt;&#xd;
+                &lt;li class=&quot;answer&quot;&gt;&#xd;
+                    &lt;input id=&quot;pollanswers-2&quot; type=&quot;radio&quot; name=&quot;pollanswers-1&quot; value=&quot;2&quot; /&gt;&#xd;
+                    &lt;label for=&quot;pollanswers-2&quot;&gt;Good&lt;/label&gt;&#xd;
+                &lt;/li&gt;&#xd;
+                &lt;li class=&quot;answer&quot;&gt;&#xd;
+                    &lt;input id=&quot;pollanswers-3&quot; type=&quot;radio&quot; name=&quot;pollanswers-1&quot; value=&quot;3&quot; /&gt;&#xd;
+                    &lt;label for=&quot;pollanswers-3&quot;&gt;Poor&lt;/label&gt;&#xd;
+                &lt;/li&gt;&#xd;
+                &lt;li class=&quot;answer&quot;&gt;&#xd;
+                    &lt;input id=&quot;pollanswers-4&quot; type=&quot;radio&quot; name=&quot;pollanswers-1&quot; value=&quot;4&quot; /&gt;&#xd;
+                    &lt;label for=&quot;pollanswers-4&quot;&gt;Very bad&lt;/label&gt;&#xd;
+                &lt;/li&gt;&#xd;
+        &lt;/ul&gt;&#xd;
+        &lt;div class=&quot;buttons&quot;&gt;&#xd;
+            &lt;input type=&quot;button&quot; value=&quot;Vote&quot; id=&quot;vote-poll-1&quot; class=&quot;button-2 vote-poll-button&quot; /&gt;&#xd;
+            &lt;span id=&quot;poll-voting-progress-1&quot; style=&quot;display: none;&quot; class=&quot;please-wait&quot;&gt;Wait...&lt;/span&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;poll-vote-error&quot; id=&quot;block-poll-vote-error-1&quot;&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+            $(document).ready(function () {&#xd;
+                $(&apos;#vote-poll-1&apos;).click(function () {&#xd;
+                var pollAnswerId = $(&quot;input:radio[name=pollanswers-1]:checked&quot;).val();&#xd;
+                if (typeof (pollAnswerId) == &apos;undefined&apos;) {&#xd;
+                    alert(&apos;Please select an answer&apos;);&#xd;
+                }&#xd;
+                else {&#xd;
+                    var voteProgress = $(&quot;#poll-voting-progress-1&quot;);&#xd;
+                    voteProgress.show();&#xd;
+                    $.ajax({&#xd;
+                        cache: false,&#xd;
+                        type: &quot;POST&quot;,&#xd;
+                        url: &quot;/poll/vote&quot;,&#xd;
+                        data: { &quot;pollAnswerId&quot;: pollAnswerId },&#xd;
+                        success: function (data) {&#xd;
+                            voteProgress.hide();&#xd;
+&#xd;
+                            if (data.error) {&#xd;
+                                $(&quot;#block-poll-vote-error-1&quot;).html(data.error);&#xd;
+                                $(&apos;#block-poll-vote-error-1&apos;).fadeIn(&quot;slow&quot;).delay(2000).fadeOut(&quot;slow&quot;);&#xd;
+                            }&#xd;
+&#xd;
+                            if (data.html) {&#xd;
+                                $(&quot;#poll-block-1&quot;).replaceWith(data.html);&#xd;
+                            }&#xd;
+                        },&#xd;
+                        error: function (xhr, ajaxOptions, thrownError) {&#xd;
+                            alert(&apos;Failed to vote.&apos;);&#xd;
+                            voteProgress.hide();&#xd;
+                        }&#xd;
+                    });&#xd;
+                }&#xd;
+                return false;&#xd;
+            });&#xd;
+        });&#xd;
+        &lt;/script&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;div class=&quot;center-3&quot;&gt;&#xd;
+    &#xd;
+    &#xd;
+&lt;div class=&quot;page home-page&quot;&gt;&#xd;
+    &lt;div class=&quot;page-body&quot;&gt;&#xd;
+        &#xd;
+&#xd;
+&lt;div class=&quot;slider-wrapper theme-default&quot;&gt;&#xd;
+    &lt;div id=&quot;nivo-slider&quot; class=&quot;nivoSlider&quot;&gt;&#xd;
+                    &lt;a href=&quot;https://www.tricentis.com/speed/&quot;&gt;&#xd;
+                &lt;img src=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000215.png&quot; data-thumb=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000215.png&quot; data-transition=&quot;&quot; alt=&quot;&quot; title=&quot;Speed | Tricentis&quot; /&gt;&#xd;
+            &lt;/a&gt;&#xd;
+&#xd;
+                    &lt;a href=&quot;https://academy.tricentis.com&quot;&gt;&#xd;
+                &lt;img src=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000240.png&quot; data-thumb=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000240.png&quot; data-transition=&quot;&quot; alt=&quot;&quot; title=&quot;Tricentis Academy&quot; /&gt;&#xd;
+            &lt;/a&gt;&#xd;
+&#xd;
+        &#xd;
+        &#xd;
+        &#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+    $(window).load(function () {&#xd;
+        $(&apos;#nivo-slider&apos;).nivoSlider();&#xd;
+    });&#xd;
+&lt;/script&gt;&#xd;
+&#xd;
+            &lt;div class=&quot;topic-html-content&quot;&gt;&#xd;
+            &lt;div class=&quot;topic-html-content-title&quot;&gt;&#xd;
+                &lt;h2 class=&quot;topic-html-content-header&quot;&gt;&#xd;
+                    Welcome to our store&lt;/h2&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;div class=&quot;topic-html-content-body&quot;&gt;&#xd;
+            &lt;p&gt;Welcome to the new Tricentis store!&lt;/p&gt;&#xd;
+&lt;p&gt;Feel free to shop around and explore everything.&lt;/p&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&#xd;
+        &#xd;
+        &#xd;
+    &lt;div class=&quot;product-grid home-page-product-grid&quot;&gt;&#xd;
+        &lt;div class=&quot;title&quot;&gt;&#xd;
+            &lt;strong&gt;Featured products&lt;/strong&gt;&#xd;
+        &lt;/div&gt;&#xd;
+            &lt;div class=&quot;item-box&quot;&gt;&#xd;
+                &#xd;
+&lt;div class=&quot;product-item&quot; data-productid=&quot;2&quot;&gt;&#xd;
+    &lt;div class=&quot;picture&quot;&gt;&#xd;
+        &lt;a href=&quot;/25-virtual-gift-card&quot; title=&quot;Show details for $25 Virtual Gift Card&quot;&gt;&#xd;
+            &lt;img alt=&quot;Picture of $25 Virtual Gift Card&quot; src=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000015_25-virtual-gift-card_125.jpeg&quot; title=&quot;Show details for $25 Virtual Gift Card&quot; /&gt;&#xd;
+        &lt;/a&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;details&quot;&gt;&#xd;
+        &lt;h2 class=&quot;product-title&quot;&gt;&#xd;
+            &lt;a href=&quot;/25-virtual-gift-card&quot;&gt;$25 Virtual Gift Card&lt;/a&gt;&#xd;
+        &lt;/h2&gt;&#xd;
+            &lt;div class=&quot;product-rating-box&quot; title=&quot;533 review(s)&quot;&gt;&#xd;
+                &lt;div class=&quot;rating&quot;&gt;&#xd;
+                    &lt;div style=&quot;width: 51%&quot;&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                &lt;/div&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;div class=&quot;description&quot;&gt;&#xd;
+            $25 Gift Card. Gift Cards must be redeemed through our site Web site toward the purchase of eligible products.&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;add-info&quot;&gt;&#xd;
+            &lt;div class=&quot;prices&quot;&gt;&#xd;
+                &lt;span class=&quot;price actual-price&quot;&gt;25.00&lt;/span&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;buttons&quot;&gt;&#xd;
+                &#xd;
+                    &lt;input type=&quot;button&quot; value=&quot;Add to cart&quot; class=&quot;button-2 product-box-add-to-cart-button&quot; onclick=&quot;AjaxCart.addproducttocart_catalog(&apos;/addproducttocart/catalog/2/1/1    &apos;);return false;&quot; /&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;item-box&quot;&gt;&#xd;
+                &#xd;
+&lt;div class=&quot;product-item&quot; data-productid=&quot;31&quot;&gt;&#xd;
+    &lt;div class=&quot;picture&quot;&gt;&#xd;
+        &lt;a href=&quot;/141-inch-laptop&quot; title=&quot;Show details for 14.1-inch Laptop&quot;&gt;&#xd;
+            &lt;img alt=&quot;Picture of 14.1-inch Laptop&quot; src=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000224_141-inch-laptop_125.png&quot; title=&quot;Show details for 14.1-inch Laptop&quot; /&gt;&#xd;
+        &lt;/a&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;details&quot;&gt;&#xd;
+        &lt;h2 class=&quot;product-title&quot;&gt;&#xd;
+            &lt;a href=&quot;/141-inch-laptop&quot;&gt;14.1-inch Laptop&lt;/a&gt;&#xd;
+        &lt;/h2&gt;&#xd;
+            &lt;div class=&quot;product-rating-box&quot; title=&quot;903 review(s)&quot;&gt;&#xd;
+                &lt;div class=&quot;rating&quot;&gt;&#xd;
+                    &lt;div style=&quot;width: 65%&quot;&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                &lt;/div&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;div class=&quot;description&quot;&gt;&#xd;
+            Unique Asian-influenced imprint wraps the laptop both inside and out&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;add-info&quot;&gt;&#xd;
+            &lt;div class=&quot;prices&quot;&gt;&#xd;
+                &lt;span class=&quot;price actual-price&quot;&gt;1590.00&lt;/span&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;buttons&quot;&gt;&#xd;
+                &#xd;
+                    &lt;input type=&quot;button&quot; value=&quot;Add to cart&quot; class=&quot;button-2 product-box-add-to-cart-button&quot; onclick=&quot;AjaxCart.addproducttocart_catalog(&apos;/addproducttocart/catalog/31/1/1    &apos;);return false;&quot; /&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;item-box&quot;&gt;&#xd;
+                &#xd;
+&lt;div class=&quot;product-item&quot; data-productid=&quot;72&quot;&gt;&#xd;
+    &lt;div class=&quot;picture&quot;&gt;&#xd;
+        &lt;a href=&quot;/build-your-cheap-own-computer&quot; title=&quot;Show details for Build your own cheap computer&quot;&gt;&#xd;
+            &lt;img alt=&quot;Picture of Build your own cheap computer&quot; src=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_125.jpeg&quot; title=&quot;Show details for Build your own cheap computer&quot; /&gt;&#xd;
+        &lt;/a&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;details&quot;&gt;&#xd;
+        &lt;h2 class=&quot;product-title&quot;&gt;&#xd;
+            &lt;a href=&quot;/build-your-cheap-own-computer&quot;&gt;Build your own cheap computer&lt;/a&gt;&#xd;
+        &lt;/h2&gt;&#xd;
+            &lt;div class=&quot;product-rating-box&quot; title=&quot;515 review(s)&quot;&gt;&#xd;
+                &lt;div class=&quot;rating&quot;&gt;&#xd;
+                    &lt;div style=&quot;width: 52%&quot;&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                &lt;/div&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;div class=&quot;description&quot;&gt;&#xd;
+            Build it&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;add-info&quot;&gt;&#xd;
+            &lt;div class=&quot;prices&quot;&gt;&#xd;
+                &lt;span class=&quot;price actual-price&quot;&gt;800.00&lt;/span&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;buttons&quot;&gt;&#xd;
+                &#xd;
+                    &lt;input type=&quot;button&quot; value=&quot;Add to cart&quot; class=&quot;button-2 product-box-add-to-cart-button&quot; onclick=&quot;AjaxCart.addproducttocart_catalog(&apos;/addproducttocart/catalog/72/1/1    &apos;);return false;&quot; /&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;item-box&quot;&gt;&#xd;
+                &#xd;
+&lt;div class=&quot;product-item&quot; data-productid=&quot;16&quot;&gt;&#xd;
+    &lt;div class=&quot;picture&quot;&gt;&#xd;
+        &lt;a href=&quot;/build-your-own-computer&quot; title=&quot;Show details for Build your own computer&quot;&gt;&#xd;
+            &lt;img alt=&quot;Picture of Build your own computer&quot; src=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000031_build-your-own-computer_125.jpeg&quot; title=&quot;Show details for Build your own computer&quot; /&gt;&#xd;
+        &lt;/a&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;details&quot;&gt;&#xd;
+        &lt;h2 class=&quot;product-title&quot;&gt;&#xd;
+            &lt;a href=&quot;/build-your-own-computer&quot;&gt;Build your own computer&lt;/a&gt;&#xd;
+        &lt;/h2&gt;&#xd;
+            &lt;div class=&quot;product-rating-box&quot; title=&quot;259 review(s)&quot;&gt;&#xd;
+                &lt;div class=&quot;rating&quot;&gt;&#xd;
+                    &lt;div style=&quot;width: 45%&quot;&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                &lt;/div&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;div class=&quot;description&quot;&gt;&#xd;
+            Build it&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;add-info&quot;&gt;&#xd;
+            &lt;div class=&quot;prices&quot;&gt;&#xd;
+                &lt;span class=&quot;price actual-price&quot;&gt;1200.00&lt;/span&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;buttons&quot;&gt;&#xd;
+                &#xd;
+                    &lt;input type=&quot;button&quot; value=&quot;Add to cart&quot; class=&quot;button-2 product-box-add-to-cart-button&quot; onclick=&quot;AjaxCart.addproducttocart_catalog(&apos;/addproducttocart/catalog/16/1/1    &apos;);return false;&quot; /&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;item-box&quot;&gt;&#xd;
+                &#xd;
+&lt;div class=&quot;product-item&quot; data-productid=&quot;74&quot;&gt;&#xd;
+    &lt;div class=&quot;picture&quot;&gt;&#xd;
+        &lt;a href=&quot;/build-your-own-expensive-computer-2&quot; title=&quot;Show details for Build your own expensive computer&quot;&gt;&#xd;
+            &lt;img alt=&quot;Picture of Build your own expensive computer&quot; src=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000201_build-your-own-expensive-computer_125.jpeg&quot; title=&quot;Show details for Build your own expensive computer&quot; /&gt;&#xd;
+        &lt;/a&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;details&quot;&gt;&#xd;
+        &lt;h2 class=&quot;product-title&quot;&gt;&#xd;
+            &lt;a href=&quot;/build-your-own-expensive-computer-2&quot;&gt;Build your own expensive computer&lt;/a&gt;&#xd;
+        &lt;/h2&gt;&#xd;
+            &lt;div class=&quot;product-rating-box&quot; title=&quot;347 review(s)&quot;&gt;&#xd;
+                &lt;div class=&quot;rating&quot;&gt;&#xd;
+                    &lt;div style=&quot;width: 57%&quot;&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                &lt;/div&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;div class=&quot;description&quot;&gt;&#xd;
+            Build it&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;add-info&quot;&gt;&#xd;
+            &lt;div class=&quot;prices&quot;&gt;&#xd;
+                &lt;span class=&quot;price actual-price&quot;&gt;1800.00&lt;/span&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;buttons&quot;&gt;&#xd;
+                &#xd;
+                    &lt;input type=&quot;button&quot; value=&quot;Add to cart&quot; class=&quot;button-2 product-box-add-to-cart-button&quot; onclick=&quot;AjaxCart.addproducttocart_catalog(&apos;/addproducttocart/catalog/74/1/1    &apos;);return false;&quot; /&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;item-box&quot;&gt;&#xd;
+                &#xd;
+&lt;div class=&quot;product-item&quot; data-productid=&quot;75&quot;&gt;&#xd;
+    &lt;div class=&quot;picture&quot;&gt;&#xd;
+        &lt;a href=&quot;/simple-computer&quot; title=&quot;Show details for Simple Computer&quot;&gt;&#xd;
+            &lt;img alt=&quot;Picture of Simple Computer&quot; src=&quot;https://demowebshop.tricentis.com/content/images/thumbs/0000204_simple-computer_125.jpeg&quot; title=&quot;Show details for Simple Computer&quot; /&gt;&#xd;
+        &lt;/a&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;details&quot;&gt;&#xd;
+        &lt;h2 class=&quot;product-title&quot;&gt;&#xd;
+            &lt;a href=&quot;/simple-computer&quot;&gt;Simple Computer&lt;/a&gt;&#xd;
+        &lt;/h2&gt;&#xd;
+            &lt;div class=&quot;product-rating-box&quot; title=&quot;287 review(s)&quot;&gt;&#xd;
+                &lt;div class=&quot;rating&quot;&gt;&#xd;
+                    &lt;div style=&quot;width: 53%&quot;&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                &lt;/div&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;div class=&quot;description&quot;&gt;&#xd;
+            Build it&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;add-info&quot;&gt;&#xd;
+            &lt;div class=&quot;prices&quot;&gt;&#xd;
+                &lt;span class=&quot;price actual-price&quot;&gt;800.00&lt;/span&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;buttons&quot;&gt;&#xd;
+                &#xd;
+                    &lt;input type=&quot;button&quot; value=&quot;Add to cart&quot; class=&quot;button-2 product-box-add-to-cart-button&quot; onclick=&quot;AjaxCart.addproducttocart_catalog(&apos;/addproducttocart/catalog/75/1/1    &apos;);return false;&quot; /&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+            &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&#xd;
+        &#xd;
+        &#xd;
+        &#xd;
+        &#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+    &#xd;
+&lt;/div&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &#xd;
+    &lt;/div&gt;&#xd;
+    &#xd;
+&lt;div class=&quot;footer&quot;&gt;&#xd;
+    &lt;div class=&quot;footer-menu-wrapper&quot;&gt;&#xd;
+        &lt;div class=&quot;column information&quot;&gt;&#xd;
+            &lt;h3&gt;Information&lt;/h3&gt;&#xd;
+            &lt;ul&gt;&#xd;
+                    &lt;li&gt;&lt;a href=&quot;/sitemap&quot;&gt;Sitemap&lt;/a&gt;&lt;/li&gt;&#xd;
+                &lt;li&gt;&lt;a href=&quot;/shipping-returns&quot;&gt;Shipping &amp; Returns&lt;/a&gt;&lt;/li&gt;&#xd;
+                &lt;li&gt;&lt;a href=&quot;/privacy-policy&quot;&gt;Privacy Notice&lt;/a&gt;&lt;/li&gt;&#xd;
+                &lt;li&gt;&lt;a href=&quot;/conditions-of-use&quot;&gt;Conditions of Use&lt;/a&gt;&lt;/li&gt;&#xd;
+                &lt;li&gt;&lt;a href=&quot;/about-us&quot;&gt;About us&lt;/a&gt;&lt;/li&gt;&#xd;
+                &lt;li&gt;&lt;a href=&quot;/contactus&quot;&gt;Contact us&lt;/a&gt;&lt;/li&gt;&#xd;
+            &lt;/ul&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;column customer-service&quot;&gt;&#xd;
+            &lt;h3&gt;Customer service&lt;/h3&gt;&#xd;
+            &lt;ul&gt;&#xd;
+                &lt;li&gt;&lt;a href=&quot;/search&quot;&gt;Search&lt;/a&gt; &lt;/li&gt;&#xd;
+                    &lt;li&gt;&lt;a href=&quot;/news&quot;&gt;News&lt;/a&gt;&lt;/li&gt;&#xd;
+                                    &lt;li&gt;&lt;a href=&quot;/blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;&#xd;
+                                                    &lt;li&gt;&lt;a href=&quot;/recentlyviewedproducts&quot;&gt;Recently viewed products&lt;/a&gt;&lt;/li&gt;&#xd;
+                                    &lt;li&gt;&lt;a href=&quot;/compareproducts&quot;&gt;Compare products list&lt;/a&gt;&lt;/li&gt;&#xd;
+                                    &lt;li&gt;&lt;a href=&quot;/newproducts&quot;&gt;New products&lt;/a&gt;&lt;/li&gt;&#xd;
+            &lt;/ul&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;column my-account&quot;&gt;&#xd;
+            &lt;h3&gt;My account&lt;/h3&gt;&#xd;
+            &lt;ul&gt;&#xd;
+                &lt;li&gt;&lt;a href=&quot;/customer/info&quot; class=&quot;account&quot;&gt;My account&lt;/a&gt;&lt;/li&gt;&#xd;
+                    &lt;li&gt;&lt;a href=&quot;/customer/orders&quot;&gt;Orders&lt;/a&gt;&lt;/li&gt;&#xd;
+                                    &lt;li&gt;&lt;a href=&quot;/customer/addresses&quot; class=&quot;&quot;&gt;Addresses&lt;/a&gt;&lt;/li&gt;&#xd;
+                                    &lt;li&gt;&lt;a href=&quot;/cart&quot; class=&quot;ico-cart&quot;&gt;Shopping cart&lt;/a&gt;&lt;/li&gt;&#xd;
+                                    &lt;li&gt;&lt;a href=&quot;/wishlist&quot; class=&quot;ico-wishlist&quot;&gt;Wishlist&lt;/a&gt;&lt;/li&gt;&#xd;
+            &lt;/ul&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;column follow-us&quot;&gt;&#xd;
+            &lt;h3&gt;Follow us&lt;/h3&gt;&#xd;
+            &lt;ul&gt;&#xd;
+                    &lt;li class=&quot;facebook&quot;&gt;&lt;a href=&quot;http://www.facebook.com/nopCommerce&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;&#xd;
+                                                    &lt;li class=&quot;twitter&quot;&gt;&lt;a href=&quot;https://twitter.com/nopCommerce&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xd;
+                                                    &lt;li class=&quot;rss&quot;&gt;&lt;a href=&quot;/news/rss/1&quot;&gt;RSS&lt;/a&gt;&lt;/li&gt;&#xd;
+                                                    &lt;li class=&quot;youtube&quot;&gt;&lt;a href=&quot;http://www.youtube.com/user/nopCommerce&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xd;
+                                                    &lt;li class=&quot;google-plus&quot;&gt;&lt;a href=&quot;https://plus.google.com/+nopcommerce&quot; target=&quot;_blank&quot;&gt;Google+&lt;/a&gt;&lt;/li&gt;&#xd;
+            &lt;/ul&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;footer-poweredby&quot;&gt;&#xd;
+        Powered by &lt;a href=&quot;http://www.nopcommerce.com/&quot;&gt;nopCommerce&lt;/a&gt;&#xd;
+        &#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;footer-disclaimer&quot;&gt;&#xd;
+        Copyright &amp;copy; 2024 Tricentis Demo Web Shop. All rights reserved.&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;footer-store-theme&quot;&gt;&#xd;
+        &#xd;
+&#xd;
+&#xd;
+    &lt;/div&gt;&#xd;
+    &#xd;
+&lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+&lt;!-- Google code for Analytics tracking --&gt;&#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+var _gaq = _gaq || [];&#xd;
+_gaq.push([&apos;_setAccount&apos;, &apos;UA-6574346-11&apos;]);&#xd;
+_gaq.push([&apos;_trackPageview&apos;]);&#xd;
+&#xd;
+(function() {&#xd;
+    var ga = document.createElement(&apos;script&apos;); ga.type = &apos;text/javascript&apos;; ga.async = true;&#xd;
+    ga.src = (&apos;https:&apos; == document.location.protocol ? &apos;https://ssl&apos; : &apos;http://www&apos;) + &apos;.google-analytics.com/ga.js&apos;;&#xd;
+    var s = document.getElementsByTagName(&apos;script&apos;)[0]; s.parentNode.insertBefore(ga, s);&#xd;
+})();&#xd;
+&lt;/script&gt;
+&#xd;
+&#xd;
+    &#xd;
+    &#xd;
+&lt;/body&gt;&#xd;
+&lt;/html&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">_vwo_uuid_v2=D5E374B09164439CCBB3C250048B80528|17d8d339b16c6a4c7fcc0523e2074c3d; _vwo_uuid=D5E374B09164439CCBB3C250048B80528; _biz_uid=f09b60ec052c4bceead02814f88a093b; PAPVisitorId=3TBDVLN8gDJ6xeO8KSnjSbDS2970UtlO; _biz_flagsA=%7B%22Version%22%3A1%2C%22Mkto%22%3A%221%22%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Frm%22%3A%221%22%7D; _vis_opt_s=2%7C; intercom-id-zlji8uj7=f05bd2e9-198a-4577-876b-ac009508b06d; intercom-device-id-zlji8uj7=daba8a92-164d-4cb0-9269-bad100d8f921; OptanonAlertBoxClosed=2024-01-29T04:41:13.115Z; _ga_9WXYK3PMB6=GS1.1.1710909954.2.1.1710910030.60.0.0; _ga_8YKD435ZJX=GS1.1.1710909954.2.1.1710910030.0.0.0; _ga_NW0CQ3B4CY=GS1.2.1710910047.1.1.1710910082.25.0.0; _mkto_trk=id:070-PYT-570&amp;token:_mch-tricentis.com-1698754213212-46111; optimizelyEndUserId=oeu1710910091417r0.9204692723098089; _ga=GA1.1.1857249548.1698754213; _gcl_au=1.1.1099506757.1710910092; _biz_ABTestA=%5B-1975293717%5D; intercom-session-zlji8uj7=; OptanonConsent=isIABGlobal=false&amp;datestamp=Wed+Mar+20+2024+10%3A18%3A38+GMT%2B0530+(India+Standard+Time)&amp;version=202208.1.0&amp;hosts=&amp;consentId=453c0b10-29cd-44ea-98a5-8017bb29d30f&amp;interactionCount=2&amp;landingPath=NotLandingPage&amp;groups=C0001%3A1%2CC0003%3A1%2CBG1%3A1%2CC0002%3A1%2CC0004%3A1%2CC0005%3A1&amp;AwaitingReconsent=false&amp;geolocation=IN%3B; _biz_nA=10; _biz_pendingA=%5B%5D; _ga_489D1QT6C1=GS1.1.1710917068.4.0.1710917068.60.0.0; __utmz=78382081.1711013849.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=78382081.1857249548.1698754213.1711101234.1711106065.4; NOPCOMMERCE.AUTH=5CAC42CAA90FF9AB09C51E03567832347809ADBF23C4D39C5BF567DBC85B6899BBD94F018184A2CE308DE7E09EDB561A8D47A24E4386FC783D8D19EC667188B6583265567AFD806A6A43B4A71F63F66B50CAFC755E1C209466A33AB641B40A80CB4396CDA0BF0C7A5186CEA22D5B5E13D2E86BB6D5E72AA76CBEF92EB046E7D39E37A5C384F22585452C7F00F23C6C23; Nop.customer=c57427d4-e145-4f15-b20f-d9911808d224</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://demowebshop.tricentis.com/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="statics.teams.cdn.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT statics.teams.cdn.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-office.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-office.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="21063" it="0" lt="0" ct="21062" ts="1711340790559" s="false" lb="/edgedl/diffgen-puffin/hfnkpimlhhgieaddgfemjhofmfblmnib/1.25e23ea7a89bc9b1f9c73db326fc6f86f9a05f5da8687e80b727d4c31bf0d201/1.14d8076e36bf27e891ca29797d294d5816dddb08a61675d934221815419d1fc8/ca003c5a7307073a4c6542f79e8fc931653e5b7393b708d9654d6f40922bdc1f.puff-1" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to edgedl.me.gvt1.com:80 [edgedl.me.gvt1.com/34.104.35.123] failed: Connection timed out: connect" tn="" dt="text" de="" by="2351" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Host: edgedl.me.gvt1.com
+Accept-Encoding: identity
+Accept: */*
+User-Agent: Microsoft BITS/7.8
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.conn.HttpHostConnectException: Connect to edgedl.me.gvt1.com:80 [edgedl.me.gvt1.com/34.104.35.123] failed: Connection timed out: connect&#xd;
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)&#xd;
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+Caused by: java.net.ConnectException: Connection timed out: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#xd;
+	... 14 more&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">HEAD</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/hfnkpimlhhgieaddgfemjhofmfblmnib/1.25e23ea7a89bc9b1f9c73db326fc6f86f9a05f5da8687e80b727d4c31bf0d201/1.14d8076e36bf27e891ca29797d294d5816dddb08a61675d934221815419d1fc8/ca003c5a7307073a4c6542f79e8fc931653e5b7393b708d9654d6f40922bdc1f.puff</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="self.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT self.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="outlook.office.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT outlook.office.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="self.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-CS6Z003">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT self.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-teams.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-teams.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="self.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT self.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-teams.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-teams.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<httpSample t="156" it="0" lt="155" ct="106" ts="1726227759032" s="true" lb="/gscodesigng3/ME0wSzBJMEcwRTAJBgUrDgMCGgUABBTHTu2Y6Nr%2FMkfa3PrlxnwonnIpxQQUs9Pm1XFWfTlYs3jSK7j3oR%2F9S5sCDDAwIySC6mmo6GlLyw%3D%3D-1" rc="200" rm="OK" tn="" dt="text" de="" by="359" sc="1" ec="0" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 13 Sep 2024 11:42:39 GMT
+Content-Type: application/ocsp-response
+Content-Length: 5
+Connection: close
+Cache-Control: public, no-transform, must-revalidate, s-maxage=3600
+Last-Modified: Fri, 13 Sep 2024 11:33:05 GMT
+CF-Cache-Status: HIT
+Age: 574
+Accept-Ranges: bytes
+Server: cloudflare
+CF-RAY: 8c27e006cddb7e75-MAA
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Host: ocsp2.globalsign.com
+Accept: */*
+User-Agent: Microsoft-CryptoAPI/10.0
+</requestHeader>
+  <responseData class="java.lang.String">0&#x3;
+&#x1;&#x6;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://ocsp2.globalsign.com/gscodesigng3/ME0wSzBJMEcwRTAJBgUrDgMCGgUABBTHTu2Y6Nr%2FMkfa3PrlxnwonnIpxQQUs9Pm1XFWfTlYs3jSK7j3oR%2F9S5sCDDAwIySC6mmo6GlLyw%3D%3D</java.net.URL>
+</httpSample>
+<httpSample t="111" it="0" lt="111" ct="53" ts="1726227759396" s="true" lb="/gscodesigng3/ME0wSzBJMEcwRTAJBgUrDgMCGgUABBTHTu2Y6Nr%2FMkfa3PrlxnwonnIpxQQUs9Pm1XFWfTlYs3jSK7j3oR%2F9S5sCDDAwIySC6mmo6GlLyw%3D%3D-2" rc="200" rm="OK" tn="" dt="text" de="" by="359" sc="1" ec="0" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 13 Sep 2024 11:42:39 GMT
+Content-Type: application/ocsp-response
+Content-Length: 5
+Connection: close
+Cache-Control: public, no-transform, must-revalidate, s-maxage=3600
+Last-Modified: Fri, 13 Sep 2024 11:33:05 GMT
+CF-Cache-Status: HIT
+Age: 574
+Accept-Ranges: bytes
+Server: cloudflare
+CF-RAY: 8c27e008b8297e97-MAA
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Host: ocsp2.globalsign.com
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+User-Agent: Microsoft-CryptoAPI/10.0
+</requestHeader>
+  <responseData class="java.lang.String">0&#x3;
+&#x1;&#x6;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://ocsp2.globalsign.com/gscodesigng3/ME0wSzBJMEcwRTAJBgUrDgMCGgUABBTHTu2Y6Nr%2FMkfa3PrlxnwonnIpxQQUs9Pm1XFWfTlYs3jSK7j3oR%2F9S5sCDDAwIySC6mmo6GlLyw%3D%3D</java.net.URL>
+</httpSample>
+<httpSample t="122" it="0" lt="122" ct="72" ts="1726227759527" s="true" lb="/gs/gscodesigng3.crl-3" rc="200" rm="OK" tn="" dt="text" de="" by="1943" sc="1" ec="0" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 13 Sep 2024 11:42:39 GMT
+Content-Type: application/pkix-crl
+Content-Length: 1539
+Connection: close
+Last-Modified: Wed, 13 Mar 2024 00:00:00 GMT
+ETag: 07D1
+Expires: Sat, 16 Mar 2024 00:00:00 GMT
+Cache-Control: public, no-transform, must-revalidate, s-maxage=3600
+CF-Cache-Status: HIT
+Age: 160
+Accept-Ranges: bytes
+Server: cloudflare
+CF-RAY: 8c27e009aec87f8a-MAA
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Host: crl.globalsign.com
+Accept: */*
+User-Agent: Microsoft-CryptoAPI/10.0
+</requestHeader>
+  <responseData class="java.lang.String">0�&#x5;�0�&#x4;�&#x2;&#x1;&#x1;0&#xd;&#x6;	*�H��&#xd;&#x1;&#x1;&#xb;&#x5;&#x0;0Q1&#xb;0	&#x6;&#x3;U&#x4;&#x6;&#x13;&#x2;BE1&#x19;0&#x17;&#x6;&#x3;U&#x4;
+&#x13;&#x10;GlobalSign nv-sa1&apos;0%&#x6;&#x3;U&#x4;&#x3;&#x13;&#x1e;GlobalSign CodeSigning CA - G3&#x17;&#xd;240313000000Z&#x17;&#xd;240316000000Z0�&#x4;.0&#x1d;&#x2;&#xc;q��� ���&#xb;6��&#x17;&#xd;201015104609Z0&#x1d;&#x2;&#xc;R�&#x19;Z)H�Q�ķ�&#x17;&#xd;200722164342Z0&#x1d;&#x2;&#xc;4�*ðS&#x17;k����&#x17;&#xd;180724123602Z0&#x1d;&#x2;&#xc;l�p&#x1c;&#x1b;Xn�¬&#xd;�&#x17;&#xd;170904054802Z0&#x1d;&#x2;&#xc;	��x&#x4;�&gt;�&#x0;N(C&#x17;&#xd;180824215259Z0&#x1d;&#x2;&#xc;;�7k�k̥,壸&#x17;&#xd;180221103327Z0&#x1d;&#x2;&#xc;R�E�w�Ǹ&#x18;�&#x3;�&#x17;&#xd;180824215205Z0&#x1d;&#x2;&#xc;}�&#x12;ҧ!�&#x16;&#x1d;	&amp;&#x19;&#x17;&#xd;180511083602Z0&#x1d;&#x2;&#xc;3�#&quot;��m1��#�&#x17;&#xd;190930154944Z0&#x1d;&#x2;&#xc;:�&#x1;5�������Y&#x17;&#xd;200206121147Z0&#x1d;&#x2;&#xc;&#x19;(Іl7����%M&#x17;&#xd;200925081205Z0&#x1d;&#x2;&#xc;LZ�߃�&#x1a;�ǁdl&#x17;&#xd;200925081606Z0&#x1d;&#x2;&#xc;K˳(�2�&#x3;�W�n&#x17;&#xd;200925081739Z0&#x1d;&#x2;&#xc;0�g��Z)W��W&#x17;&#xd;200925081741Z0&#x1d;&#x2;&#xc;&#x7;&#x10;}XaP&#x1;�+�&apos;&#xf;&#x17;&#xd;200925082402Z0&#x1d;&#x2;&#xc;B&#x7f;{��,]護S�&#x17;&#xd;200320033602Z0&#x1d;&#x2;&#xc;Q枥��&#x1d;W&#x14;��n&#x17;&#xd;200925114803Z0&#x1d;&#x2;&#xc;&#xe;ޓ
+�&#x17;�Z&#x2;�o1&#x17;&#xd;200925115503Z0&#x1d;&#x2;&#xc;R�&#x1c;ܖb�i&#x10;�,�&#x17;&#xd;200928162402Z0&#x1d;&#x2;&#xc;&#x1b;&#x0;�J��:EI&#x10;&#x0;&#x17;&#xd;201015104538Z0+&#x2;&#xc;e�`&#xe;��&#xc;6F�5m&#x17;&#xd;160524072520Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;&quot;�gG�H��B�`�&#x17;&#xd;160526025528Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;&#x7f;�R*�2��㚹�&#x17;&#xd;160602023414Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;;�6-�=&#x13;�&#x11;�f�&#x17;&#xd;160615085814Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;&#x13;��������$E8&#x17;&#xd;160704032050Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;t��0��ߢ��$&#x17;&#xd;160718045258Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;F���
+C3�J�l�&#x17;&#xd;160727060415Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;V$��8�z�&#xe;���&#x17;&#xd;161009030655Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;zU��!�b&#x3;��m�&#x17;&#xd;170123080944Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;u��/&#x16;�/�&#x19;a��&#x17;&#xd;161031090830Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	�00.0&#xb;&#x6;&#x3;U&#x1d;&#x14;&#x4;&#x4;&#x2;&#x2;&#x7;�0&#x1f;&#x6;&#x3;U&#x1d;#&#x4;&#x18;0&#x16;�&#x14;����qV}9X�x�+���&#x1f;�K�0&#xd;&#x6;	*�H��&#xd;&#x1;&#x1;&#xb;&#x5;&#x0;&#x3;�&#x1;&#x1;&#x0;J�J�Zk=���	+�^i]A!v�w�[&quot;ʉ��d�6E&#x0;n#��&#x11;�G����&#x11;���]��F�ɱ��&#x12;�q.370x&#x4;�&#x8;T&#xd;�&#x4;&#xd;B&#x13;�r���]+g�ǳa�L��&#x10;�&#x18;�hh�q�&#x1c;���^�5�c���Ğ�5�&#x6;�)7t&#x1c;�&#x1c;�{�x*?��&#xd;���+L(�&#x5;m.�&#x6;���&apos;�6��w7&apos;�ٙv�vc5t�&#xd;�Y&#x4;�۪��&#x4;��4&#xd;����&amp; -&#xb;�����Qw&#x0;�&#x7f;�\��Ļo��U�&#x18;K�͗����&#x15;&#x12;Jk�&#x5;&#x1b;A9#�6�@W#�&#x19;�+j-{�/�fV�k�hh&#x6;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://crl.globalsign.com/gs/gscodesigng3.crl</java.net.URL>
+</httpSample>
+<httpSample t="89" it="0" lt="89" ct="37" ts="1726227759693" s="true" lb="/gs/gscodesigng3.crl-4" rc="200" rm="OK" tn="" dt="text" de="" by="1943" sc="1" ec="0" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 13 Sep 2024 11:42:39 GMT
+Content-Type: application/pkix-crl
+Content-Length: 1539
+Connection: close
+Last-Modified: Wed, 13 Mar 2024 00:00:00 GMT
+ETag: 07D1
+Expires: Sat, 16 Mar 2024 00:00:00 GMT
+Cache-Control: public, no-transform, must-revalidate, s-maxage=3600
+CF-Cache-Status: HIT
+Age: 160
+Accept-Ranges: bytes
+Server: cloudflare
+CF-RAY: 8c27e00a7cd19be5-MAA
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Host: crl.globalsign.com
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: */*
+User-Agent: Microsoft-CryptoAPI/10.0
+</requestHeader>
+  <responseData class="java.lang.String">0�&#x5;�0�&#x4;�&#x2;&#x1;&#x1;0&#xd;&#x6;	*�H��&#xd;&#x1;&#x1;&#xb;&#x5;&#x0;0Q1&#xb;0	&#x6;&#x3;U&#x4;&#x6;&#x13;&#x2;BE1&#x19;0&#x17;&#x6;&#x3;U&#x4;
+&#x13;&#x10;GlobalSign nv-sa1&apos;0%&#x6;&#x3;U&#x4;&#x3;&#x13;&#x1e;GlobalSign CodeSigning CA - G3&#x17;&#xd;240313000000Z&#x17;&#xd;240316000000Z0�&#x4;.0&#x1d;&#x2;&#xc;q��� ���&#xb;6��&#x17;&#xd;201015104609Z0&#x1d;&#x2;&#xc;R�&#x19;Z)H�Q�ķ�&#x17;&#xd;200722164342Z0&#x1d;&#x2;&#xc;4�*ðS&#x17;k����&#x17;&#xd;180724123602Z0&#x1d;&#x2;&#xc;l�p&#x1c;&#x1b;Xn�¬&#xd;�&#x17;&#xd;170904054802Z0&#x1d;&#x2;&#xc;	��x&#x4;�&gt;�&#x0;N(C&#x17;&#xd;180824215259Z0&#x1d;&#x2;&#xc;;�7k�k̥,壸&#x17;&#xd;180221103327Z0&#x1d;&#x2;&#xc;R�E�w�Ǹ&#x18;�&#x3;�&#x17;&#xd;180824215205Z0&#x1d;&#x2;&#xc;}�&#x12;ҧ!�&#x16;&#x1d;	&amp;&#x19;&#x17;&#xd;180511083602Z0&#x1d;&#x2;&#xc;3�#&quot;��m1��#�&#x17;&#xd;190930154944Z0&#x1d;&#x2;&#xc;:�&#x1;5�������Y&#x17;&#xd;200206121147Z0&#x1d;&#x2;&#xc;&#x19;(Іl7����%M&#x17;&#xd;200925081205Z0&#x1d;&#x2;&#xc;LZ�߃�&#x1a;�ǁdl&#x17;&#xd;200925081606Z0&#x1d;&#x2;&#xc;K˳(�2�&#x3;�W�n&#x17;&#xd;200925081739Z0&#x1d;&#x2;&#xc;0�g��Z)W��W&#x17;&#xd;200925081741Z0&#x1d;&#x2;&#xc;&#x7;&#x10;}XaP&#x1;�+�&apos;&#xf;&#x17;&#xd;200925082402Z0&#x1d;&#x2;&#xc;B&#x7f;{��,]護S�&#x17;&#xd;200320033602Z0&#x1d;&#x2;&#xc;Q枥��&#x1d;W&#x14;��n&#x17;&#xd;200925114803Z0&#x1d;&#x2;&#xc;&#xe;ޓ
+�&#x17;�Z&#x2;�o1&#x17;&#xd;200925115503Z0&#x1d;&#x2;&#xc;R�&#x1c;ܖb�i&#x10;�,�&#x17;&#xd;200928162402Z0&#x1d;&#x2;&#xc;&#x1b;&#x0;�J��:EI&#x10;&#x0;&#x17;&#xd;201015104538Z0+&#x2;&#xc;e�`&#xe;��&#xc;6F�5m&#x17;&#xd;160524072520Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;&quot;�gG�H��B�`�&#x17;&#xd;160526025528Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;&#x7f;�R*�2��㚹�&#x17;&#xd;160602023414Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;;�6-�=&#x13;�&#x11;�f�&#x17;&#xd;160615085814Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;&#x13;��������$E8&#x17;&#xd;160704032050Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;t��0��ߢ��$&#x17;&#xd;160718045258Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;F���
+C3�J�l�&#x17;&#xd;160727060415Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;V$��8�z�&#xe;���&#x17;&#xd;161009030655Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;zU��!�b&#x3;��m�&#x17;&#xd;170123080944Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	0+&#x2;&#xc;u��/&#x16;�/�&#x19;a��&#x17;&#xd;161031090830Z0&#xc;0
+&#x6;&#x3;U&#x1d;&#x15;&#x4;&#x3;
+&#x1;	�00.0&#xb;&#x6;&#x3;U&#x1d;&#x14;&#x4;&#x4;&#x2;&#x2;&#x7;�0&#x1f;&#x6;&#x3;U&#x1d;#&#x4;&#x18;0&#x16;�&#x14;����qV}9X�x�+���&#x1f;�K�0&#xd;&#x6;	*�H��&#xd;&#x1;&#x1;&#xb;&#x5;&#x0;&#x3;�&#x1;&#x1;&#x0;J�J�Zk=���	+�^i]A!v�w�[&quot;ʉ��d�6E&#x0;n#��&#x11;�G����&#x11;���]��F�ɱ��&#x12;�q.370x&#x4;�&#x8;T&#xd;�&#x4;&#xd;B&#x13;�r���]+g�ǳa�L��&#x10;�&#x18;�hh�q�&#x1c;���^�5�c���Ğ�5�&#x6;�)7t&#x1c;�&#x1c;�{�x*?��&#xd;���+L(�&#x5;m.�&#x6;���&apos;�6��w7&apos;�ٙv�vc5t�&#xd;�Y&#x4;�۪��&#x4;��4&#xd;����&amp; -&#xb;�����Qw&#x0;�&#x7f;�\��Ļo��U�&#x18;K�͗����&#x15;&#x12;Jk�&#x5;&#x1b;A9#�6�@W#�&#x19;�+j-{�/�fV�k�hh&#x6;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://crl.globalsign.com/gs/gscodesigng3.crl</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="self.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT self.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="clientservices.googleapis.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT clientservices.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="clientservices.googleapis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT clientservices.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-teams.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-teams.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="update.googleapis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT update.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="self.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT self.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="accounts.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT accounts.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="accounts.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT accounts.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-teams.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-teams.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="135" it="0" lt="0" ct="93" ts="1726227771748" s="true" lb="/generate_204-5" rc="204" rm="No Content" tn="" dt="" de="" by="146" sc="1" ec="0" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Content-Length: 0
+Cross-Origin-Resource-Policy: cross-origin
+Date: Fri, 13 Sep 2024 11:42:51 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9
+Host: www.gstatic.com
+Cache-Control: no-cache
+Pragma: no-cache
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.gstatic.com/generate_204</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="accounts.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT accounts.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="self.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT self.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="clientservices.googleapis.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT clientservices.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="update.googleapis.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT update.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="accounts.google.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT accounts.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="update.googleapis.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT update.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="outlook.office.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT outlook.office.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="accounts.google.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT accounts.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ardianet.sharepoint.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="942" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ardianet.sharepoint.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="outlook.office.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT outlook.office.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-teams.events.data.microsoft.com:443" rc="" rm="Remote host closed connection during handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="748" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-teams.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="outlook.office.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="794" sc="1" ec="1" ng="0" na="0" hn="L-INE-3QMWM93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT outlook.office.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+</testResults>

@@ -1,0 +1,11 @@
+[t64]
+FileName1=t64_dell.jfif
+URL1=https://www.demoblaze.com/imgs/dell.jpg
+Total=1
+ContentType=image/jpeg
+SnapshotXmlFile=snapshot_64.xml
+RequestHeaderFile=t64_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t64_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

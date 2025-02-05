@@ -1,0 +1,14 @@
+GET https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js HTTP/1.1
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://www.demoblaze.com/
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-GB,en;q=0.9
+Host: www.demoblaze.com
+

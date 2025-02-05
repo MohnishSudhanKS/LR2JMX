@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Vary: Accept-Encoding,Origin
+Access-Control-Allow-Origin: https://www.demoblaze.com
+Access-Control-Allow-Credentials: true
+Content-Encoding: gzip
+X-Cloud-Trace-Context: 1dbc61471790e946e1d7e8889da5f865
+Date: Thu, 12 Dec 2024 10:17:32 GMT
+Server: Google Frontend
+

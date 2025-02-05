@@ -1,0 +1,9 @@
+[t33]
+FileName1=t33.html
+URL1=https://www.demoblaze.com/
+Total=1
+RequestHeaderFile=t33_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t33_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_33.xml

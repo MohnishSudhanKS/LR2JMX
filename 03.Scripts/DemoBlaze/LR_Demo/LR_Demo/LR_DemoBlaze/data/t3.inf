@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3_bootstrap.min.css
+URL1=https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+X-Cloud-Trace-Context: 0d0a1675f878dfc0196ce50917b610e3
+Server: Google Frontend
+Content-Length: 33854
+Date: Thu, 12 Dec 2024 10:16:48 GMT
+Expires: Thu, 12 Dec 2024 10:16:58 GMT
+Cache-Control: public, max-age=10
+ETag: "TTo8pA"
+Content-Type: image/jpeg
+Age: 0
+

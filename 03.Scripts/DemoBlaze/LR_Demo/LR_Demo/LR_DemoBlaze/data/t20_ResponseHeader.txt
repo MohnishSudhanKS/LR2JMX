@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+X-GUploader-UploadID: AFiumC5wJVxLDhxXU3MFptixF5UNAxKQRVKhrFZufE5rS305ZbhfY3C4bD35IUadELkDZBzL
+x-goog-generation: 1568384855083553
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 501
+x-goog-hash: crc32c=M+HNWA==,md5=PQcrmEfiTTF86Z4mLeW7lA==
+x-goog-storage-class: STANDARD
+Accept-Ranges: bytes
+Content-Length: 501
+Access-Control-Allow-Origin: https://www.demoblaze.com
+Access-Control-Expose-Headers: Content-Length, Content-Type, Date, Server, Transfer-Encoding, X-GUploader-UploadID, X-Google-Trace
+Server: UploadServer
+Date: Thu, 12 Dec 2024 09:48:02 GMT
+Expires: Thu, 12 Dec 2024 10:48:02 GMT
+Cache-Control: public, max-age=3600
+Age: 1733
+Last-Modified: Fri, 13 Sep 2019 14:27:35 GMT
+ETag: "3d072b9847e24d317ce99e262de5bb94"
+Content-Type: binary/octet-stream
+Vary: Origin
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

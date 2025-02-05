@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Thu, 12 Dec 2024 10:17:32 GMT
+Expires: Thu, 12 Dec 2024 10:17:42 GMT
+Cache-Control: public, max-age=10
+ETag: "TTo8pA"
+X-Cloud-Trace-Context: fbad7c9eb1a149d6fe8fdd3793963242
+Content-Type: image/jpeg
+Server: Google Frontend
+

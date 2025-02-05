@@ -1,0 +1,8 @@
+cpanm (App::cpanminus) 1.7047 on perl 5.040000 built for MSWin32-x64-multi-thread
+Work directory is C:\PERFOM~1\Learning\LR2JMX\081C59~1.TOO\STRAWB~1.1-6\data/.cpanm/work/1738736869.6824
+You have make C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\c\bin\gmake.exe
+You have LWP 6.77
+Falling back to Archive::Tar 3.02_001
+Searching XML::DOM () on cpanmetadb ...
+XML::DOM is up to date. (1.46)
+Expiring 1 work directories.

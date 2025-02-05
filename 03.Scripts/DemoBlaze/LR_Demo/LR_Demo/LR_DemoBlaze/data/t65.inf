@@ -1,0 +1,11 @@
+[t65]
+FileName1=t65_macbook_air.jfif
+URL1=https://www.demoblaze.com/imgs/macbook_air.jpg
+Total=1
+ContentType=image/jpeg
+SnapshotXmlFile=snapshot_65.xml
+RequestHeaderFile=t65_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t65_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

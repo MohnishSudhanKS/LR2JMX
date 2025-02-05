@@ -1,0 +1,11 @@
+[t20]
+FileName1=t20_index.html
+URL1=https://hls.demoblaze.com/index.m3u8
+Total=1
+ContentType=binary/octet-stream
+SnapshotXmlFile=snapshot_20.xml
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t20_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

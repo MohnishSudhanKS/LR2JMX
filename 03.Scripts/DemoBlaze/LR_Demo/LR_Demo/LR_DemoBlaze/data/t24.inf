@@ -1,0 +1,11 @@
+[t24]
+FileName1=t24_Lumia_1520.jfif
+URL1=https://www.demoblaze.com/imgs/Lumia_1520.jpg
+Total=1
+ContentType=image/jpeg
+SnapshotXmlFile=snapshot_24.xml
+RequestHeaderFile=t24_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t24_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

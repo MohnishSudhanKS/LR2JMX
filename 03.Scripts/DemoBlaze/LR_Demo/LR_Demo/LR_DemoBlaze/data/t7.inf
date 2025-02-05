@@ -1,0 +1,11 @@
+[t7]
+FileName1=t7_latostyle.css
+URL1=https://www.demoblaze.com/css/latostyle.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

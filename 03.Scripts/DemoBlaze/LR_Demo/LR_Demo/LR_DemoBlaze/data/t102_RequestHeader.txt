@@ -1,0 +1,15 @@
+GET https://www.demoblaze.com/js/cart.js HTTP/1.1
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://www.demoblaze.com/cart.html
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-GB,en;q=0.9
+Cookie: user=c34b49b4-94ed-104d-ab1d-06c8f1b080cb; tokenp_=dG9tamVycnkyMDI0MTczNDU5OA==
+Host: www.demoblaze.com
+

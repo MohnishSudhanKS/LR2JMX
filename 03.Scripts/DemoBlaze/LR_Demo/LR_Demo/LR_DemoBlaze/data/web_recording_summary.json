@@ -1,0 +1,1893 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "access-control-request-method",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "access-control-request-headers",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "binary/octet-stream"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 168,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Dec-12-2024",
+    "RecordingDuration": 156203,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1733998597,
+    "RecordingType": "Proxy",
+    "TotalBytesReceived": 2382977,
+    "TotalBytesSent": 111838,
+    "TotalRequests": 168,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.182.67",
+          "IncludeInScript": false,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 328,
+              "HttpStatus": 200,
+              "Size": 880,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=14:NBvUC7VWPGKbaIMoR0vusm5qptsNXTlkno1M2q1mbFc&cup2hreq=f882c6f2103c1473c951f4a5cd4c8a9472ca9280d8e0354c73d04182fe61e58e"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 117,
+              "HttpStatus": 200,
+              "Size": 238,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=14:Zyn4Z4s50EuZvnNqzsXgn_LXTp1u7G-18_FGzH5-Lb0&cup2hreq=e1dadc23c9fa6884df24c5d968300d3493658c2e1f58abf074e741fd48bc985e"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.76.170",
+          "IncludeInScript": false,
+          "Name": "optimizationguide-pa.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 16,
+              "EventId": 147,
+              "HttpStatus": 200,
+              "Size": 2026,
+              "URL": "https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.182.74",
+          "IncludeInScript": false,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 567,
+              "HttpStatus": 200,
+              "Size": 120,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32AyxIZCVOP6bRcQpTzEgUNkWGVTiF4xO7fzCNSvw==?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 562,
+              "HttpStatus": 200,
+              "Size": 105,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32Ayw==?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 518,
+              "HttpStatus": 200,
+              "Size": 217,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYhvhEHs4MND1sSPAmpxBjxaJZqwRIFDZRU-s8SBQ1px8zZEgUNRmcVfRIFDdjg5q4SBQ0QhlklEgUNUQl_TCGoYn8zi32AyxIgCcb5VbOq37VJEgUNiLFVjxIFDcTSyTwhvhEHs4MND1s=?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 97,
+              "HttpStatus": 200,
+              "Size": 150,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMxLjAuNjc3OC4xMDkSJwkc-dnJUOmeZBIFDVlKgyISBQ0cek6pEgUN5qdK5CGE0A5TPmGXvRIgCYs51GjsrJ47EgUNNkfFchIFDTMQWaYho7PvSs1x5cASIAnG-VWzqt-1SRIFDYixVY8SBQ3E0sk8IaOz70rNceXA?alt=proto"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.182.35",
+          "IncludeInScript": false,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 437,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 353,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 343,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 338,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 333,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 323,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 13,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=131"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.251.12.84",
+          "IncludeInScript": false,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 8,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "demoblaze.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.183.243",
+          "IncludeInScript": true,
+          "Name": "www.demoblaze.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 797,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/xperia_z5.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 793,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/HTC_M9.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 789,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/sony_vaio_5.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 785,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/iphone_6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 781,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/galaxy_s6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 777,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/Nexus_6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 773,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/Lumia_1520.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 764,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/config.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 760,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 756,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/js/index.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 752,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/bm.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 748,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 744,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 740,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 736,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/iphone1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 732,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 728,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/nexus1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 724,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/front.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 720,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/css/latostyle.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 716,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/Samsung1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 712,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 708,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/css/latofonts.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 704,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 700,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 696,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/index.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 692,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/Lumia_1520.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 688,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/HTC_M9.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 684,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/xperia_z5.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 680,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/iphone_6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 676,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/galaxy_s6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 672,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/sony_vaio_5.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 668,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/Nexus_6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 650,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/config.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 646,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 642,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/js/index.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 638,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 634,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 630,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 626,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/bm.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 622,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/nexus1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 618,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/iphone1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 614,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/Samsung1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 610,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 606,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/front.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 602,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/css/latostyle.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 598,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 594,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 590,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/css/latofonts.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 586,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 581,
+              "HttpStatus": 200,
+              "Size": 4527,
+              "URL": "https://www.demoblaze.com/index.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 558,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/sony_vaio_5.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 527,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/config.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 523,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/favicon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 513,
+              "HttpStatus": 200,
+              "Size": 5862,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap-sweetalert/dist/sweetalert.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 508,
+              "HttpStatus": 200,
+              "Size": 2457,
+              "URL": "https://www.demoblaze.com/js/cart.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 504,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/bm.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 500,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 496,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 492,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 488,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/front.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 484,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 480,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 476,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/css/latostyle.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 472,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 468,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/css/latofonts.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 464,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 459,
+              "HttpStatus": 200,
+              "Size": 2868,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap-sweetalert/dist/sweetalert.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 454,
+              "HttpStatus": 200,
+              "Size": 5298,
+              "URL": "https://www.demoblaze.com/cart.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 442,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 433,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/sony_vaio_5.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 411,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 407,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/config.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 403,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/bm.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 399,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 394,
+              "HttpStatus": 200,
+              "Size": 2366,
+              "URL": "https://www.demoblaze.com/js/prod.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 390,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 386,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 382,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/front.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 378,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 374,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/css/latofonts.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 370,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/css/latostyle.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 366,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 362,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 358,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 348,
+              "HttpStatus": 200,
+              "Size": 4976,
+              "URL": "https://www.demoblaze.com/prod.html?idp_=8"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 318,
+              "HttpStatus": 200,
+              "Size": 74043,
+              "URL": "https://www.demoblaze.com/imgs/macbook_air.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 313,
+              "HttpStatus": 200,
+              "Size": 60535,
+              "URL": "https://www.demoblaze.com/imgs/dell.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 304,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 296,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/HTC_M9.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 292,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/xperia_z5.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 288,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/sony_vaio_5.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 284,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/iphone_6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 280,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/Nexus_6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 276,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/Lumia_1520.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 272,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/galaxy_s6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 254,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 250,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/config.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 246,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/js/index.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 242,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 238,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/bm.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 234,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 230,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 226,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/nexus1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 222,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/iphone1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 218,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 214,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/imgs/front.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 210,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/Samsung1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 206,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/css/latostyle.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 202,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 198,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 194,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 190,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/css/latofonts.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 186,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.demoblaze.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 172,
+              "HttpStatus": 200,
+              "Size": 96948,
+              "URL": "https://www.demoblaze.com/imgs/HTC_M9.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 167,
+              "HttpStatus": 200,
+              "Size": 200956,
+              "URL": "https://www.demoblaze.com/imgs/iphone_6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 162,
+              "HttpStatus": 200,
+              "Size": 90485,
+              "URL": "https://www.demoblaze.com/imgs/sony_vaio_5.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 157,
+              "HttpStatus": 200,
+              "Size": 231810,
+              "URL": "https://www.demoblaze.com/imgs/Nexus_6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 152,
+              "HttpStatus": 200,
+              "Size": 143681,
+              "URL": "https://www.demoblaze.com/imgs/xperia_z5.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 142,
+              "HttpStatus": 200,
+              "Size": 107446,
+              "URL": "https://www.demoblaze.com/imgs/galaxy_s6.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 137,
+              "HttpStatus": 200,
+              "Size": 145227,
+              "URL": "https://www.demoblaze.com/imgs/Lumia_1520.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 107,
+              "HttpStatus": 200,
+              "Size": 84,
+              "URL": "https://www.demoblaze.com/config.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/vnd.microsoft.icon",
+              "DownloadTime": 0,
+              "EventId": 102,
+              "HttpStatus": 200,
+              "Size": 5214,
+              "URL": "https://www.demoblaze.com/favicon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 92,
+              "HttpStatus": 200,
+              "Size": 2421,
+              "URL": "https://www.demoblaze.com/js/index.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 87,
+              "HttpStatus": 200,
+              "Size": 14823,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 82,
+              "HttpStatus": 200,
+              "Size": 182708,
+              "URL": "https://www.demoblaze.com/css/fonts/Lato-Regular.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 77,
+              "HttpStatus": 200,
+              "Size": 3979,
+              "URL": "https://www.demoblaze.com/bm.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 72,
+              "HttpStatus": 200,
+              "Size": 8603,
+              "URL": "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 67,
+              "HttpStatus": 200,
+              "Size": 71638,
+              "URL": "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 62,
+              "HttpStatus": 200,
+              "Size": 158581,
+              "URL": "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 57,
+              "HttpStatus": 200,
+              "Size": 34613,
+              "URL": "https://www.demoblaze.com/iphone1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 52,
+              "HttpStatus": 200,
+              "Size": 33854,
+              "URL": "https://www.demoblaze.com/nexus1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 47,
+              "HttpStatus": 200,
+              "Size": 27393,
+              "URL": "https://www.demoblaze.com/Samsung1.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 42,
+              "HttpStatus": 200,
+              "Size": 529,
+              "URL": "https://www.demoblaze.com/css/latostyle.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 37,
+              "HttpStatus": 200,
+              "Size": 35128,
+              "URL": "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 32,
+              "HttpStatus": 200,
+              "Size": 849,
+              "URL": "https://www.demoblaze.com/css/latofonts.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 27,
+              "HttpStatus": 200,
+              "Size": 24663,
+              "URL": "https://www.demoblaze.com/imgs/front.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 22,
+              "HttpStatus": 200,
+              "Size": 27687,
+              "URL": "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 17,
+              "HttpStatus": 200,
+              "Size": 11784,
+              "URL": "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 3,
+              "HttpStatus": 200,
+              "Size": 4527,
+              "URL": "https://www.demoblaze.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.98.117.22",
+          "IncludeInScript": true,
+          "Name": "hls.demoblaze.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 132,
+              "HttpStatus": 200,
+              "Size": 542192,
+              "URL": "https://hls.demoblaze.com/about_demo_hls_600k00000.ts"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "binary/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 127,
+              "HttpStatus": 200,
+              "Size": 5302,
+              "URL": "https://hls.demoblaze.com/about_demo_hls_600k.m3u8"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "binary/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 112,
+              "HttpStatus": 200,
+              "Size": 501,
+              "URL": "https://hls.demoblaze.com/index.m3u8"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.183.243",
+          "IncludeInScript": true,
+          "Name": "api.demoblaze.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 768,
+              "HttpStatus": 200,
+              "Size": 1055,
+              "URL": "https://api.demoblaze.com/entries"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 663,
+              "HttpStatus": 200,
+              "Size": 121,
+              "URL": "https://api.demoblaze.com/check"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 658,
+              "HttpStatus": 200,
+              "Size": 1055,
+              "URL": "https://api.demoblaze.com/entries"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 654,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.demoblaze.com/check"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 576,
+              "HttpStatus": 200,
+              "Size": 16,
+              "URL": "https://api.demoblaze.com/deletecart"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 572,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.demoblaze.com/deletecart"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 553,
+              "HttpStatus": 200,
+              "Size": 261,
+              "URL": "https://api.demoblaze.com/view"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 549,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.demoblaze.com/view"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 544,
+              "HttpStatus": 200,
+              "Size": 116,
+              "URL": "https://api.demoblaze.com/viewcart"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 539,
+              "HttpStatus": 200,
+              "Size": 121,
+              "URL": "https://api.demoblaze.com/check"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 535,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.demoblaze.com/viewcart"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 531,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.demoblaze.com/check"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 450,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.demoblaze.com/addtocart"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 446,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.demoblaze.com/addtocart"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 428,
+              "HttpStatus": 200,
+              "Size": 121,
+              "URL": "https://api.demoblaze.com/check"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 423,
+              "HttpStatus": 200,
+              "Size": 261,
+              "URL": "https://api.demoblaze.com/view"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 419,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.demoblaze.com/view"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 415,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.demoblaze.com/check"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 308,
+              "HttpStatus": 200,
+              "Size": 992,
+              "URL": "https://api.demoblaze.com/bycat"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 300,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.demoblaze.com/bycat"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 267,
+              "HttpStatus": 200,
+              "Size": 121,
+              "URL": "https://api.demoblaze.com/check"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 262,
+              "HttpStatus": 200,
+              "Size": 1055,
+              "URL": "https://api.demoblaze.com/entries"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 258,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.demoblaze.com/check"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 181,
+              "HttpStatus": 200,
+              "Size": 69,
+              "URL": "https://api.demoblaze.com/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 177,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.demoblaze.com/login"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 122,
+              "HttpStatus": 200,
+              "Size": 1055,
+              "URL": "https://api.demoblaze.com/entries"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

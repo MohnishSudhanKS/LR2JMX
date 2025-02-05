@@ -1,0 +1,65 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Math::BaseCnv
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Math::BaseCnv: 1
+  ID: P/PI/PIP/Math-BaseCnv-1.14.tgz
+  RO:
+    CPAN_USERID: PIP
+    CPAN_VERSION: '1.14'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\cpan\build\Math-BaseCnv-1.14-0
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736995
+  localfile: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\cpan\sources\authors\id\P\PI\PIP\Math-BaseCnv-1.14.tgz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736989
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736993
+  mandatory: true
+  modulebuild: 1
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires: {}
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      Carp: '0'
+      Math::BigInt: '0'
+      Memoize: '0'
+      Test: '0'
+      Test::More: '0'
+      Test::Pod: '0'
+      Test::Pod::Coverage: '0'
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736964
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736968
+perl:
+  $^X: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\perl\bin\perl.exe
+  mtime_$^X: 1734672197
+  mtime_dll: 0
+  sitearchexp: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\perl\site\lib
+time: 1738736995

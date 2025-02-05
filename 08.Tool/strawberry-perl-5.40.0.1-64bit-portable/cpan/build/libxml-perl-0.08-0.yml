@@ -1,0 +1,77 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: XML::Parser::PerlSAX
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Data::Grove: 1
+    Data::Grove::Characters: 1
+    Data::Grove::Parent: 1
+    Data::Grove::ParentList: 1
+    Data::Grove::Visitor: 1
+    MyHandler: 1
+    XML::ESISParser: 1
+    XML::Handler::CanonXMLWriter: 1
+    XML::Handler::Sample: 1
+    XML::Handler::Subs: 1
+    XML::Handler::XMLWriter: 1
+    XML::Parser::PerlSAX: 1
+    XML::PatAct::ACTION: 1
+    XML::PatAct::Amsterdam: 1
+    XML::PatAct::MatchName: 1
+    XML::PatAct::PATTERN: 1
+    XML::PatAct::ToObjects: 1
+    XML::Perl2SAX: 1
+    XML::SAX2Perl: 1
+  ID: K/KM/KMACLEOD/libxml-perl-0.08.tar.gz
+  RO:
+    CPAN_USERID: KMACLEOD
+    CPAN_VERSION: '0.08'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\cpan\build\libxml-perl-0.08-0
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736792
+  localfile: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\cpan\sources\authors\id\K\KM\KMACLEOD\libxml-perl-0.08.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736782
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736788
+  mandatory: true
+  negative_prefs_cache: 0
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      XML::Parser: '2.19'
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736766
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: false
+    TEXT: YES
+    TIME: 1738736768
+perl:
+  $^X: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\perl\bin\perl.exe
+  mtime_$^X: 1734672197
+  mtime_dll: 0
+  sitearchexp: C:\PerfomanceTesting\Learning\LR2JMX\08.Tool\strawberry-perl-5.40.0.1-64bit-portable\perl\site\lib
+time: 1738736792

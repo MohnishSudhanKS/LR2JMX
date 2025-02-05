@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan">
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="dp_filepath" elementType="Argument">
+            <stringProp name="Argument.name">dp_filepath</stringProp>
+            <stringProp name="Argument.value">${__BeanShell(import org.apache.jmeter.services.FileServer; FileServer.getFileServer().getBaseDir();)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="dp_duration" elementType="Argument">
+            <stringProp name="Argument.name">dp_duration</stringProp>
+            <stringProp name="Argument.value">3600</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="dp_timeout" elementType="Argument">
+            <stringProp name="Argument.name">dp_timeout</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="dp_waittime" elementType="Argument">
+            <stringProp name="Argument.name">dp_waittime</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="dp_rampup" elementType="Argument">
+            <stringProp name="Argument.name">dp_rampup</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR15_dp_stanstart" elementType="Argument">
+            <stringProp name="Argument.name">SCR15_dp_stanstart</stringProp>
+            <stringProp name="Argument.value">000001</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR16_dp_stanstart" elementType="Argument">
+            <stringProp name="Argument.name">SCR16_dp_stanstart</stringProp>
+            <stringProp name="Argument.value">005501</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR17_dp_stanstart" elementType="Argument">
+            <stringProp name="Argument.name">SCR17_dp_stanstart</stringProp>
+            <stringProp name="Argument.value">011001</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR18_dp_stanstart" elementType="Argument">
+            <stringProp name="Argument.name">SCR18_dp_stanstart</stringProp>
+            <stringProp name="Argument.value">016501</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR19_dp_stanstart" elementType="Argument">
+            <stringProp name="Argument.name">SCR19_dp_stanstart</stringProp>
+            <stringProp name="Argument.value">022001</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR20_dp_stanstart" elementType="Argument">
+            <stringProp name="Argument.name">SCR20_dp_stanstart</stringProp>
+            <stringProp name="Argument.value">027501 </stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR15_dp_rrnstart" elementType="Argument">
+            <stringProp name="Argument.name">SCR15_dp_rrnstart</stringProp>
+            <stringProp name="Argument.value">000000000001</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR16_dp_rrnstart" elementType="Argument">
+            <stringProp name="Argument.name">SCR16_dp_rrnstart</stringProp>
+            <stringProp name="Argument.value">000000005501</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR17_dp_rrnstart" elementType="Argument">
+            <stringProp name="Argument.name">SCR17_dp_rrnstart</stringProp>
+            <stringProp name="Argument.value">000000011001</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR18_dp_rrnstart" elementType="Argument">
+            <stringProp name="Argument.name">SCR18_dp_rrnstart</stringProp>
+            <stringProp name="Argument.value">000000016501</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR19_dp_rrnstart" elementType="Argument">
+            <stringProp name="Argument.name">SCR19_dp_rrnstart</stringProp>
+            <stringProp name="Argument.value">000000022001</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR20_dp_rrnstart" elementType="Argument">
+            <stringProp name="Argument.name">SCR20_dp_rrnstart</stringProp>
+            <stringProp name="Argument.value">000000027501</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR15_users" elementType="Argument">
+            <stringProp name="Argument.name">SCR15_users</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR16_users" elementType="Argument">
+            <stringProp name="Argument.name">SCR16_users</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR17_users" elementType="Argument">
+            <stringProp name="Argument.name">SCR17_users</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR18_users" elementType="Argument">
+            <stringProp name="Argument.name">SCR18_users</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR19_users" elementType="Argument">
+            <stringProp name="Argument.name">SCR19_users</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR20_users" elementType="Argument">
+            <stringProp name="Argument.name">SCR20_users</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR15_iterations" elementType="Argument">
+            <stringProp name="Argument.name">SCR15_iterations</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR16_iterations" elementType="Argument">
+            <stringProp name="Argument.name">SCR16_iterations</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR17_iterations" elementType="Argument">
+            <stringProp name="Argument.name">SCR17_iterations</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR18_iterations" elementType="Argument">
+            <stringProp name="Argument.name">SCR18_iterations</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR19_iterations" elementType="Argument">
+            <stringProp name="Argument.name">SCR19_iterations</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR20_iterations" elementType="Argument">
+            <stringProp name="Argument.name">SCR20_iterations</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR15_tps" elementType="Argument">
+            <stringProp name="Argument.name">SCR15_tps</stringProp>
+            <stringProp name="Argument.value">0.5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR16_tps" elementType="Argument">
+            <stringProp name="Argument.name">SCR16_tps</stringProp>
+            <stringProp name="Argument.value">0.5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR17_tps" elementType="Argument">
+            <stringProp name="Argument.name">SCR17_tps</stringProp>
+            <stringProp name="Argument.value">0.5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR18_tps" elementType="Argument">
+            <stringProp name="Argument.name">SCR18_tps</stringProp>
+            <stringProp name="Argument.value">0.5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR19_tps" elementType="Argument">
+            <stringProp name="Argument.name">SCR19_tps</stringProp>
+            <stringProp name="Argument.value">0.5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SCR20_tps" elementType="Argument">
+            <stringProp name="Argument.name">SCR20_tps</stringProp>
+            <stringProp name="Argument.value">0.5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <nz.co.breakpoint.jmeter.iso8583.ISO8583Config guiclass="TestBeanGUI" testclass="nz.co.breakpoint.jmeter.iso8583.ISO8583Config" testname="ISO8583 Connection Configuration-Master">
+        <stringProp name="classname">NACChannel</stringProp>
+        <stringProp name="configKey"></stringProp>
+        <stringProp name="connectionSelection">connectionSelection.LAST</stringProp>
+        <stringProp name="header"></stringProp>
+        <stringProp name="host">10.192.196.91</stringProp>
+        <stringProp name="keyPassword"></stringProp>
+        <stringProp name="maxConnections"></stringProp>
+        <stringProp name="mtiMapping"></stringProp>
+        <stringProp name="packager">${dp_filepath}/Packager/UBP_Master.xml</stringProp>
+        <stringProp name="port">8000</stringProp>
+        <stringProp name="requestListener">${dp_filepath}/Listener/beanshell_MASTER.bsh</stringProp>
+        <boolProp name="reuseConnection">true</boolProp>
+        <stringProp name="storePassword"></stringProp>
+        <collectionProp name="channelConfig"/>
+        <stringProp name="keystore"></stringProp>
+        <collectionProp name="muxKeyConfig"/>
+        <stringProp name="TestPlan.comments">10.192.196.91</stringProp>
+      </nz.co.breakpoint.jmeter.iso8583.ISO8583Config>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="SignOn">
+        <stringProp name="ThreadGroup.num_threads">${SCR15_users}</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${dp_rampup}</stringProp>
+        <stringProp name="ThreadGroup.duration">${dp_duration}</stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <intProp name="LoopController.loops">-1</intProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="SignOn">
+          <boolProp name="TransactionController.parent">true</boolProp>
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler guiclass="TestBeanGUI" testclass="nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler" testname="SignOn">
+            <stringProp name="configKey"></stringProp>
+            <stringProp name="header"></stringProp>
+            <stringProp name="trailer"></stringProp>
+            <collectionProp name="fields">
+              <elementProp name="00" elementType="nz.co.breakpoint.jmeter.iso8583.MessageField" testname="00">
+                <stringProp name="content">0800</stringProp>
+                <stringProp name="tag"></stringProp>
+                <stringProp name="TestPlan.comments">MTI</stringProp>
+              </elementProp>
+              <elementProp name="02" elementType="nz.co.breakpoint.jmeter.iso8583.MessageField" testname="02">
+                <stringProp name="content">13765</stringProp>
+              </elementProp>
+              <elementProp name="07" elementType="nz.co.breakpoint.jmeter.iso8583.MessageField" testname="07">
+                <stringProp name="content">${__time(MMddHHmmss,)}</stringProp>
+              </elementProp>
+              <elementProp name="11" elementType="nz.co.breakpoint.jmeter.iso8583.MessageField" testname="11">
+                <stringProp name="content">123456</stringProp>
+              </elementProp>
+              <elementProp name="33" elementType="nz.co.breakpoint.jmeter.iso8583.MessageField" testname="33">
+                <stringProp name="content">013765</stringProp>
+              </elementProp>
+              <elementProp name="70" elementType="nz.co.breakpoint.jmeter.iso8583.MessageField" testname="70">
+                <stringProp name="content">061</stringProp>
+              </elementProp>
+              <elementProp name="94" elementType="nz.co.breakpoint.jmeter.iso8583.MessageField" testname="94">
+                <stringProp name="content">CB0</stringProp>
+              </elementProp>
+              <elementProp name="96" elementType="nz.co.breakpoint.jmeter.iso8583.MessageField" testname="96">
+                <stringProp name="content">00000000</stringProp>
+              </elementProp>
+              <elementProp name="127" elementType="nz.co.breakpoint.jmeter.iso8583.MessageField" testname="127">
+                <stringProp name="content">65</stringProp>
+              </elementProp>
+            </collectionProp>
+            <stringProp name="timeout">${__groovy(${dp_timeout}*1000,)}</stringProp>
+            <stringProp name="responseCodeField">39</stringProp>
+            <stringProp name="successResponseCode">00</stringProp>
+          </nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler>
+          <hashTree/>
+        </hashTree>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="FileWrite" enabled="false">
+          <stringProp name="cacheKey">false</stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters">${__time(yyyyMMddHHmmssSSS,dc_timestamp)}</stringProp>
+          <stringProp name="script">import org.apache.jmeter.services.FileServer;
+def FilePath = vars.get(&quot;dp_filepath&quot;);
+def cardNo =vars.get(&quot;dp_cardno&quot;);
+def stan = vars.get(&quot;SCR15_dp_stan&quot;);
+def rrn = vars.get(&quot;SCR15_dp_rrn&quot;);
+long responseTime = prev.getTime();
+def timeStamp = vars.get(&quot;dc_timestamp&quot;);
+
+f = new FileOutputStream(FilePath +&quot;/Filewrite/SCR15_RequestIdentifiers&quot;+&quot;.txt&quot;,true);
+p = new PrintStream(f);
+p.println(timeStamp + &quot;,&quot; + cardNo+ &quot;,&quot; + stan +  &quot;,&quot; + rrn + &quot;,&quot;+ responseTime );
+f.close();</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+      </hashTree>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>true</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>true</responseData>
+            <samplerData>true</samplerData>
+            <xml>true</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>true</responseHeaders>
+            <requestHeaders>true</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <fileName>true</fileName>
+            <hostname>true</hostname>
+            <threadCounts>true</threadCounts>
+            <sampleCount>true</sampleCount>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <stringProp name="TestPlan.comments">${dp_filepath}\Result\MASTER_CREDIT_VRT.csv</stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>true</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>true</responseData>
+            <samplerData>true</samplerData>
+            <xml>true</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>true</responseHeaders>
+            <requestHeaders>true</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <fileName>true</fileName>
+            <hostname>true</hostname>
+            <threadCounts>true</threadCounts>
+            <sampleCount>true</sampleCount>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <stringProp name="TestPlan.comments">${dp_filepath}\Result\MASTER_CREDIT_ART.csv</stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <intProp name="ThreadGroup.num_threads">1</intProp>
+        <intProp name="ThreadGroup.ramp_time">1</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler guiclass="TestBeanGUI" testclass="nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler" testname="SCR15_T01_R01_MASTER_Credit_ECOM" enabled="true">
+          <stringProp name="configKey"></stringProp>
+          <stringProp name="header"></stringProp>
+          <stringProp name="trailer"></stringProp>
+          <collectionProp name="fields"/>
+          <stringProp name="timeout">${__groovy(${dp_timeout}*1000,)}</stringProp>
+          <stringProp name="responseCodeField">39</stringProp>
+          <stringProp name="successResponseCode">00</stringProp>
+        </nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler>
+        <hashTree>
+          <nz.co.breakpoint.jmeter.iso8583.ISO8583Crypto guiclass="TestBeanGUI" testclass="nz.co.breakpoint.jmeter.iso8583.ISO8583Crypto" testname="ISO8583 Crypto PreProcessor" enabled="true">
+            <stringProp name="iccField">55</stringProp>
+            <stringProp name="imkac"></stringProp>
+            <stringProp name="ksnField">53</stringProp>
+            <stringProp name="macAlgorithm"></stringProp>
+            <stringProp name="macField"></stringProp>
+            <stringProp name="macKey"></stringProp>
+            <stringProp name="padding"></stringProp>
+            <stringProp name="pan"></stringProp>
+            <stringProp name="pinField">52</stringProp>
+            <stringProp name="pinKey"></stringProp>
+            <stringProp name="psn">00</stringProp>
+            <stringProp name="txnData"></stringProp>
+          </nz.co.breakpoint.jmeter.iso8583.ISO8583Crypto>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

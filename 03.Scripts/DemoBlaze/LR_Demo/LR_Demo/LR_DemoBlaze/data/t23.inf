@@ -1,0 +1,11 @@
+[t23]
+FileName1=t23_about_demo_hls_600k00000.txt
+URL1=https://hls.demoblaze.com/about_demo_hls_600k00000.ts
+Total=1
+ContentType=text/plain
+SnapshotXmlFile=snapshot_23.xml
+RequestHeaderFile=t23_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t23_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
