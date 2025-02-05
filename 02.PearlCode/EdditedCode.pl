@@ -16,7 +16,7 @@ my $host_fetcher_regex = qr/Host:\s+([^\s]+)/;
 my $response_date_regex = qr/Date:\s+(.+? GMT)(?:\r?\n|$)/;
 my $request_line_regex = qr/^(POST|GET|PUT|DELETE|PATCH)\s+(https?:\/\/[^\s]+)(\s+HTTP\/\d+\.\d+)/;
 my $content_type_regex = qr/Content-Type:\s.*?charset=([^\s;]+)/;
-my $add_event_regex = qr/\*{6} Add Event For Transaction With Id (\d+) \*{6}.*?web_url\("([^"]+)"/s;
+my $add_event_regex = qr/\*{6} Add Event For Transaction With Id (\d+) \*{6}.*?(web_url|web_custom_request)\("([^"]+)"/s;
 
 # Data structures to store transaction data
 my %transaction_host_map;
@@ -58,9 +58,11 @@ while (my $line = <$reader>) {
         next;
     }
 
-    # Extract lb value from Add Event block
-    if ($line =~ /web_url\("([^"]+)"/) {
-        $transaction_lb_map{$current_transaction_id} = $1;
+    # Extract lb value from Add Event block (web_url or web_custom_request)
+    if ($line =~ /\*{6} Add Event For Transaction With Id (\d+) \*{6}/ .. $line =~ /\*{6} Add Event For Transaction With Id \d+ Ended \*{6}/) {
+        if ($line =~ /(web_url|web_custom_request)\("([^"]+)"/) {
+            $transaction_lb_map{$current_transaction_id} = $2;
+        }
     }
 
     # Parse the response header's first line
