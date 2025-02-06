@@ -1,0 +1,15 @@
+GET https://opensource-demo.orangehrmlive.com/web/images/dashboard_empty_widget_watermark.png HTTP/1.1
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-GB,en;q=0.9
+Cookie: orangehrm=nli194jpgjag1pbta8kon15dp9
+Host: opensource-demo.orangehrmlive.com
+

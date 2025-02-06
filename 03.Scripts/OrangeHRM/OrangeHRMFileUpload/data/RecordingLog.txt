@@ -1,0 +1,778 @@
+[API Trapper      (1760:2ccc)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (4260:4c40)] ------------------------------------------------------------------------------------------
+[Network Analyzer (4260:4c40)] Load Network Traffic Analyzers:
+[Network Analyzer (4260:4c40)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (4260:4c40)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (4260:4c40)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (4260:4c40)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (4260:4c40)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (4260:4c40)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (4260:4c40)]     Analyzer Module: local_server (value=)
+[Network Analyzer (4260:4c40)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (4260:4c40)] Started proxy on port 3000 listening IP 192.168.99.105, 127.0.0.1, in synchronous mode
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17871
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17872
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17873
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17874
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/ ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/ ...
+[Proxy Recording.Error (4260:2250)] Exception is caught while trying to connect to https://clientservices.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (4260:2250)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (4260:4cb4)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=132 ...
+[Proxy Recording  (4260:4cb4)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=132 ...
+[Proxy Recording  (4260:4cb4)] Received response of 556 header and 0 body bytes from https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=132
+[Web Request      (4260:4cb4)] "GET https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=132"   
+[Network Analyzer (4260:4cb4)]   (Sid:  1) Client -> Server @ : 508 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4cb4)]   (Sid:  1) Server -> Client : 583 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:4cb4)] Sent 0 bytes to client @ 192.168.99.105:17873
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17879
+[Proxy Recording  (4260:3944)] Received response of 1330 header and 0 body bytes from https://opensource-demo.orangehrmlive.com:443/
+[Web Request      (4260:3944)] "GET https://opensource-demo.orangehrmlive.com/"   
+[Network Analyzer (4260:3944)]   (Sid:  2) Client -> Server @ : 719 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid:  2) Server -> Client : 1350 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3944)] Sent 0 bytes to client @ 192.168.99.105:17871
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17880
+[Proxy Recording.Error (4260:101c)] Exception is caught while trying to connect to https://accounts.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (4260:101c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (4260:2250)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17884
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17885
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17886
+[Proxy Recording  (4260:2250)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (4260:2250)] Received response of 1864 header and 43 body bytes from https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[Network Analyzer (4260:2250)]   (Sid:  3) Client -> Server @ : 1020 bytes (SSL)(Service=HTTP)
+[Web Request      (4260:2250)] "POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (4260:2250)]   (Sid:  3) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid:  3) Server -> Client : 1853 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid:  3) Server -> Client : 43 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:2250)] Sent 43 bytes to client @ 192.168.99.105:17879
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/auth/login ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/auth/login ...
+[Proxy Recording.Error (4260:3944)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (4260:4cb4)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (4260:3944)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (4260:4cb4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (4260:101c)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:uWeBtEHgH9SUOk8wK0_5eKBgjgORU67fZ1wTsJ4XDfw&cup2hreq=4496d1340205a710bacd5d9c1d3c5834f89df485e4e8d294c043a8fd8d1f9cb0 ...
+[Proxy Recording  (4260:101c)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:uWeBtEHgH9SUOk8wK0_5eKBgjgORU67fZ1wTsJ4XDfw&cup2hreq=4496d1340205a710bacd5d9c1d3c5834f89df485e4e8d294c043a8fd8d1f9cb0 ...
+[Proxy Recording  (4260:555c)] Received response of 1475 header and 1178 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/auth/login
+[Web Request      (4260:555c)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"   
+[Network Analyzer (4260:555c)]   (Sid:  4) Client -> Server @ : 719 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid:  4) Server -> Client : 1464 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid:  4) Server -> Client : 1178 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:555c)] Sent 1178 bytes to client @ 192.168.99.105:17880
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17889
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17890
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17891
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17892
+[Proxy Recording  (4260:101c)] Received response of 1032 header and 238 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:uWeBtEHgH9SUOk8wK0_5eKBgjgORU67fZ1wTsJ4XDfw&cup2hreq=4496d1340205a710bacd5d9c1d3c5834f89df485e4e8d294c043a8fd8d1f9cb0
+[Network Analyzer (4260:101c)]   (Sid:  5) Client -> Server @ : 752 bytes (SSL)(Service=HTTP)
+[Web Request      (4260:101c)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:uWeBtEHgH9SUOk8wK0_5eKBgjgORU67fZ1wTsJ4XDfw&cup2hreq=4496d1340205a710bacd5d9c1d3c5834f89df485e4e8d294c043a8fd8d1f9cb0"   
+[Network Analyzer (4260:101c)]   (Sid:  5) Client -> Server @ : 1173 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid:  5) Server -> Client : 1021 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid:  5) Server -> Client : 238 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:101c)] Sent 238 bytes to client @ 192.168.99.105:17886
+[Proxy Recording  (4260:21cc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/css/app.css?v=1721393199309 ...
+[Proxy Recording  (4260:21cc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/css/app.css?v=1721393199309 ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/js/app.js?v=1721393199309 ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/js/app.js?v=1721393199309 ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/js/chunk-vendors.js?v=1721393199309 ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/js/chunk-vendors.js?v=1721393199309 ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/css/chunk-vendors.css?v=1721393199309 ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/css/chunk-vendors.css?v=1721393199309 ...
+[Proxy Recording  (4260:21cc)] Received response of 1429 header and 20548 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/css/app.css?v=1721393199309
+[Web Request      (4260:21cc)] "GET https://opensource-demo.orangehrmlive.com/web/dist/css/app.css?v=1721393199309"   
+[Network Analyzer (4260:21cc)]   (Sid:  6) Client -> Server @ : 690 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:21cc)]   (Sid:  6) Server -> Client : 1446 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:21cc)]   (Sid:  6) Server -> Client : 20548 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:21cc)] Sent 20548 bytes to client @ 192.168.99.105:17890
+[Proxy Recording  (4260:2250)] Received response of 1429 header and 31443 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/css/chunk-vendors.css?v=1721393199309
+[Web Request      (4260:2250)] "GET https://opensource-demo.orangehrmlive.com/web/dist/css/chunk-vendors.css?v=1721393199309"   
+[Network Analyzer (4260:2250)]   (Sid:  7) Client -> Server @ : 700 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid:  7) Server -> Client : 1446 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid:  7) Server -> Client : 31443 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:2250)] Sent 31443 bytes to client @ 192.168.99.105:17889
+[Proxy Recording  (4260:555c)] Received response of 1449 header and 213448 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/js/app.js?v=1721393199309
+[Web Request      (4260:555c)] "GET https://opensource-demo.orangehrmlive.com/web/dist/js/app.js?v=1721393199309"   
+[Network Analyzer (4260:555c)]   (Sid:  8) Client -> Server @ : 674 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid:  8) Server -> Client : 1438 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid:  8) Server -> Client : 213448 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:555c)] Sent 213448 bytes to client @ 192.168.99.105:17892
+[Proxy Recording  (4260:3944)] Received response of 1449 header and 499713 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/js/chunk-vendors.js?v=1721393199309
+[Web Request      (4260:3944)] "GET https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1721393199309"   
+[Network Analyzer (4260:3944)]   (Sid:  9) Client -> Server @ : 684 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid:  9) Server -> Client : 1438 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid:  9) Server -> Client : 499713 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3944)] Sent 499713 bytes to client @ 192.168.99.105:17891
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17898
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17900
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/favicon.ico?v=1721393199309 ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/favicon.ico?v=1721393199309 ...
+[Proxy Recording  (4260:555c)] Received response of 1389 header and 564 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/favicon.ico?v=1721393199309
+[Web Request      (4260:555c)] "GET https://opensource-demo.orangehrmlive.com/web/dist/favicon.ico?v=1721393199309"   
+[Network Analyzer (4260:555c)]   (Sid: 10) Client -> Server @ : 736 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 10) Server -> Client : 1406 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 10) Server -> Client : 564 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:555c)] Sent 564 bytes to client @ 192.168.99.105:17900
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17902
+[Proxy Recording  (4260:3944)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE ...
+[Proxy Recording  (4260:3944)] Received response of 346 header and 2028 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE
+[Network Analyzer (4260:3944)]   (Sid: 11) Client -> Server @ : 667 bytes (SSL)(Service=HTTP)
+[Web Request      (4260:3944)] "POST https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE"   
+[Network Analyzer (4260:3944)]   (Sid: 11) Client -> Server @ : 931 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 11) Server -> Client : 335 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 11) Server -> Client : 2028 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3944)] Sent 2028 bytes to client @ 192.168.99.105:17902
+[Proxy Recording  (4260:2250)] Received response of 1417 header and 101158 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages
+[Web Request      (4260:2250)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages"   
+[Network Analyzer (4260:2250)]   (Sid: 12) Client -> Server @ : 712 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 12) Server -> Client : 1406 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 12) Server -> Client : 101158 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:2250)] Sent 101158 bytes to client @ 192.168.99.105:17898
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17905
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17906
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17907
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17911
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17913
+[Proxy Recording  (4260:21cc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/images/ohrm_branding.png?v=1721393199309 ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/images/ohrm_logo.png ...
+[Proxy Recording  (4260:21cc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/images/ohrm_branding.png?v=1721393199309 ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/images/ohrm_logo.png ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/img/blob.svg ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/img/blob.svg ...
+[Proxy Recording  (4260:4cb4)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/bootstrap-icons.woff2 ...
+[Proxy Recording  (4260:4cb4)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/bootstrap-icons.woff2 ...
+[Proxy Recording  (4260:21cc)] Received response of 1377 header and 30411 body bytes from https://opensource-demo.orangehrmlive.com:443/web/images/ohrm_branding.png?v=1721393199309
+[Web Request      (4260:21cc)] "GET https://opensource-demo.orangehrmlive.com/web/images/ohrm_branding.png?v=1721393199309"   
+[Network Analyzer (4260:21cc)]   (Sid: 13) Client -> Server @ : 744 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:21cc)]   (Sid: 13) Server -> Client : 1394 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:21cc)]   (Sid: 13) Server -> Client : 30411 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:21cc)] Sent 30411 bytes to client @ 192.168.99.105:17905
+[Proxy Recording  (4260:2250)] Received response of 1378 header and 289 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/img/blob.svg
+[Web Request      (4260:2250)] "GET https://opensource-demo.orangehrmlive.com/web/dist/img/blob.svg"   
+[Network Analyzer (4260:2250)]   (Sid: 14) Client -> Server @ : 733 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 14) Server -> Client : 1395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 14) Server -> Client : 289 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:2250)] Sent 289 bytes to client @ 192.168.99.105:17907
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17914
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17915
+[Proxy Recording  (4260:555c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASIAlx0MhB461LMBIFDeeNQA4SBQ3OQUx6IfSlwpWXzsx1?alt=proto ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASIAlx0MhB461LMBIFDeeNQA4SBQ3OQUx6IfSlwpWXzsx1?alt=proto ...
+[Proxy Recording  (4260:555c)] Received response of 416 header and 84 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASIAlx0MhB461LMBIFDeeNQA4SBQ3OQUx6IfSlwpWXzsx1?alt=proto
+[Web Request      (4260:555c)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASIAlx0MhB461LMBIFDeeNQA4SBQ3OQUx6IfSlwpWXzsx1?alt=proto"   
+[Network Analyzer (4260:555c)]   (Sid: 15) Client -> Server @ : 584 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 15) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 15) Server -> Client : 84 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:555c)] Sent 84 bytes to client @ 192.168.99.105:17913
+[Proxy Recording  (4260:3944)] Received response of 1379 header and 324441 body bytes from https://opensource-demo.orangehrmlive.com:443/web/images/ohrm_logo.png
+[Proxy Recording  (4260:4cb4)] Received response of 1380 header and 121296 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/bootstrap-icons.woff2
+[Web Request      (4260:3944)] "GET https://opensource-demo.orangehrmlive.com/web/images/ohrm_logo.png"   
+[Network Analyzer (4260:3944)]   (Sid: 16) Client -> Server @ : 724 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 16) Server -> Client : 1396 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 16) Server -> Client : 324441 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3944)] Sent 324441 bytes to client @ 192.168.99.105:17906
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17920
+[Web Request      (4260:4cb4)] "GET https://opensource-demo.orangehrmlive.com/web/dist/fonts/bootstrap-icons.woff2"   
+[Network Analyzer (4260:4cb4)]   (Sid: 17) Client -> Server @ : 744 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4cb4)]   (Sid: 17) Server -> Client : 1397 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:4cb4)]   (Sid: 17) Server -> Client : 121296 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:4cb4)] Sent 121296 bytes to client @ 192.168.99.105:17911
+[Proxy Recording  (4260:21cc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-800.woff2 ...
+[Proxy Recording  (4260:101c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-regular.woff2 ...
+[Proxy Recording  (4260:21cc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-800.woff2 ...
+[Proxy Recording  (4260:101c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-regular.woff2 ...
+[Proxy Recording  (4260:101c)] Received response of 1378 header and 25884 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-regular.woff2
+[Web Request      (4260:101c)] "GET https://opensource-demo.orangehrmlive.com/web/dist/fonts/nunito-sans-v6-latin-ext_latin-regular.woff2"   
+[Network Analyzer (4260:101c)]   (Sid: 18) Client -> Server @ : 767 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid: 18) Server -> Client : 1395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid: 18) Server -> Client : 25884 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:101c)] Sent 25884 bytes to client @ 192.168.99.105:17914
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-600.woff2 ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-600.woff2 ...
+[Proxy Recording  (4260:21cc)] Received response of 1378 header and 25780 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-800.woff2
+[Web Request      (4260:21cc)] "GET https://opensource-demo.orangehrmlive.com/web/dist/fonts/nunito-sans-v6-latin-ext_latin-800.woff2"   
+[Network Analyzer (4260:21cc)]   (Sid: 19) Client -> Server @ : 763 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:21cc)]   (Sid: 19) Server -> Client : 1395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:21cc)]   (Sid: 19) Server -> Client : 25780 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:21cc)] Sent 25780 bytes to client @ 192.168.99.105:17915
+[Proxy Recording  (4260:555c)] Received response of 1378 header and 25820 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-600.woff2
+[Web Request      (4260:555c)] "GET https://opensource-demo.orangehrmlive.com/web/dist/fonts/nunito-sans-v6-latin-ext_latin-600.woff2"   
+[Network Analyzer (4260:555c)]   (Sid: 20) Client -> Server @ : 763 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 20) Server -> Client : 1395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 20) Server -> Client : 25820 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:555c)] Sent 25820 bytes to client @ 192.168.99.105:17920
+[User action                 ] StartTransactionEvent Login [Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17930
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/auth/validate ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/auth/validate ...
+[Proxy Recording  (4260:2250)] Received response of 1511 header and 530 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/auth/validate
+[Network Analyzer (4260:2250)]   (Sid: 21) Client -> Server @ : 1000 bytes (SSL)(Service=HTTP)
+[Web Request      (4260:2250)] "POST https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate"   
+[Network Analyzer (4260:2250)]   (Sid: 21) Client -> Server @ : 172 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 21) Server -> Client : 1503 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 21) Server -> Client : 530 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:2250)] Sent 530 bytes to client @ 192.168.99.105:17930
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17932
+[Proxy Recording  (4260:21cc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/dashboard/index ...
+[Proxy Recording  (4260:21cc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/dashboard/index ...
+[Proxy Recording  (4260:21cc)] Received response of 1382 header and 1711 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/dashboard/index
+[Web Request      (4260:21cc)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"   
+[Network Analyzer (4260:21cc)]   (Sid: 22) Client -> Server @ : 880 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:21cc)]   (Sid: 22) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:21cc)]   (Sid: 22) Server -> Client : 1711 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:21cc)] Sent 1711 bytes to client @ 192.168.99.105:17932
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17934
+[Proxy Recording  (4260:101c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages ...
+[Proxy Recording  (4260:101c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages ...
+[Proxy Recording  (4260:101c)] Received response of 1321 header and 0 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages
+[Web Request      (4260:101c)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages"   
+[Network Analyzer (4260:101c)]   (Sid: 23) Client -> Server @ : 806 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid: 23) Server -> Client : 1348 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:101c)] Sent 0 bytes to client @ 192.168.99.105:17934
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17936
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17938
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17939
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17940
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17941
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17942
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17948
+[Proxy Recording  (4260:4004)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASGQmvTyx_rP-tUxIFDZFhlU4hjz0BBrw6vpE=?alt=proto ...
+[Proxy Recording  (4260:4004)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASGQmvTyx_rP-tUxIFDZFhlU4hjz0BBrw6vpE=?alt=proto ...
+[Proxy Recording  (4260:4004)] Received response of 416 header and 36 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASGQmvTyx_rP-tUxIFDZFhlU4hjz0BBrw6vpE=?alt=proto
+[Web Request      (4260:4004)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASGQmvTyx_rP-tUxIFDZFhlU4hjz0BBrw6vpE=?alt=proto"   
+[Network Analyzer (4260:4004)]   (Sid: 24) Client -> Server @ : 552 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 24) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 24) Server -> Client : 36 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:4004)] Sent 36 bytes to client @ 192.168.99.105:17948
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/images/orange.png?v=1721393199309 ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/images/orange.png?v=1721393199309 ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/leaves?date=2025-02-06 ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/leaves?date=2025-02-06 ...
+[Proxy Recording  (4260:101c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/action-summary ...
+[Proxy Recording  (4260:101c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/action-summary ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/buzz/feed?limit=5&offset=0&sortOrder=DESC&sortField=share.createdAtUtc ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/buzz/feed?limit=5&offset=0&sortOrder=DESC&sortField=share.createdAtUtc ...
+[Proxy Recording  (4260:21cc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/time-at-work?timezoneOffset=5.5&currentDate=2025-02-06&currentTime=16:44 ...
+[Proxy Recording  (4260:21cc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/time-at-work?timezoneOffset=5.5&currentDate=2025-02-06&currentTime=16:44 ...
+[Proxy Recording  (4260:4cb4)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/shortcuts ...
+[Proxy Recording  (4260:4cb4)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/shortcuts ...
+[Proxy Recording  (4260:2250)] Received response of 1327 header and 363 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/leaves?date=2025-02-06
+[Web Request      (4260:2250)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/leaves?date=2025-02-06"   
+[Network Analyzer (4260:2250)]   (Sid: 25) Client -> Server @ : 796 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 25) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 25) Server -> Client : 363 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:2250)] Sent 363 bytes to client @ 192.168.99.105:17942
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17950
+[Proxy Recording  (4260:3944)] Received response of 1327 header and 2087 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/buzz/feed?limit=5&offset=0&sortOrder=DESC&sortField=share.createdAtUtc
+[Web Request      (4260:3944)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/buzz/feed?limit=5&offset=0&sortOrder=DESC&sortField=share.createdAtUtc"   
+[Network Analyzer (4260:3944)]   (Sid: 26) Client -> Server @ : 762 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 26) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 26) Server -> Client : 2087 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3944)] Sent 2087 bytes to client @ 192.168.99.105:17941
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17952
+[Proxy Recording  (4260:555c)] Received response of 1377 header and 16559 body bytes from https://opensource-demo.orangehrmlive.com:443/web/images/orange.png?v=1721393199309
+[Proxy Recording  (4260:101c)] Received response of 1327 header and 96 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/action-summary
+[Web Request      (4260:555c)] "GET https://opensource-demo.orangehrmlive.com/web/images/orange.png?v=1721393199309"   
+[Network Analyzer (4260:555c)]   (Sid: 27) Client -> Server @ : 742 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 27) Server -> Client : 1394 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 27) Server -> Client : 16559 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:555c)] Sent 16559 bytes to client @ 192.168.99.105:17936
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17954
+[Web Request      (4260:101c)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/action-summary"   
+[Network Analyzer (4260:101c)]   (Sid: 28) Client -> Server @ : 788 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid: 28) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid: 28) Server -> Client : 96 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:21cc)] Received response of 1327 header and 1173 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/time-at-work?timezoneOffset=5.5&currentDate=2025-02-06&currentTime=16:44
+[Proxy Recording  (4260:101c)] Sent 96 bytes to client @ 192.168.99.105:17939
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17956
+[Web Request      (4260:21cc)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/time-at-work?timezoneOffset=5.5&currentDate=2025-02-06&currentTime=16:44"   
+[Network Analyzer (4260:21cc)]   (Sid: 29) Client -> Server @ : 846 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:21cc)]   (Sid: 29) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:21cc)]   (Sid: 29) Server -> Client : 1173 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:21cc)] Sent 1173 bytes to client @ 192.168.99.105:17938
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17958
+[Proxy Recording  (4260:4cb4)] Received response of 1327 header and 183 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/shortcuts
+[Web Request      (4260:4cb4)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/shortcuts"   
+[Network Analyzer (4260:4cb4)]   (Sid: 30) Client -> Server @ : 773 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4cb4)]   (Sid: 30) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:4cb4)]   (Sid: 30) Server -> Client : 183 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:4cb4)] Sent 183 bytes to client @ 192.168.99.105:17940
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17960
+[Proxy Recording  (4260:1814)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/subunit ...
+[Proxy Recording  (4260:1814)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/subunit ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/locations ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/locations ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/images/orangehrm-logo.png?v=1721393199309 ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/events/push ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/images/orangehrm-logo.png?v=1721393199309 ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/events/push ...
+[Proxy Recording  (4260:101c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/7 ...
+[Proxy Recording  (4260:101c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/7 ...
+[Proxy Recording  (4260:21cc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/images/dashboard_empty_widget_watermark.png ...
+[Proxy Recording  (4260:21cc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/images/dashboard_empty_widget_watermark.png ...
+[Proxy Recording  (4260:1814)] Received response of 1327 header and 325 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/subunit
+[Web Request      (4260:1814)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/subunit"   
+[Network Analyzer (4260:1814)]   (Sid: 31) Client -> Server @ : 781 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:1814)]   (Sid: 31) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:1814)]   (Sid: 31) Server -> Client : 325 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:1814)] Sent 325 bytes to client @ 192.168.99.105:17950
+[Proxy Recording  (4260:2250)] Received response of 1327 header and 219 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/dashboard/employees/locations
+[Web Request      (4260:2250)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/locations"   
+[Network Analyzer (4260:2250)]   (Sid: 32) Client -> Server @ : 783 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (4260:555c)] Received response of 1375 header and 2680 body bytes from https://opensource-demo.orangehrmlive.com:443/web/images/orangehrm-logo.png?v=1721393199309
+[Network Analyzer (4260:2250)]   (Sid: 32) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 32) Server -> Client : 219 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:2250)] Sent 219 bytes to client @ 192.168.99.105:17952
+[Web Request      (4260:555c)] "GET https://opensource-demo.orangehrmlive.com/web/images/orangehrm-logo.png?v=1721393199309"   
+[Network Analyzer (4260:555c)]   (Sid: 33) Client -> Server @ : 750 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 33) Server -> Client : 1392 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 33) Server -> Client : 2680 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:555c)] Sent 2680 bytes to client @ 192.168.99.105:17956
+[Proxy Recording  (4260:3944)] Received response of 1382 header and 25 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/events/push
+[Web Request      (4260:3944)] "POST https://opensource-demo.orangehrmlive.com/web/index.php/events/push"   
+[Network Analyzer (4260:3944)]   (Sid: 34) Client -> Server @ : 750 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 34) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 34) Server -> Client : 25 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3944)] Sent 25 bytes to client @ 192.168.99.105:17954
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17962
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17963
+[Proxy Recording  (4260:101c)] Received response of 1409 header and 16256 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/7
+[Web Request      (4260:101c)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPhoto/empNumber/7"   
+[Network Analyzer (4260:101c)]   (Sid: 35) Client -> Server @ : 744 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid: 35) Server -> Client : 1398 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid: 35) Server -> Client : 16256 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:101c)] Sent 16256 bytes to client @ 192.168.99.105:17958
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17966
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17967
+[Proxy Recording  (4260:21cc)] Received response of 1377 header and 41913 body bytes from https://opensource-demo.orangehrmlive.com:443/web/images/dashboard_empty_widget_watermark.png
+[Web Request      (4260:21cc)] "GET https://opensource-demo.orangehrmlive.com/web/images/dashboard_empty_widget_watermark.png"   
+[Network Analyzer (4260:21cc)]   (Sid: 36) Client -> Server @ : 752 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:21cc)]   (Sid: 36) Server -> Client : 1394 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:21cc)]   (Sid: 36) Server -> Client : 41913 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:21cc)] Sent 41913 bytes to client @ 192.168.99.105:17960
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-700.woff2 ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-700.woff2 ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/156 ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/156 ...
+[Proxy Recording  (4260:4004)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-300.woff2 ...
+[Proxy Recording  (4260:4004)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-300.woff2 ...
+[Proxy Recording  (4260:1814)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-italic.woff2 ...
+[Proxy Recording  (4260:1814)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-italic.woff2 ...
+[Proxy Recording  (4260:2250)] Received response of 1454 header and 4649 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/156
+[Web Request      (4260:2250)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPhoto/empNumber/156"   
+[Network Analyzer (4260:2250)]   (Sid: 37) Client -> Server @ : 746 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 37) Server -> Client : 1443 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 37) Server -> Client : 4649 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:2250)] Sent 4649 bytes to client @ 192.168.99.105:17962
+[Proxy Recording  (4260:555c)] Received response of 1378 header and 26312 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-700.woff2
+[Web Request      (4260:555c)] "GET https://opensource-demo.orangehrmlive.com/web/dist/fonts/nunito-sans-v6-latin-ext_latin-700.woff2"   
+[Network Analyzer (4260:555c)]   (Sid: 38) Client -> Server @ : 763 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 38) Server -> Client : 1395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 38) Server -> Client : 26312 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:555c)] Sent 26312 bytes to client @ 192.168.99.105:17963
+[Proxy Recording  (4260:1814)] Received response of 1378 header and 26800 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-italic.woff2
+[Web Request      (4260:1814)] "GET https://opensource-demo.orangehrmlive.com/web/dist/fonts/nunito-sans-v6-latin-ext_latin-italic.woff2"   
+[Network Analyzer (4260:1814)]   (Sid: 39) Client -> Server @ : 766 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:1814)]   (Sid: 39) Server -> Client : 1395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:1814)]   (Sid: 39) Server -> Client : 26800 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:1814)] Sent 26800 bytes to client @ 192.168.99.105:17967
+[Proxy Recording  (4260:4004)] Received response of 1378 header and 25592 body bytes from https://opensource-demo.orangehrmlive.com:443/web/dist/fonts/nunito-sans-v6-latin-ext_latin-300.woff2
+[Web Request      (4260:4004)] "GET https://opensource-demo.orangehrmlive.com/web/dist/fonts/nunito-sans-v6-latin-ext_latin-300.woff2"   
+[Network Analyzer (4260:4004)]   (Sid: 40) Client -> Server @ : 763 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 40) Server -> Client : 1395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 40) Server -> Client : 25592 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:4004)] Sent 25592 bytes to client @ 192.168.99.105:17966
+[User action                 ] EndTransactionEvent Login [User action                 ] StartTransactionEvent Click_PIM [Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17970
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPimModule ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPimModule ...
+[Proxy Recording  (4260:2250)] Received response of 1423 header and 550 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPimModule
+[Web Request      (4260:2250)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule"   
+[Network Analyzer (4260:2250)]   (Sid: 41) Client -> Server @ : 861 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 41) Server -> Client : 1415 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 41) Server -> Client : 550 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:2250)] Sent 550 bytes to client @ 192.168.99.105:17970
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17972
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewEmployeeList ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewEmployeeList ...
+[Proxy Recording  (4260:3944)] Received response of 1382 header and 1870 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewEmployeeList
+[Web Request      (4260:3944)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList"   
+[Network Analyzer (4260:3944)]   (Sid: 42) Client -> Server @ : 864 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 42) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 42) Server -> Client : 1870 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3944)] Sent 1870 bytes to client @ 192.168.99.105:17972
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17974
+[Proxy Recording  (4260:4004)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages ...
+[Proxy Recording  (4260:4004)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages ...
+[Proxy Recording  (4260:4004)] Received response of 1321 header and 0 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages
+[Web Request      (4260:4004)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages"   
+[Network Analyzer (4260:4004)]   (Sid: 43) Client -> Server @ : 811 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 43) Server -> Client : 1348 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:4004)] Sent 0 bytes to client @ 192.168.99.105:17974
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17976
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17978
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17979
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17980
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17981
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17986
+[Proxy Recording  (4260:101c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASJwkX2iawkUyp1hIFDZFhlU4SBQ2RYZVOEgUNkWGVTiFaloONqWWEBBIZCa9PLH-s_61TEgUNkWGVTiHI0ivfAvXZCg==?alt=proto ...
+[Proxy Recording  (4260:101c)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASJwkX2iawkUyp1hIFDZFhlU4SBQ2RYZVOEgUNkWGVTiFaloONqWWEBBIZCa9PLH-s_61TEgUNkWGVTiHI0ivfAvXZCg==?alt=proto ...
+[Proxy Recording  (4260:101c)] Received response of 416 header and 53 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASJwkX2iawkUyp1hIFDZFhlU4SBQ2RYZVOEgUNkWGVTiFaloONqWWEBBIZCa9PLH-s_61TEgUNkWGVTiHI0ivfAvXZCg==?alt=proto
+[Web Request      (4260:101c)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASJwkX2iawkUyp1hIFDZFhlU4SBQ2RYZVOEgUNkWGVTiFaloONqWWEBBIZCa9PLH-s_61TEgUNkWGVTiHI0ivfAvXZCg==?alt=proto"   
+[Network Analyzer (4260:101c)]   (Sid: 44) Client -> Server @ : 608 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid: 44) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid: 44) Server -> Client : 53 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:101c)] Sent 53 bytes to client @ 192.168.99.105:17986
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/7 ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/7 ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/admin/employment-statuses?limit=0 ...
+[Proxy Recording  (4260:4004)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/admin/job-titles?limit=0 ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/admin/employment-statuses?limit=0 ...
+[Proxy Recording  (4260:4004)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/admin/job-titles?limit=0 ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/admin/subunits ...
+[Proxy Recording  (4260:555c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/admin/subunits ...
+[Proxy Recording  (4260:1814)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC ...
+[Proxy Recording  (4260:1814)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC ...
+[Proxy Recording  (4260:2250)] Received response of 1321 header and 0 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/7
+[Web Request      (4260:2250)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPhoto/empNumber/7"   
+[Network Analyzer (4260:2250)]   (Sid: 45) Client -> Server @ : 812 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 45) Server -> Client : 1348 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:2250)] Sent 0 bytes to client @ 192.168.99.105:17976
+[Proxy Recording  (4260:3944)] Received response of 1327 header and 256 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/admin/employment-statuses?limit=0
+[Web Request      (4260:3944)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/employment-statuses?limit=0"   
+[Network Analyzer (4260:3944)]   (Sid: 46) Client -> Server @ : 792 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 46) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 46) Server -> Client : 256 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3944)] Sent 256 bytes to client @ 192.168.99.105:17979
+[Proxy Recording  (4260:4004)] Received response of 1327 header and 4107 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/admin/job-titles?limit=0
+[Web Request      (4260:4004)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0"   
+[Network Analyzer (4260:4004)]   (Sid: 47) Client -> Server @ : 783 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 47) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 47) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:4004)] Sent 4107 bytes to client @ 192.168.99.105:17980
+[Proxy Recording  (4260:555c)] Received response of 1327 header and 1406 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/admin/subunits
+[Web Request      (4260:555c)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/subunits"   
+[Network Analyzer (4260:555c)]   (Sid: 48) Client -> Server @ : 773 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 48) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:555c)]   (Sid: 48) Server -> Client : 1406 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:555c)] Sent 1406 bytes to client @ 192.168.99.105:17981
+[Proxy Recording  (4260:1814)] Received response of 1327 header and 13116 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC
+[Web Request      (4260:1814)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC"   
+[Network Analyzer (4260:1814)]   (Sid: 49) Client -> Server @ : 877 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:1814)]   (Sid: 49) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:1814)]   (Sid: 49) Server -> Client : 13116 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:1814)] Sent 13116 bytes to client @ 192.168.99.105:17978
+[User action                 ] EndTransactionEvent Click_PIM [Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17988
+[Proxy Recording  (4260:3944)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17990
+[Proxy Recording  (4260:4004)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:y2pqtYAfUtxpWLKi9YQkAnCMBqkZLbbZEAZ32EHRago&cup2hreq=dfd65d8ef713a0a0b5d041c2183dfd040827f0abf81caf9e37b833faefcbbaee ...
+[Proxy Recording  (4260:4004)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:y2pqtYAfUtxpWLKi9YQkAnCMBqkZLbbZEAZ32EHRago&cup2hreq=dfd65d8ef713a0a0b5d041c2183dfd040827f0abf81caf9e37b833faefcbbaee ...
+[Proxy Recording  (4260:3944)] Received response of 672 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Network Analyzer (4260:3944)]   (Sid: 50) Client -> Server @ : 595 bytes (SSL)(Service=HTTP)
+[Web Request      (4260:3944)] "POST https://clientservices.googleapis.com/uma/v2"   
+[Network Analyzer (4260:3944)]   (Sid: 50) Client -> Server @ : 2677 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 50) Server -> Client : 661 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 50) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3944)] Sent 22 bytes to client @ 192.168.99.105:17988
+[Proxy Recording  (4260:4004)] Received response of 1028 header and 872 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:y2pqtYAfUtxpWLKi9YQkAnCMBqkZLbbZEAZ32EHRago&cup2hreq=dfd65d8ef713a0a0b5d041c2183dfd040827f0abf81caf9e37b833faefcbbaee
+[Web Request      (4260:4004)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:y2pqtYAfUtxpWLKi9YQkAnCMBqkZLbbZEAZ32EHRago&cup2hreq=dfd65d8ef713a0a0b5d041c2183dfd040827f0abf81caf9e37b833faefcbbaee"
+[Network Analyzer (4260:4004)]   (Sid: 51) Client -> Server @ : 1340 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 51) Client -> Server @ : 8444 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 51) Server -> Client : 1017 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 51) Server -> Client : 872 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:4004)] Sent 872 bytes to client @ 192.168.99.105:17990
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17992
+[Proxy Recording  (4260:1814)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (4260:1814)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (4260:1814)] Received response of 672 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (4260:1814)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (4260:1814)]   (Sid: 52) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:1814)]   (Sid: 52) Client -> Server @ : 40601 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:1814)]   (Sid: 52) Server -> Client : 661 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:1814)]   (Sid: 52) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:1814)] Sent 22 bytes to client @ 192.168.99.105:17992
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17994
+[Proxy Recording  (4260:4cb4)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (4260:4cb4)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (4260:4cb4)] Received response of 672 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Network Analyzer (4260:4cb4)]   (Sid: 53) Client -> Server @ : 603 bytes (SSL)(Service=HTTP)
+[Web Request      (4260:4cb4)] "POST https://clientservices.googleapis.com/uma/v2"   
+[Network Analyzer (4260:4cb4)]   (Sid: 53) Client -> Server @ : 6096 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4cb4)]   (Sid: 53) Server -> Client : 661 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:4cb4)]   (Sid: 53) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:4cb4)] Sent 22 bytes to client @ 192.168.99.105:17994
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17996
+[Proxy Recording  (4260:4004)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (4260:4004)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (4260:4004)] Received response of 672 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (4260:4004)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (4260:4004)]   (Sid: 54) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 54) Client -> Server @ : 14431 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 54) Server -> Client : 661 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 54) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:4004)] Sent 22 bytes to client @ 192.168.99.105:17996
+[User action                 ] StartTransactionEvent Click_Add_Employee [Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:17998
+[Proxy Recording  (4260:101c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/addEmployee ...
+[Proxy Recording  (4260:101c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/addEmployee ...
+[Proxy Recording  (4260:101c)] Received response of 1382 header and 1887 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/addEmployee
+[Web Request      (4260:101c)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee"   
+[Network Analyzer (4260:101c)]   (Sid: 55) Client -> Server @ : 864 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid: 55) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:101c)]   (Sid: 55) Server -> Client : 1887 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:101c)] Sent 1887 bytes to client @ 192.168.99.105:17998
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18000
+[Proxy Recording  (4260:4cb4)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages ...
+[Proxy Recording  (4260:4cb4)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages ...
+[Proxy Recording  (4260:4cb4)] Received response of 1321 header and 0 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages
+[Web Request      (4260:4cb4)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages"   
+[Network Analyzer (4260:4cb4)]   (Sid: 56) Client -> Server @ : 806 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4cb4)]   (Sid: 56) Server -> Client : 1348 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:4cb4)] Sent 0 bytes to client @ 192.168.99.105:18000
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18002
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18004
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18006
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18008
+[Proxy Recording  (4260:2250)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgk1lkgr84RduRIFDWtomm4SBQ0xI9QrEgUNT54n-BIFDZFhlU4h0bnH-GOJbckSGQmvTyx_rP-tUxIFDZFhlU4h4azeYOFl5Tc=?alt=proto ...
+[Proxy Recording  (4260:2250)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgk1lkgr84RduRIFDWtomm4SBQ0xI9QrEgUNT54n-BIFDZFhlU4h0bnH-GOJbckSGQmvTyx_rP-tUxIFDZFhlU4h4azeYOFl5Tc=?alt=proto ...
+[Proxy Recording  (4260:2250)] Received response of 416 header and 76 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgk1lkgr84RduRIFDWtomm4SBQ0xI9QrEgUNT54n-BIFDZFhlU4h0bnH-GOJbckSGQmvTyx_rP-tUxIFDZFhlU4h4azeYOFl5Tc=?alt=proto
+[Web Request      (4260:2250)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgk1lkgr84RduRIFDWtomm4SBQ0xI9QrEgUNT54n-BIFDZFhlU4h0bnH-GOJbckSGQmvTyx_rP-tUxIFDZFhlU4h4azeYOFl5Tc=?alt=proto"   
+[Network Analyzer (4260:2250)]   (Sid: 57) Client -> Server @ : 616 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 57) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:2250)]   (Sid: 57) Server -> Client : 76 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:2250)] Sent 76 bytes to client @ 192.168.99.105:18008
+[Proxy Recording  (4260:4004)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/7 ...
+[Proxy Recording  (4260:4004)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/7 ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees ...
+[Proxy Recording  (4260:3944)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees ...
+[Proxy Recording  (4260:1814)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/images/default-photo.png ...
+[Proxy Recording  (4260:1814)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/images/default-photo.png ...
+[Proxy Recording  (4260:4004)] Received response of 1321 header and 0 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/7
+[Web Request      (4260:4004)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPhoto/empNumber/7"   
+[Network Analyzer (4260:4004)]   (Sid: 58) Client -> Server @ : 807 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:4004)]   (Sid: 58) Server -> Client : 1348 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:4004)] Sent 0 bytes to client @ 192.168.99.105:18002
+[Proxy Recording  (4260:3944)] Received response of 1327 header and 5930 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees
+[Web Request      (4260:3944)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees"   
+[Network Analyzer (4260:3944)]   (Sid: 59) Client -> Server @ : 767 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 59) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3944)]   (Sid: 59) Server -> Client : 5930 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3944)] Sent 5930 bytes to client @ 192.168.99.105:18006
+[Proxy Recording  (4260:1814)] Received response of 1376 header and 4649 body bytes from https://opensource-demo.orangehrmlive.com:443/web/images/default-photo.png
+[Web Request      (4260:1814)] "GET https://opensource-demo.orangehrmlive.com/web/images/default-photo.png"   
+[Network Analyzer (4260:1814)]   (Sid: 60) Client -> Server @ : 733 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:1814)]   (Sid: 60) Server -> Client : 1393 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:1814)]   (Sid: 60) Server -> Client : 4649 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:1814)] Sent 4649 bytes to client @ 192.168.99.105:18004
+[User action                 ] EndTransactionEvent Click_Add_Employee [User action                 ] StartTransactionEvent Add_Employee_Details [Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18011
+[Proxy Recording  (4260:18fc)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgk1lkgr84RduRIFDWtomm4SBQ0xI9QrEgUNT54n-BIFDZFhlU4h0bnH-GOJbck=?alt=proto ...
+[Proxy Recording  (4260:18fc)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgk1lkgr84RduRIFDWtomm4SBQ0xI9QrEgUNT54n-BIFDZFhlU4h0bnH-GOJbck=?alt=proto ...
+[Proxy Recording  (4260:18fc)] Received response of 416 header and 61 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgk1lkgr84RduRIFDWtomm4SBQ0xI9QrEgUNT54n-BIFDZFhlU4h0bnH-GOJbck=?alt=proto
+[Web Request      (4260:18fc)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASLgk1lkgr84RduRIFDWtomm4SBQ0xI9QrEgUNT54n-BIFDZFhlU4h0bnH-GOJbck=?alt=proto"   
+[Network Analyzer (4260:18fc)]   (Sid: 61) Client -> Server @ : 580 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:18fc)]   (Sid: 61) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:18fc)]   (Sid: 61) Server -> Client : 61 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:18fc)] Sent 61 bytes to client @ 192.168.99.105:18011
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18013
+[Proxy Recording  (4260:18fc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/core/validation/unique?value=0494&entityName=Employee&attributeName=employeeId ...
+[Proxy Recording  (4260:18fc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/core/validation/unique?value=0494&entityName=Employee&attributeName=employeeId ...
+[Proxy Recording  (4260:18fc)] Received response of 1327 header and 43 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/core/validation/unique?value=0494&entityName=Employee&attributeName=employeeId
+[Web Request      (4260:18fc)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/core/validation/unique?value=0494&entityName=Employee&attributeName=employeeId"   
+[Network Analyzer (4260:18fc)]   (Sid: 62) Client -> Server @ : 770 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:18fc)]   (Sid: 62) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:18fc)]   (Sid: 62) Server -> Client : 43 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:18fc)] Sent 43 bytes to client @ 192.168.99.105:18013
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18015
+[Proxy Recording  (4260:18fc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees ...
+[Proxy Recording  (4260:18fc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees ...
+[Proxy Recording  (4260:18fc)] Received response of 1327 header and 140 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees
+[Network Analyzer (4260:18fc)]   (Sid: 63) Client -> Server @ : 792 bytes (SSL)(Service=HTTP)
+[Web Request      (4260:18fc)] "POST https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees"   
+[Network Analyzer (4260:18fc)]   (Sid: 63) Client -> Server @ : 92 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:18fc)]   (Sid: 63) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:18fc)]   (Sid: 63) Server -> Client : 140 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:18fc)] Sent 140 bytes to client @ 192.168.99.105:18015
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18017
+[Proxy Recording  (4260:23d4)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPersonalDetails/empNumber/305 ...
+[Proxy Recording  (4260:23d4)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPersonalDetails/empNumber/305 ...
+[Proxy Recording  (4260:23d4)] Received response of 1382 header and 3249 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPersonalDetails/empNumber/305
+[Web Request      (4260:23d4)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/305"   
+[Network Analyzer (4260:23d4)]   (Sid: 64) Client -> Server @ : 861 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:23d4)]   (Sid: 64) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:23d4)]   (Sid: 64) Server -> Client : 3249 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:23d4)] Sent 3249 bytes to client @ 192.168.99.105:18017
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18019
+[Proxy Recording  (4260:23d4)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages ...
+[Proxy Recording  (4260:23d4)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages ...
+[Proxy Recording  (4260:23d4)] Received response of 1321 header and 0 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages
+[Web Request      (4260:23d4)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages"   
+[Network Analyzer (4260:23d4)]   (Sid: 65) Client -> Server @ : 828 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:23d4)]   (Sid: 65) Server -> Client : 1348 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:23d4)] Sent 0 bytes to client @ 192.168.99.105:18019
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18021
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18023
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18025
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18026
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18027
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18028
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18033
+[Proxy Recording  (4260:1938)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASXwkS4Vixc_ZfnxIFDWtomm4SBQ0xI9QrEgUNT54n-BIFDZFhlU4SBQ2RYZVOEgUNkWGVThIFDZFhlU4SBQ2RYZVOEgUNkWGVThIFDZFhlU4SBQ2RYZVOIft0h7UoZytTEhkJr08sf6z_rVMSBQ2RYZVOITWVYSmPhYbD?alt=proto ...
+[Proxy Recording  (4260:1938)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASXwkS4Vixc_ZfnxIFDWtomm4SBQ0xI9QrEgUNT54n-BIFDZFhlU4SBQ2RYZVOEgUNkWGVThIFDZFhlU4SBQ2RYZVOEgUNkWGVThIFDZFhlU4SBQ2RYZVOIft0h7UoZytTEhkJr08sf6z_rVMSBQ2RYZVOITWVYSmPhYbD?alt=proto ...
+[Proxy Recording  (4260:1938)] Received response of 416 header and 76 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASXwkS4Vixc_ZfnxIFDWtomm4SBQ0xI9QrEgUNT54n-BIFDZFhlU4SBQ2RYZVOEgUNkWGVThIFDZFhlU4SBQ2RYZVOEgUNkWGVThIFDZFhlU4SBQ2RYZVOIft0h7UoZytTEhkJr08sf6z_rVMSBQ2RYZVOITWVYSmPhYbD?alt=proto
+[Web Request      (4260:1938)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTMyLjAuNjgzNC4xNjASXwkS4Vixc_ZfnxIFDWtomm4SBQ0xI9QrEgUNT54n-BIFDZFhlU4SBQ2RYZVOEgUNkWGVThIFDZFhlU4SBQ2RYZVOEgUNkWGVThIFDZFhlU4SBQ2RYZVOIft0h7UoZytTEhkJr08sf6z_rVMSBQ2RYZVOITWVYSmPhYbD?alt=proto"   
+[Network Analyzer (4260:1938)]   (Sid: 66) Client -> Server @ : 680 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:1938)]   (Sid: 66) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:1938)]   (Sid: 66) Server -> Client : 76 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:1938)] Sent 76 bytes to client @ 192.168.99.105:18033
+[Proxy Recording  (4260:18fc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/7 ...
+[Proxy Recording  (4260:18fc)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/7 ...
+[Proxy Recording  (4260:1630)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/personal-details ...
+[Proxy Recording  (4260:1630)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/personal-details ...
+[Proxy Recording  (4260:41d8)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/leave/workweek?model=indexed ...
+[Proxy Recording  (4260:41d8)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/leave/workweek?model=indexed ...
+[Proxy Recording  (4260:23d4)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/305 ...
+[Proxy Recording  (4260:23d4)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/305 ...
+[Proxy Recording  (4260:281c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/custom-fields?screen=personal ...
+[Proxy Recording  (4260:281c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/custom-fields?screen=personal ...
+[Proxy Recording  (4260:2344)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305 ...
+[Proxy Recording  (4260:2344)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305 ...
+[Proxy Recording  (4260:18fc)] Received response of 1321 header and 0 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/7
+[Web Request      (4260:18fc)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPhoto/empNumber/7"   
+[Network Analyzer (4260:18fc)]   (Sid: 67) Client -> Server @ : 829 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:18fc)]   (Sid: 67) Server -> Client : 1348 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:18fc)] Sent 0 bytes to client @ 192.168.99.105:18021
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18035
+[Proxy Recording  (4260:1630)] Received response of 1327 header and 362 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/personal-details
+[Web Request      (4260:1630)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/305/personal-details"   
+[Network Analyzer (4260:1630)]   (Sid: 68) Client -> Server @ : 810 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:1630)]   (Sid: 68) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:1630)]   (Sid: 68) Server -> Client : 362 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:1630)] Sent 362 bytes to client @ 192.168.99.105:18025
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18037
+[Proxy Recording  (4260:41d8)] Received response of 1327 header and 72 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/leave/workweek?model=indexed
+[Web Request      (4260:41d8)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/workweek?model=indexed"   
+[Network Analyzer (4260:41d8)]   (Sid: 69) Client -> Server @ : 742 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:41d8)]   (Sid: 69) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:41d8)]   (Sid: 69) Server -> Client : 72 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:41d8)] Sent 72 bytes to client @ 192.168.99.105:18027
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18039
+[Proxy Recording  (4260:23d4)] Received response of 1454 header and 4649 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/pim/viewPhoto/empNumber/305
+[Web Request      (4260:23d4)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPhoto/empNumber/305"   
+[Network Analyzer (4260:23d4)]   (Sid: 70) Client -> Server @ : 768 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:23d4)]   (Sid: 70) Server -> Client : 1443 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:23d4)]   (Sid: 70) Server -> Client : 4649 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:23d4)] Sent 4649 bytes to client @ 192.168.99.105:18023
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18041
+[Proxy Recording  (4260:281c)] Received response of 1327 header and 390 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/custom-fields?screen=personal
+[Web Request      (4260:281c)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/305/custom-fields?screen=personal"   
+[Network Analyzer (4260:281c)]   (Sid: 71) Client -> Server @ : 823 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:281c)]   (Sid: 71) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:281c)]   (Sid: 71) Server -> Client : 390 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:281c)] Sent 390 bytes to client @ 192.168.99.105:18028
+[Proxy Recording  (4260:2344)] Received response of 1327 header and 140 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305
+[Web Request      (4260:2344)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/305"   
+[Network Analyzer (4260:2344)]   (Sid: 72) Client -> Server @ : 731 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:2344)]   (Sid: 72) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:2344)]   (Sid: 72) Server -> Client : 140 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:2344)] Sent 140 bytes to client @ 192.168.99.105:18026
+[Proxy Recording  (4260:3e54)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/leave/holidays?fromDate=2025-01-01&toDate=2025-12-31 ...
+[Proxy Recording  (4260:3e54)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/leave/holidays?fromDate=2025-01-01&toDate=2025-12-31 ...
+[Proxy Recording  (4260:1938)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/screen/personal/attachments?limit=50&offset=0 ...
+[Proxy Recording  (4260:1938)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/screen/personal/attachments?limit=50&offset=0 ...
+[Proxy Recording  (4260:1630)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees ...
+[Proxy Recording  (4260:1630)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees ...
+[Proxy Recording  (4260:41d8)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/leave/workweek?model=indexed ...
+[Proxy Recording  (4260:41d8)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/leave/workweek?model=indexed ...
+[Proxy Recording  (4260:3e54)] Received response of 1327 header and 1850 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/leave/holidays?fromDate=2025-01-01&toDate=2025-12-31
+[Web Request      (4260:3e54)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/holidays?fromDate=2025-01-01&toDate=2025-12-31"   
+[Network Analyzer (4260:3e54)]   (Sid: 73) Client -> Server @ : 766 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3e54)]   (Sid: 73) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3e54)]   (Sid: 73) Server -> Client : 1850 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3e54)] Sent 1850 bytes to client @ 192.168.99.105:18035
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18043
+[Proxy Recording  (4260:1938)] Received response of 1327 header and 76 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/screen/personal/attachments?limit=50&offset=0
+[Web Request      (4260:1938)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/305/screen/personal/attachments?limit=50&offset=0"   
+[Network Analyzer (4260:1938)]   (Sid: 74) Client -> Server @ : 839 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:1938)]   (Sid: 74) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:1938)]   (Sid: 74) Server -> Client : 76 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:1938)] Sent 76 bytes to client @ 192.168.99.105:18037
+[Proxy Recording  (4260:1630)] Received response of 1327 header and 5931 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees
+[Web Request      (4260:1630)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees"   
+[Network Analyzer (4260:1630)]   (Sid: 75) Client -> Server @ : 727 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (4260:41d8)] Received response of 1327 header and 72 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/leave/workweek?model=indexed
+[Network Analyzer (4260:1630)]   (Sid: 75) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:1630)]   (Sid: 75) Server -> Client : 5931 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:1630)] Sent 5931 bytes to client @ 192.168.99.105:18039
+[Web Request      (4260:41d8)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/workweek?model=indexed"   
+[Network Analyzer (4260:41d8)]   (Sid: 76) Client -> Server @ : 742 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:41d8)]   (Sid: 76) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:41d8)]   (Sid: 76) Server -> Client : 72 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:41d8)] Sent 72 bytes to client @ 192.168.99.105:18041
+[Proxy Recording  (4260:281c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/leave/holidays?fromDate=2025-01-01&toDate=2025-12-31 ...
+[Proxy Recording  (4260:281c)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/leave/holidays?fromDate=2025-01-01&toDate=2025-12-31 ...
+[Proxy Recording  (4260:281c)] Received response of 1327 header and 1850 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/leave/holidays?fromDate=2025-01-01&toDate=2025-12-31
+[Web Request      (4260:281c)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/leave/holidays?fromDate=2025-01-01&toDate=2025-12-31"   
+[Network Analyzer (4260:281c)]   (Sid: 77) Client -> Server @ : 766 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:281c)]   (Sid: 77) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:281c)]   (Sid: 77) Server -> Client : 1850 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:281c)] Sent 1850 bytes to client @ 192.168.99.105:18043
+[User action                 ] EndTransactionEvent Add_Employee_Details [User action                 ] StartTransactionEvent FileUpload [Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18055
+[Proxy Recording  (4260:3f18)] Trying to connect to https://checkappexec.microsoft.com:443/windows/shell/actions ...
+[Proxy Recording  (4260:3f18)] Trying to connect to https://checkappexec.microsoft.com:443/windows/shell/actions ...
+[Proxy Recording  (4260:3f18)] Received response of 251 header and 183 body bytes from https://checkappexec.microsoft.com:443/windows/shell/actions
+[Proxy Recording  (4260:3f18)] Sent 183 bytes to client @ 192.168.99.105:18055
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18059
+[Proxy Recording  (4260:28d0)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTMyLjAuNjgzNC4xNjAaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCCqhoaAhgIzdD-lCIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ0CsaAhgIG9eu0CIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQpfoPGgIYCKxAXUAiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABEMXxDxoCGAg5Ml6IIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDf2QcaAhgIpKF4YiIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQpcAQGgIYCAWFf0giBCABIAIoARooCAEQCBoaCg0IARAIGAEiAzAwMTAEEO47GgIYCDLuuhUiBCABIAIoBBopCA8QARobCg0IDxAGGAEiAzAwMTABELW5BBoCGAim5a3IIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCL5vONQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEIIYGgIYCJJGf2MiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABENu5AhoCGAi0ljTkIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE ...
+[Proxy Recording  (4260:28d0)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTMyLjAuNjgzNC4xNjAaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCCqhoaAhgIzdD-lCIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ0CsaAhgIG9eu0CIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQpfoPGgIYCKxAXUAiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABEMXxDxoCGAg5Ml6IIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDf2QcaAhgIpKF4YiIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQpcAQGgIYCAWFf0giBCABIAIoARooCAEQCBoaCg0IARAIGAEiAzAwMTAEEO47GgIYCDLuuhUiBCABIAIoBBopCA8QARobCg0IDxAGGAEiAzAwMTABELW5BBoCGAim5a3IIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCL5vONQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEIIYGgIYCJJGf2MiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABENu5AhoCGAi0ljTkIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE ...
+[Proxy Recording  (4260:28d0)] Received response of 340 header and 831 body bytes from https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTMyLjAuNjgzNC4xNjAaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCCqhoaAhgIzdD-lCIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ0CsaAhgIG9eu0CIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQpfoPGgIYCKxAXUAiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABEMXxDxoCGAg5Ml6IIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDf2QcaAhgIpKF4YiIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQpcAQGgIYCAWFf0giBCABIAIoARooCAEQCBoaCg0IARAIGAEiAzAwMTAEEO47GgIYCDLuuhUiBCABIAIoBBopCA8QARobCg0IDxAGGAEiAzAwMTABELW5BBoCGAim5a3IIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCL5vONQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEIIYGgIYCJJGf2MiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABENu5AhoCGAi0ljTkIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE
+[Web Request      (4260:28d0)] "GET https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTMyLjAuNjgzNC4xNjAaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCCqhoaAhgIzdD-lCIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ0CsaAhgIG9eu0CIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQpfoPGgIYCKxAXUAiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABEMXxDxoCGAg5Ml6IIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDf2QcaAhgIpKF4YiIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQpcAQGgIYCAWFf0giBCABIAIoARooCAEQCBoaCg0IARAIGAEiAzAwMTAEEO47GgIYCDLuuhUiBCABIAIoBBopCA8QARobCg0IDxAGGAEiAzAwMTABELW5BBoCGAim5a3IIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAjGgIYCL5vONQiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEIIYGgIYCJJGf2MiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABENu5AhoCGAi0ljTkIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE"   
+[Network Analyzer (4260:28d0)]   (Sid: 78) Client -> Server @ : 1150 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:28d0)]   (Sid: 78) Server -> Client : 357 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:28d0)]   (Sid: 78) Server -> Client : 831 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:28d0)] Sent 831 bytes to client @ 192.168.99.105:18059
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18071
+[Proxy Recording  (4260:20f8)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/screen/personal/attachments ...
+[Proxy Recording  (4260:20f8)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/screen/personal/attachments ...
+[Proxy Recording  (4260:20f8)] Received response of 1327 header and 240 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/screen/personal/attachments
+[Network Analyzer (4260:20f8)]   (Sid: 79) Client -> Server @ : 871 bytes (SSL)(Service=HTTP)
+[Web Request      (4260:20f8)] "POST https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/305/screen/personal/attachments"   
+[Network Analyzer (4260:20f8)]   (Sid: 79) Client -> Server @ : 110 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:20f8)]   (Sid: 79) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:20f8)]   (Sid: 79) Server -> Client : 240 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:20f8)] Sent 240 bytes to client @ 192.168.99.105:18071
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18074
+[Proxy Recording  (4260:3e18)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/screen/personal/attachments?limit=50&offset=0 ...
+[Proxy Recording  (4260:3e18)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/screen/personal/attachments?limit=50&offset=0 ...
+[Proxy Recording  (4260:3e18)] Received response of 1327 header and 252 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/api/v2/pim/employees/305/screen/personal/attachments?limit=50&offset=0
+[Web Request      (4260:3e18)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/305/screen/personal/attachments?limit=50&offset=0"   
+[Network Analyzer (4260:3e18)]   (Sid: 80) Client -> Server @ : 839 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3e18)]   (Sid: 80) Server -> Client : 1316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3e18)]   (Sid: 80) Server -> Client : 252 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3e18)] Sent 252 bytes to client @ 192.168.99.105:18074
+[User action                 ] EndTransactionEvent FileUpload [User action                 ] StartTransactionEvent Logout [Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18076
+[Proxy Recording  (4260:3e18)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/auth/logout ...
+[Proxy Recording  (4260:3e18)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/auth/logout ...
+[Proxy Recording  (4260:3e18)] Received response of 1506 header and 510 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/auth/logout
+[Web Request      (4260:3e18)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/auth/logout"   
+[Network Analyzer (4260:3e18)]   (Sid: 81) Client -> Server @ : 877 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3e18)]   (Sid: 81) Server -> Client : 1498 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3e18)]   (Sid: 81) Server -> Client : 510 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3e18)] Sent 510 bytes to client @ 192.168.99.105:18076
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18085
+[Proxy Recording  (4260:3e18)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/auth/login ...
+[Proxy Recording  (4260:3e18)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/auth/login ...
+[Proxy Recording  (4260:3e18)] Received response of 1382 header and 1166 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/auth/login
+[Web Request      (4260:3e18)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"   
+[Network Analyzer (4260:3e18)]   (Sid: 82) Client -> Server @ : 876 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3e18)]   (Sid: 82) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4260:3e18)]   (Sid: 82) Server -> Client : 1166 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3e18)] Sent 1166 bytes to client @ 192.168.99.105:18085
+[Proxy Recording  (4260:3d78)] Client request from @ 192.168.99.105:18087
+[Proxy Recording  (4260:3e18)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages ...
+[Proxy Recording  (4260:3e18)] Trying to connect to https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages ...
+[Proxy Recording  (4260:3e18)] Received response of 1321 header and 0 body bytes from https://opensource-demo.orangehrmlive.com:443/web/index.php/core/i18n/messages
+[Web Request      (4260:3e18)] "GET https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages"   
+[Network Analyzer (4260:3e18)]   (Sid: 83) Client -> Server @ : 801 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4260:3e18)]   (Sid: 83) Server -> Client : 1348 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4260:3e18)] Sent 0 bytes to client @ 192.168.99.105:18087
+[User action                 ] EndTransactionEvent Logout 

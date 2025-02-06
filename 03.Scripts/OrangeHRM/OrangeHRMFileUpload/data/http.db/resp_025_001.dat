@@ -1,0 +1,1 @@
+{"data":[{"id":174,"date":"2025-02-06","lengthHours":4,"employee":{"empNumber":156,"lastName":"Evans","firstName":"Joseph","middleName":"","employeeId":"0361","terminationId":null},"duration":"half_day_afternoon","endTime":null,"startTime":null,"leaveType":{"id":9,"name":"CAN - Personal","deleted":false}}],"meta":{"total":1,"leavePeriodDefined":true},"rels":[]}

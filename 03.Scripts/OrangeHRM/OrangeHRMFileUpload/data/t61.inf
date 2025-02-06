@@ -1,0 +1,11 @@
+[t61]
+FileName1=t61_attachments.json
+URL1=https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/305/screen/personal/attachments?limit=50&offset=0
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_61.xml
+RequestHeaderFile=t61_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t61_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

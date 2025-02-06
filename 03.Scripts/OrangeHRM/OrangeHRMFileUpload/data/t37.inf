@@ -1,0 +1,11 @@
+[t37]
+FileName1=t37_job-titles.json
+URL1=https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/job-titles?limit=0
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_37.xml
+RequestHeaderFile=t37_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t37_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

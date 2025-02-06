@@ -1,0 +1,11 @@
+[t44]
+FileName1=t44_default-photo.png
+URL1=https://opensource-demo.orangehrmlive.com/web/images/default-photo.png
+Total=1
+ContentType=image/png
+SnapshotXmlFile=snapshot_44.xml
+RequestHeaderFile=t44_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t44_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

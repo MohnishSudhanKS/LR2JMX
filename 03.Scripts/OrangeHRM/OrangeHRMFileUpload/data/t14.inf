@@ -1,0 +1,11 @@
+[t14]
+FileName1=t14_nunito-sans-v6-latin-ext_latin-600.html
+URL1=https://opensource-demo.orangehrmlive.com/web/dist/fonts/nunito-sans-v6-latin-ext_latin-600.woff2
+Total=1
+ContentType=font/woff2
+SnapshotXmlFile=snapshot_14.xml
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

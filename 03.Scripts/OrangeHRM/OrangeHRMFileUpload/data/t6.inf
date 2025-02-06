@@ -1,0 +1,11 @@
+[t6]
+FileName1=t6_favicon.html
+URL1=https://opensource-demo.orangehrmlive.com/web/dist/favicon.ico?v=1721393199309
+Total=1
+ContentType=image/vnd.microsoft.icon
+SnapshotXmlFile=snapshot_6.xml
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

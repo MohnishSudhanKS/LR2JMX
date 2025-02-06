@@ -17,6 +17,8 @@ my $response_date_regex = qr/Date:\s+(.+? GMT)(?:\r?\n|$)/;
 my $request_line_regex = qr/^(POST|GET|PUT|DELETE|PATCH)\s+(https?:\/\/[^\s]+)(\s+HTTP\/\d+\.\d+)/;
 my $content_type_regex = qr/Content-Type:\s.*?charset=([^\s;]+)/;
 my $add_event_regex = qr/\*{6} Add Event For Transaction With Id (\d+) \*{6}.*?(web_url|web_custom_request)\("([^"]+)"/s;
+my $response_body_start_regex = qr/\*{6} Response Body For Transaction With Id (\d+) \*{6}/;
+my $response_body_end_regex = qr/\$\$\$\$\$\$ Response Body For Transaction With Id \d+ Ended \$\$\$\$\$\$/;
 
 # Data structures
 my %transaction_host_map;
@@ -28,11 +30,17 @@ my %transaction_request_path_map;
 my %transaction_charset_map;
 my %transaction_lb_map;
 my %transaction_response_header_content_map;
+my %transaction_request_header_content_map;
+my %transaction_response_body_map;
 my @transaction_ids;
 my $current_transaction_id;
 my $transaction_data = '';
 my $parsing_response_header = 0;
+my $parsing_request_header = 0;
+my $parsing_response_body = 0;
 my $response_header_content = '';
+my $request_header_content = '';
+my $response_body_content = '';
 
 # Open and process the input file
 open my $reader, '<', $input_file_path or die "Cannot open file $input_file_path: $!\n";
@@ -64,25 +72,31 @@ if ($line =~ $response_header_start_regex) {
 # Stop capturing response headers
 if ($line =~ /Response Header For Transaction With Id \d+ Ended/) {
     $parsing_response_header = 0;
+	
+	# Escape special XML characters
+	$response_header_content =~ s/&/&amp;/g;
+	$response_header_content =~ s/</&lt;/g;
+	$response_header_content =~ s/>/&gt;/g;
+	
+    # Clean response header
+	$response_header_content =~ s/\n{3,}/\n\n/g;
+	$response_header_content =~ s/^.*Response Header For Transaction With Id \d+.*\n//;
+	
+	# Remove duplicate lines
+	my %seen;
+	$response_header_content = join("\n", grep { !$seen{$_}++ } split("\n", $response_header_content));
+	
+	# Escape special XML characters
+	$response_header_content =~ s/&/&amp;/g;
+	$response_header_content =~ s/</&lt;/g;
+	$response_header_content =~ s/>/&gt;/g;
+	
+	# Ensure a newline at the end before closing </responseHeader>
+	$response_header_content .= "\n" unless $response_header_content =~ /\n$/;
+	
+	# Store cleaned response header
+	$transaction_response_header_content_map{$current_transaction_id} = $response_header_content;
 
-    # Remove excessive blank lines
-    $response_header_content =~ s/\n{3,}/\n\n/g;
-
-    # Remove the first line (the one with ****** Response Header ******)
-    $response_header_content =~ s/^.*Response Header For Transaction With Id \d+.*\n//;
-
-    # Remove duplicate lines
-    my %seen;
-    $response_header_content = join("\n", grep { !$seen{$_}++ } split("\n", $response_header_content));
-
-    # Replace double quotes with &quot;
-    $response_header_content =~ s/"/&quot;/g;
-
-    # Ensure a newline at the end before closing </responseHeader>
-    $response_header_content .= "\n" unless $response_header_content =~ /\n$/;
-
-    # Store cleaned response header
-    $transaction_response_header_content_map{$current_transaction_id} = $response_header_content;
     next;
 }
 
@@ -90,6 +104,75 @@ if ($line =~ /Response Header For Transaction With Id \d+ Ended/) {
 # Capture response header content, ensuring no blank lines are lost
 if ($parsing_response_header && $line !~ $response_header_start_regex) {
     $response_header_content .= "$line\n" unless $response_header_content =~ /\Q$line\E/;  # Avoid duplicate lines
+}
+
+# Detect start of request header
+if ($line =~ /\*{6} Request Header For Transaction With Id (\d+) \*{6}/) {
+    $parsing_response_header = 0;  # Stop parsing response header
+    $current_transaction_id = $1;
+    $parsing_request_header = 1;
+    $request_header_content = "$line\n";  # Capture the first line
+    next;
+}
+
+# Stop capturing request headers
+if ($line =~ /Request Header For Transaction With Id \d+ Ended/) {
+    $parsing_request_header = 0;
+	
+	# Escape special XML characters
+	$request_header_content =~ s/&/&amp;/g;
+	$request_header_content =~ s/</&lt;/g;
+	$request_header_content =~ s/>/&gt;/g;
+
+    # Clean request header
+	$request_header_content =~ s/\n{3,}/\n\n/g;
+	$request_header_content =~ s/^.*Request Header For Transaction With Id \d+.*\n//;
+	
+	# Remove duplicate lines
+	my %seen;
+	$request_header_content = join("\n", grep { !$seen{$_}++ } split("\n", $request_header_content));
+	
+	# Escape special XML characters
+	$request_header_content =~ s/&/&amp;/g;
+	$request_header_content =~ s/</&lt;/g;
+	$request_header_content =~ s/>/&gt;/g;
+	
+	# Ensure a newline at the end before closing </requestHeader>
+	$request_header_content .= "\n" unless $request_header_content =~ /\n$/;
+	
+	# Store cleaned request header
+	$transaction_request_header_content_map{$current_transaction_id} = $request_header_content;
+
+    next;
+}
+
+if ($line =~ $response_body_start_regex) {
+    $parsing_response_body = 1;
+    $current_transaction_id = $1;
+    $response_body_content = '';  # Reset content
+    next;
+}
+
+if ($line =~ $response_body_end_regex) {
+    $parsing_response_body = 0;
+
+    # Escape XML special characters
+    $response_body_content =~ s/&/&amp;/g;
+    $response_body_content =~ s/</&lt;/g;
+    $response_body_content =~ s/>/&gt;/g;
+
+    # Store response body
+    $transaction_response_body_map{$current_transaction_id} = $response_body_content;
+    next;
+}
+
+if ($parsing_response_body) {
+    $response_body_content .= "$line\n";  # Capture full response body
+}
+
+# Capture request header content
+if ($parsing_request_header && $line !~ /\*{6} Request Header For Transaction With Id \d+ \*{6}/) {
+    $request_header_content .= "$line\n" unless $request_header_content =~ /\Q$line\E/;  # Avoid duplicates
 }
 
 
@@ -197,12 +280,30 @@ sub write_http_samples_to_xml {
             hn => "L-INE-HM15T93"
         );
 
-        # Add cleaned response headers
-        if (exists $transaction_response_header_content_map{$transaction_id}) {
-            $writer->startTag("responseHeader", class => "java.lang.String");
-            $writer->raw($transaction_response_header_content_map{$transaction_id});
-            $writer->endTag("responseHeader");
-        }
+# Add cleaned response headers
+if (exists $transaction_response_header_content_map{$transaction_id}) {
+    $writer->startTag("responseHeader", class => "java.lang.String");
+    $writer->raw($transaction_response_header_content_map{$transaction_id});
+    $writer->endTag("responseHeader");
+}
+
+# Add cleaned request headers (newly added part)
+if (exists $transaction_request_header_content_map{$transaction_id}) {
+    $writer->startTag("requestHeader", class => "java.lang.String");
+    $writer->raw($transaction_request_header_content_map{$transaction_id});
+    $writer->endTag("requestHeader");
+}
+# Add response data content
+if (exists $transaction_response_body_map{$transaction_id}) {
+    $writer->startTag("responseData", class => "java.lang.String");
+    $writer->raw($transaction_response_body_map{$transaction_id});
+    $writer->endTag("responseData");
+}
+
+# Add response file tag after response data
+$writer->startTag("responseFile", class => "java.lang.String");
+$writer->endTag("responseFile");
+
 
         $writer->endTag("httpSample");
     }

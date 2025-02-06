@@ -1,0 +1,11 @@
+[t22]
+FileName1=t22_shortcuts.json
+URL1=https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/shortcuts
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_22.xml
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
