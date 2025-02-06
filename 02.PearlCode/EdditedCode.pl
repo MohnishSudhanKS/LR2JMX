@@ -18,7 +18,7 @@ my $request_line_regex = qr/^(POST|GET|PUT|DELETE|PATCH)\s+(https?:\/\/[^\s]+)(\
 my $content_type_regex = qr/Content-Type:\s.*?charset=([^\s;]+)/;
 my $add_event_regex = qr/\*{6} Add Event For Transaction With Id (\d+) \*{6}.*?(web_url|web_custom_request)\("([^"]+)"/s;
 
-# Data structures to store transaction data
+# Data structures
 my %transaction_host_map;
 my %transaction_date_map;
 my %transaction_timestamp_map;
@@ -26,11 +26,13 @@ my %transaction_full_data_map;
 my %transaction_response_headers_map;
 my %transaction_request_path_map;
 my %transaction_charset_map;
-my %transaction_lb_map;  # Map to store lb tag values
+my %transaction_lb_map;
+my %transaction_response_header_content_map;
 my @transaction_ids;
 my $current_transaction_id;
 my $transaction_data = '';
 my $parsing_response_header = 0;
+my $response_header_content = '';
 
 # Open and process the input file
 open my $reader, '<', $input_file_path or die "Cannot open file $input_file_path: $!\n";
@@ -51,12 +53,45 @@ while (my $line = <$reader>) {
         $parsing_response_header = 0;
     }
 
-    # Check for the start of a response header
-    if ($line =~ $response_header_start_regex) {
-        $parsing_response_header = 1;
-        $current_transaction_id = $1;
-        next;
-    }
+# Check for the start of a response header
+if ($line =~ $response_header_start_regex) {
+    $parsing_response_header = 1;
+    $current_transaction_id = $1;
+    $response_header_content = "$line\n";  # Ensure the first line is captured
+    next;
+}
+
+# Stop capturing response headers
+if ($line =~ /Response Header For Transaction With Id \d+ Ended/) {
+    $parsing_response_header = 0;
+
+    # Remove excessive blank lines
+    $response_header_content =~ s/\n{3,}/\n\n/g;
+
+    # Remove the first line (the one with ****** Response Header ******)
+    $response_header_content =~ s/^.*Response Header For Transaction With Id \d+.*\n//;
+
+    # Remove duplicate lines
+    my %seen;
+    $response_header_content = join("\n", grep { !$seen{$_}++ } split("\n", $response_header_content));
+
+    # Replace double quotes with &quot;
+    $response_header_content =~ s/"/&quot;/g;
+
+    # Ensure a newline at the end before closing </responseHeader>
+    $response_header_content .= "\n" unless $response_header_content =~ /\n$/;
+
+    # Store cleaned response header
+    $transaction_response_header_content_map{$current_transaction_id} = $response_header_content;
+    next;
+}
+
+
+# Capture response header content, ensuring no blank lines are lost
+if ($parsing_response_header && $line !~ $response_header_start_regex) {
+    $response_header_content .= "$line\n" unless $response_header_content =~ /\Q$line\E/;  # Avoid duplicate lines
+}
+
 
     # Extract lb value from Add Event block (web_url or web_custom_request)
     if ($line =~ /\*{6} Add Event For Transaction With Id (\d+) \*{6}/ .. $line =~ /\*{6} Add Event For Transaction With Id \d+ Ended \*{6}/) {
@@ -108,6 +143,10 @@ while (my $line = <$reader>) {
         }
     }
 
+    if ($parsing_response_header) {
+        $response_header_content .= $line . "\n" if $line =~ /\S/;  # Skip blank lines
+    }
+
     if (defined $current_transaction_id) {
         $transaction_data .= $line . "\n";
     }
@@ -157,6 +196,14 @@ sub write_http_samples_to_xml {
             na => "0",
             hn => "L-INE-HM15T93"
         );
+
+        # Add cleaned response headers
+        if (exists $transaction_response_header_content_map{$transaction_id}) {
+            $writer->startTag("responseHeader", class => "java.lang.String");
+            $writer->raw($transaction_response_header_content_map{$transaction_id});
+            $writer->endTag("responseHeader");
+        }
+
         $writer->endTag("httpSample");
     }
 
@@ -165,35 +212,4 @@ sub write_http_samples_to_xml {
     print "XML file with <httpSample> entries generated successfully.\n";
 }
 
-sub display_transaction_details {
-    print "\nAvailable Transaction IDs:\n";
-    print join(", ", @transaction_ids), "\n";
-    print "-----------------------------------\n";
-
-    while (1) {
-        print "Enter a transaction ID to view details (or type 'quit' to exit): ";
-        chomp(my $input = <STDIN>);
-
-        if ($input eq 'quit') {
-            print "Exiting transaction viewer. Goodbye!\n";
-            last;
-        }
-
-        if (exists $transaction_full_data_map{$input}) {
-            print "Details for Transaction ID $input:\n";
-            print $transaction_full_data_map{$input}, "\n";
-
-            my $file_path = "$output_directory/Transaction_$input.txt";
-            open my $file, '>', $file_path or die "Cannot open file $file_path: $!\n";
-            print $file $transaction_full_data_map{$input};
-            close $file;
-
-            print "Details written to $file_path\n";
-        } else {
-            print "Transaction ID $input not found. Please try again.\n";
-        }
-    }
-}
-
 write_http_samples_to_xml($output_directory);
-display_transaction_details();
