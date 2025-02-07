@@ -30,7 +30,7 @@
         <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
       </CookieManager>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
         <intProp name="ThreadGroup.num_threads">1</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
@@ -4079,7 +4079,7 @@ L$�&#x14;8Iv~�yY�&#x6;&amp;R�&#x16;A�T�7O&#x2;mA�� &#x5;</string
                   <stringProp name="Argument.value">�&#x17;Ko&#x1b;�y&#x18;�z�&#xf;9v&#x1c;;u�2�[X���ٝ})}��V2&#x1b;IVH�nR&#x4;��h&#x1f;��R�&#x1c;&#x18;(z)rkO&#x5;�cO&gt;�/�@/�&#xe;Eo����{Ρ(��.�\*.�B�������^P&#x1b;r�n/�aBݔGa�� �&#x3;�g�S&#x1e;�ʳ����?�������z�1��!�z��&#x19;�0s&#x14;U�&#x3;�2�b2y��e�&#x17;&#x17;�nU+|y��~�&#x1d;��/��Д�c��T�et�v���nW+��&#x1b;Xv&#xd;S!�da�K��Dr��#Y�bb�ʲ̌W+��&#x17;�$�M�&#x1c;��&#x8;�ݩV�X�@_U�ܐ&#x1b;���&#x18;��S��Z&#xd;
 &#x12;)&#x15;��jᦢɲ���WU&#xd;�0��&#x7f;�4%@g�&#x5;=�&#xf;&#x80;�,f&#x1e;_&lt;&#x8;���$Dg�je�]�IO�\#�&#x1e;&lt;��VWR&#x1b;fC!V&#x3;��̇&#xf;��E$C1l�`�HVKݒ4��2p�i4u���+_ܳ&#x14;b+FӒ�-�)&#x11;�֥�IlI~�li�f��m����n&#xb;&#xf;dmC&#x5;+}&#xf;���&#xf;&#x16;X&#x8;�;=۪V��s�9&#x1a;��A�h�&#x1c;0ݔ��_ى�a;&#x14;�;f��&lt;I�t��B@�&gt;;F��p���M&#x3;�t�h&#x1c;�	�`tm&#xe;���.@&#x13;�?aq&#x2;1�_gV4U�&#xe;�y&#x1c;�MA���8�f���6���}ɖ01t�ԥ&#x16;�Ե&#xc; [�LL��Jd&#x2;0��-��Ί�Ȃ�(8�,K`��hY&#x18;kpҲ��)D��	��Z�E&#x0;��	��&#x4;�+��&#x1a;14]���kD�וΪ�e\�W	�����ul�	�l�&apos;��&#x3;�y�zN&#x4;�?�&#xe;s&#xc;�5&#x7f;�f�ϊ&#x1;�落B&#x0;)&#x0;��9&#x2;UӬ�&#xd;�P�!&#xc;9e&#x10;//�e�(%&#x1;D�,s�4EW ɧn�&#xd;
 �T3�g�&#x18;e&#x1b;(&#xd;
-Q�s�p2V�Q��&#x8;&#x13;M.G&#x5;1&#x15;q�JQ�=1&#x17;@L���+�&#x1;�U��N�C�&quot;@�ۗ:B1C��L�ײ36u��&#x12;X&#x1b;���&#x0;N&#x16;C��l�&#x6;�_�&#x19;��t�&#x1c;��R&#x10;]/(wh8&#x1c;�!�X(�&#x13;��&#xc;1&#xe;��v��������sP+�Y?9MR&#x16;H&lt;�)��/��N�R&#x7f;*�N&#x1;ޣ�|HE5����	������g��Y0JO�n&#x14;&#x4;4��&gt;&#xf;Y�~4ba��}��G�&#x18;J�&#x5cf;&#x6;�ՙ�{,=�⣼�,&lt;&#xe;&#x5;��&#x14;�����~&#x1c;�9~�&#xe;)4&#x12;oV��}�&#xe;�8h{�&#xd;b�w��5���A��.&#xd;F u&#x8;$�&#x18;��ex��[�@&#x11;w&#x12;e�&apos;�!c�9�����LH�$i��!O���c�/&lt;�	�]Pt�k�PԱk�ZW&#x8;Vd(&quot;��Q� ��&lt;p��&#x1d;vx�ř)[�P�&lt;�V&#x10;&#x15;�n@�&#x11;Mn�&#x6;&#x4;�!Q�k�����]y�&#x1c;�&#x1e;;��y���U۫��8�֠A&quot;�__��v#��|U8&#x7ff;�Y�	�����&#x1a;� 9&#x14;,&#x1f;�Z�&#x7;�&#xf;j&#x18;�n?z1��&#x18;�@���Coo�c�&#xc;�0�&#xe;��,�/2o��;��N_�UE4dK3&#x1a;���[%R�g�=�h���n�H�	D�&#x11;��K&#x3;�&apos;l&#xe;�8٢&#x1;�Oy���[s�B��HP~G7�b�?��/t���n&#x19;���~t&#x2;1��/&#x18;v&#x1c;@��E�����,��Sa�?��W?�3�D��!&#xd;C�ϱNP&#x1d;&#x8;nt���ј���&lt;�&lt;h���^���w�]&#x1b;��ǐ�y��c�õ&#x17;��v�1N�^&gt;x�Yێ�萻�Zm��q�D����&amp;ܭuX豸�&#x19;Ð&#x10;����聨�$�*�P��������&#x14;��&#x11;&amp;�&#x8;V�P�&#xb;i&#x6;vn�&#x1c;ua&#xe;T-(�&amp;&#x15;#&#x1c;u�D	�%&#xd;
+Q�s�p2V�Q��&#x8;&#x13;M.G&#x5;1&#x15;q�JQ�=1&#x17;@L���+�&#x1;�U��N�C�&quot;@�ۗ:B1C��L�ײ36u��&#x12;X&#x1b;���&#x0;N&#x16;C��l�&#x6;�_�&#x19;��t�&#x1c;��R&#x10;]/(wh8&#x1c;�!�X(�&#x13;��&#xc;1&#xe;��v��������sP+�Y?9MR&#x16;H&lt;�)��/��N�R&#x7f;*�N&#x1;ޣ�|HE5����	������g��Y0JO�n&#x14;&#x4;4��&gt;&#xf;Y�~4ba��}��G�&#x18;J�&#x5cf;&#x6;�ՙ�{,=�⣼�,&lt;&#xe;&#x5;��&#x14;�����~&#x1c;�9~�&#xe;)4&#x12;oV��}�&#xe;�8h{�&#xd;b�w��5���A��.&#xd;F u&#x8;$�&#x18;��ex��[�@&#x11;w&#x12;e�&apos;�!c�9�����LH�$i��!O���c�/&lt;�	�]Pt�k�PԱk�ZW&#x8;Vd(&quot;��Q� ��&lt;p��&#x1d;vx�ř)[�P�&lt;�V&#x10;&#x15;�n@�&#x11;Mn�&#x6;&#x4;�!Q�k�����]y�&#x1c;�&#x1e;;��y���U۫��8�֠A&quot;�__��v#��|U8߿�Y�	�����&#x1a;� 9&#x14;,&#x1f;�Z�&#x7;�&#xf;j&#x18;�n?z1��&#x18;�@���Coo�c�&#xc;�0�&#xe;��,�/2o��;��N_�UE4dK3&#x1a;���[%R�g�=�h���n�H�	D�&#x11;��K&#x3;�&apos;l&#xe;�8٢&#x1;�Oy���[s�B��HP~G7�b�?��/t���n&#x19;���~t&#x2;1��/&#x18;v&#x1c;@��E�����,��Sa�?��W?�3�D��!&#xd;C�ϱNP&#x1d;&#x8;nt���ј���&lt;�&lt;h���^���w�]&#x1b;��ǐ�y��c�õ&#x17;��v�1N�^&gt;x�Yێ�萻�Zm��q�D����&amp;ܭuX豸�&#x19;Ð&#x10;����聨�$�*�P��������&#x14;��&#x11;&amp;�&#x8;V�P�&#xb;i&#x6;vn�&#x1c;ua&#xe;T-(�&amp;&#x15;#&#x1c;u�D	�%&#xd;
 ��s&#x0;F5&#x17;�)8z&#xc;&#x6;K�Ƨ�&#x8;�~�Ng��=&#x16;�0mt&#x3;&apos;���&#x17;�ˆb�@WEaȋm�&#xe;y����3�n�nsG��v��ǟ}���%�&#x7;f�&#x8c;�}l�G�੪&#x1c;���ޜc�&#x17;&#x13;�&#xc;�(J҉�}��m�[�&apos;���&#xc;N&#x7;�V�w�γ�{?��&lt;	&gt;2��&gt;�ӟ&lt;?&#x2;���&quot;�eysE���ޚa��a��H�V��&#xe;&#x1b;���&#x8;f����(�C&#x16;�����&#x14;&gt;5`�g�������cT&#x7;�g1[3كfJ��d2&#xf;K��&#x1d;lzXw��nN&#x19;�G������ld3䵬v&gt;eN&gt;W�j�.�&#x2;w#&#xd;
 &#x19;����&#x8;t��Ft�e��W�&#x14;8�&#x11;��&#x8;E!�\Z5�&#x2;@!0_?YV�p���/��_5&#x1;�+�/4lha�/&apos;cׅ�%�#�# �&apos;&#x3;��fq.��U(�1���T�	q&#xb;��d�؃q��%G���aހP�i�&lt;@��I�,�;^���&#x1;�au��&#x4;D}&#x0;u�e�k9&#xe;�a�3&lt;�&#x1b;8�f(�&#x1c;�&#x6;�Tρ����)p�E&#x18;v,&#xf;��b&#xc;d�(�7�&#x1b;N?����!&lt;&#x4;�&#x1b;%&#x8;&#x14;(��C���)&#xf;&#x18;&#x1c;���?~�%C�L���?� �b&#xe;p3&amp;t��	T����h&#x1c;��&#x16;Ǔ��:�ČC�c/&#x11;�K��Ǔ�nK&#x1c;��&#x7;I�&#x15;�b%�&lt;�c$7t&#x5;�&#xf;�m&#x15;�&apos;��oRo&#x2;�tR&#x18;���lw����&#x10;��?�C���&#x1b;x&#xd;&gt;�R|�ŇQ|��&#xf;�@�&#x0;���`~��N�C���M&#x8;�FP��F�&#x1;Nu��3w,&#xc;��G&apos;�7���&#x1e;˄�A}�g����F]S��i}��r/�0M2&#xd;
 ?�K�&#x1b;�Z�&#xb;��k3z�&#x1c;=�&amp;=~�隠�[r`���&#x2;����&#xc;&amp;���%�[(�-j&#x3;w�*�&#xc;�����&#x5;��8_�Aգ9�&#x3;��V&#xd;
@@ -7001,7 +7001,7 @@ lH�Uc�&#x1b;&#xd;&#x15;���Z:	6��4K���0l���	�&#x11;3�
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="FileUpload">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="FileUpload" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
@@ -7163,7 +7163,7 @@ l��U&#x17;�&#x1f;&#xd;&#xe;�xc-=&#xb;̒e|:&#xc;����tX�˛�0�
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/web/index.php/api/v2/pim/employees/177/screen/personal/attachments-103">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/web/index.php/api/v2/pim/employees/177/screen/personal/attachments-103" enabled="true">
             <stringProp name="HTTPSampler.domain">opensource-demo.orangehrmlive.com</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -7434,7 +7434,7 @@ l��U&#x17;�&#x1f;&#xd;&#xe;�xc-=&#xb;̒e|:&#xc;����tX�˛�0�
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Logout" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Logout">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
@@ -7721,7 +7721,7 @@ l��U&#x17;�&#x1f;&#xd;&#xe;�xc-=&#xb;̒e|:&#xc;����tX�˛�0�
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/web/index.php/auth/logout-108" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/web/index.php/auth/logout-108">
             <stringProp name="TestPlan.comments">Detected the start of a redirect chain</stringProp>
             <stringProp name="HTTPSampler.domain">opensource-demo.orangehrmlive.com</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
@@ -7867,7 +7867,7 @@ l��U&#x17;�&#x1f;&#xd;&#xe;�xc-=&#xb;̒e|:&#xc;����tX�˛�0�
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/web/index.php/core/i18n/messages-112" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/web/index.php/core/i18n/messages-112">
             <stringProp name="HTTPSampler.domain">opensource-demo.orangehrmlive.com</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -7976,7 +7976,7 @@ l��U&#x17;�&#x1f;&#xd;&#xe;�xc-=&#xb;̒e|:&#xc;����tX�˛�0�
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder" enabled="true">
+      <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder">
         <stringProp name="ProxyControlGui.port">8888</stringProp>
         <collectionProp name="ProxyControlGui.exclude_list">
           <stringProp name="1179605444">(?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2)</stringProp>
@@ -8024,7 +8024,7 @@ l��U&#x17;�&#x1f;&#xd;&#xe;�xc-=&#xb;̒e|:&#xc;����tX�˛�0�
         <stringProp name="ProxyControlGui.default_encoding">UTF-8</stringProp>
       </ProxyControl>
       <hashTree>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>

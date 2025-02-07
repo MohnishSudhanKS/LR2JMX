@@ -1,9 +1,0 @@
-HTTP/1.1 200 
-Date: Fri, 06 Dec 2024 08:00:08 GMT
-Content-Type: text/html;charset=UTF-8
-Content-Length: 4736
-Connection: keep-alive
-Set-Cookie: JSESSIONID=81D807E59FE386ACEC42C59B1651CA8A; Path=/; HttpOnly
-Content-Language: en-US
-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-
